@@ -64,6 +64,10 @@
 
     --quote-bg: 220 30% 96%;
     --quote-border: 220 60% 45%;
+
+    --prompt-bg: 145 50% 95%;
+    --prompt-border: 145 40% 70%;
+    --prompt-foreground: 145 35% 28%;
   }
 
   .dark {
@@ -122,6 +126,10 @@
 
     --quote-bg: 220 20% 14%;
     --quote-border: 220 50% 50%;
+
+    --prompt-bg: 145 25% 14%;
+    --prompt-border: 145 30% 40%;
+    --prompt-foreground: 145 35% 75%;
   }
 }
 

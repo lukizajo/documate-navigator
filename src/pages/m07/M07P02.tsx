@@ -1,6 +1,6 @@
 import { PageShell } from "@/components/PageShell";
 import { getNavContext } from "@/data/navigation";
-import { MiniTask, ExpectedFinding } from "@/components/ContentBlocks";
+import { MiniTask, ExpectedFinding, PromptBlock } from "@/components/ContentBlocks";
 
 export default function M07P02() {
   const nav = getNavContext("m07-02-kazdodenne");
@@ -15,32 +15,37 @@ export default function M07P02() {
       <p>🍝 <strong>{"\u201EDošli mi nápady na jedlo… zase točíme to isté dokola.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI:</strong> vymyslí nové nápady podľa toho, čo máte radi, čo doma zvykneš variť a koľko na to máš času.</p>
       <p><strong>Výstup:</strong> 5–10 návrhov jedál + rotácia na 3 dni (aby sa neopakovali).</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Došli mi nápady na jedlo. Sme ___ (napr. 2 dospelí + 1 dieťa). Máme radi: ___. Nechceme stále to isté: ___. Čas na varenie: max __ min. Navrhni 10 nápadov na večere, aby sa neopakovali, a vyber z nich plán na 3 dni."</p>
+      <PromptBlock>
+        <p>{"\u201EDošli mi nápady na jedlo. Sme ___ (napr. 2 dospelí + 1 dieťa). Máme radi: ___. Nechceme stále to isté: ___. Čas na varenie: max __ min. Navrhni 10 nápadov na večere, aby sa neopakovali, a vyber z nich plán na 3 dni.\u201C"}</p>
+      </PromptBlock>
 
       <p>🛒 <strong>{"\u201EChcem jesť zdravo a potrebujem nákupný zoznam, aby mi nič nechýbalo.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI:</strong> premení jedlá na kompletný nákupný zoznam a zníži počet „výletov do obchodu".</p>
       <p><strong>Výstup:</strong> nákupný zoznam na 3 dni pre rodinu + rozdelenie podľa kategórií.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Chceme jesť zdravo a viem, čo chceme jesť tieto 3 dni: Deň 1: ___. Deň 2: ___. Deň 3: ___. Sprav mi kompletný nákupný zoznam pre ___ ľudí. Rozdeľ to podľa kategórií a pripíš orientačné množstvá. Cieľ: nech nemusím ísť do obchodu 3×."</p>
+      <PromptBlock>
+        <p>{"\u201EChceme jesť zdravo a viem, čo chceme jesť tieto 3 dni: Deň 1: ___. Deň 2: ___. Deň 3: ___. Sprav mi kompletný nákupný zoznam pre ___ ľudí. Rozdeľ to podľa kategórií a pripíš orientačné množstvá. Cieľ: nech nemusím ísť do obchodu 3×.\u201C"}</p>
+      </PromptBlock>
 
       <p>🗓️ <strong>{"\u201EMám milión úloh a na konci dňa som vyčerpaný – neviem, čo skôr.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI:</strong> pomôže roztriediť úlohy, znížiť chaos a spraviť realistický plán.</p>
       <p><strong>Výstup:</strong> 3 priority, časové bloky, „minimum verzia dňa" + odporúčanie čo odložiť.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Som preťažený a mám tieto úlohy: ___. Mám čas od __ do __. Energie: nízka/stredná/vysoká. Roztrieď úlohy na: dnes nutné / môže počkať / delegovať. Potom mi sprav plán dňa v blokoch. Na konci daj 1 vec, ktorú môžem bez výčitiek vyhodiť."</p>
+      <PromptBlock>
+        <p>{"\u201ESom preťažený a mám tieto úlohy: ___. Mám čas od __ do __. Energie: nízka/stredná/vysoká. Roztrieď úlohy na: dnes nutné / môže počkať / delegovať. Potom mi sprav plán dňa v blokoch. Na konci daj 1 vec, ktorú môžem bez výčitiek vyhodiť.\u201C"}</p>
+      </PromptBlock>
 
       <p>🧭 <strong>{"\u201EChcem odporúčanie a plán – výlet, víkend, program – nech to nemusím skladať od nuly.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI:</strong> navrhne program, alternatívy a praktické detaily (tempo, rozpočet, presuny).</p>
       <p><strong>Výstup:</strong> itinerár + 2 alternatívy + odhad rozpočtu.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Navrhni mi plán na ___ (1 deň / víkend) v ___ (mesto/okolie). Sme ___ (počet ľudí). Máme radi: ___. Tempo: pokojné/aktívne. Rozpočet: ___. Daj itinerár po blokoch + 2 alternatívy (ak prší / ak sme unavení)."</p>
+      <PromptBlock>
+        <p>{"\u201ENavrhni mi plán na ___ (1 deň / víkend) v ___ (mesto/okolie). Sme ___ (počet ľudí). Máme radi: ___. Tempo: pokojné/aktívne. Rozpočet: ___. Daj itinerár po blokoch + 2 alternatívy (ak prší / ak sme unavení).\u201C"}</p>
+      </PromptBlock>
 
       <p>💬 <strong>{"\u201EViem, čo chcem povedať, ale nechcem sa trápiť formuláciou.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI:</strong> ty dáš obsah, AI to zabalí do jasnej, slušnej správy a vie meniť tón za pár sekúnd.</p>
       <p><strong>Výstup:</strong> 3 tónové verzie (jemná / neutrálna / priama) + krátka verzia.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Napíš správu. Obsah, ktorý tam musí byť: ___. Cieľ: ___. Daj 3 verzie: jemná, neutrálna, priama. Na konci pridaj aj krátku SMS verziu do 250 znakov."</p>
+      <PromptBlock>
+        <p>{"\u201ENapíš správu. Obsah, ktorý tam musí byť: ___. Cieľ: ___. Daj 3 verzie: jemná, neutrálna, priama. Na konci pridaj aj krátku SMS verziu do 250 znakov.\u201C"}</p>
+      </PromptBlock>
 
       <h3>🧠 Malé pravidlo, ktoré ti ušetrí polovicu sklamaní</h3>
       <p>Aby AI nebola len „odpovedač", vždy jej daj:</p>
