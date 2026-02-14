@@ -6,12 +6,6 @@ export default function Page00() {
   return (
     <PageShell
       title="🅾️ Úvod"
-      tldr={[
-        "Modul M01 je základom celého kurzu – buduje správny mentálny model o AI",
-        "AI nie je bytosť, ale nástroj – pomáha robiť veci rýchlejšie a prehľadnejšie",
-        "Kľúčový princíp: AI asistuje, človek rozhoduje (Human-in-the-loop)",
-        "Prejdeme od definície AI cez históriu až po etiku a reguláciu",
-      ]}
       {...nav}
     >
       <h2>🅾️ Úvod</h2>

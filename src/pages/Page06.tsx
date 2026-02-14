@@ -7,7 +7,6 @@ export default function Page06() {
   return (
     <PageShell
       title="6️⃣ Druhy modelov a mini-slovník AI"
-      tldr={[]}
       {...nav}
     >
       <p><em>AI nie je jeden nástroj. Táto sekcia ti pomôže zorientovať sa v typoch modelov a pojmoch bez toho, aby si sa musel ponárať do technických detailov.</em></p>

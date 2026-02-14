@@ -5,11 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M03P03() {
   const nav = getNavContext("m03-03-kontext");
   return (
-    <PageShell title="2️⃣ KONTEXT – keď AI dopĺňa realitu za teba" tldr={[
-      `Kontext = prostredie, v ktorom sa odpoveď odohrá`,
-      `Bez kontextu AI pracuje s „ideálnym svetom"`,
-      `Doplň: pre koho, účel, obmedzenia, situáciu`,
-    ]} {...nav}>
+    <PageShell title="2️⃣ KONTEXT – keď AI dopĺňa realitu za teba" {...nav}>
 
 
       <p>Kontext je prostredie, v ktorom sa má odpoveď odohrávať. Bez kontextu AI pracuje s „ideálnym svetom", ktorý často nemá s realitou nič spoločné.</p>

@@ -5,11 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M03P06() {
   const nav = getNavContext("m03-06-format");
   return (
-    <PageShell title="5️⃣ FORMÁT – tvar výstupu" tldr={[
-      "Zlý formát = pekná odpoveď, ale nepoužiteľná",
-      "Konkrétne formáty fungujú najlepšie: odrážky, tabuľky, kroky",
-      "Povedz AI presne, ako má výstup vyzerať",
-    ]} {...nav}>
+    <PageShell title="5️⃣ FORMÁT – tvar výstupu" {...nav}>
 
 
       <p>Niekedy AI odpovie „múdro" a znie to pekne… ale ty z toho nevieš nič použiť. Nie preto, že by odpoveď bola zlá, ale preto, že má zlý tvar.</p>

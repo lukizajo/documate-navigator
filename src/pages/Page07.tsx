@@ -7,7 +7,6 @@ export default function Page07() {
   return (
     <PageShell
       title="7️⃣ Kto má veľkých chatbotov: mapa hráčov"
-      tldr={[]}
       {...nav}
     >
       <p><em>Za každým chatbotom je firma, stratégia a obchodný model. Tento prehľad ti pomôže pochopiť rozdiely medzi hráčmi.</em></p>

@@ -7,7 +7,6 @@ export default function Page03() {
   return (
     <PageShell
       title="3️⃣ História umelej inteligencie: od pojmu po dnešok"
-      tldr={[]}
       {...nav}
     >
       <p><em>Táto časť dáva dnešnej AI kontext. Uvidíš, že súčasný boom nie je náhoda, ale výsledok dlhého vývoja, omylov a návratov.</em></p>

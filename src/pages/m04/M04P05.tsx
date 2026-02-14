@@ -5,11 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M04P05() {
   const nav = getNavContext("m04-05-citacie");
   return (
-    <PageShell title="4️⃣ Citácie a odkazy" tldr={[
-      "Bez pravidiel zdrojov AI dopĺňa z vlastnej hlavy – nevieš overiť",
-      {"3 pravidl\u00e1: povo\u013e zdroje, p\u00fdtaj d\u00e1tumy, dovo\u013e \u201eneviem\u201c"},
-      "Citácie = koľajnice pre AI, nie len pre teba",
-    ]} {...nav}>
+    <PageShell title="4️⃣ Citácie a odkazy" {...nav}>
 
       <p>AI vie znieť veľmi presvedčivo. Problém je, že keď nemá jasné pravidlo, <strong>z čoho má vychádzať</strong>, automaticky si pomôže „všeobecnými znalosťami" zo svojho tréningu. A tam sa ľahko objavia nepresnosti, staré info alebo tvrdenia, ktoré nevieš overiť.</p>
       <p>Citácie a odkazy nie sú len pre teba. Sú to aj <strong>koľajnice pre AI</strong>, aby ostala „pri zemi".</p>

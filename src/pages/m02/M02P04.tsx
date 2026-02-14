@@ -5,11 +5,7 @@ import { MiniTask, ExpectedFinding } from "@/components/ContentBlocks";
 export default function M02P04() {
   const nav = getNavContext("m02-04-ferove-porovnanie");
   return (
-    <PageShell title="3️⃣ Férové porovnanie chatbotov" tldr={[
-      "Rovnaké zadanie + rovnaké kritériá = férové porovnanie",
-      "3 kroky: prompt → follow-up → scorecard",
-      "Hodnoť správanie, nie pocit",
-    ]} {...nav}>
+    <PageShell title="3️⃣ Férové porovnanie chatbotov" {...nav}>
 
 
       <p>Najčastejšia chyba pri porovnávaní chatbotov je, že každému dáme inú otázku… alebo sa spoliehame na prvý dojem. A prvý dojem je zradný.</p>

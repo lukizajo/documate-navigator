@@ -5,11 +5,7 @@ import { MiniTask, ExpectedFinding } from "@/components/ContentBlocks";
 export default function M02P03() {
   const nav = getNavContext("m02-03-hlavni-hraci");
   return (
-    <PageShell title="2️⃣ Hlavní hráči na trhu" tldr={[
-      "ChatGPT, Claude, Gemini, Perplexity, Copilot, Mistral, Grok, Meta AI",
-      "Každý má iný vibe a silné stránky",
-      "Vyberaj podľa úlohy, nie popularity",
-    ]} {...nav}>
+    <PageShell title="2️⃣ Hlavní hráči na trhu" {...nav}>
 
 
       <p>Na trhu dnes existuje veľa chatbotov, ale pár z nich sa používa najčastejšie. Spravíme si prehľad — kto je kto, aký má vibe a na čo sa typicky hodí.</p>

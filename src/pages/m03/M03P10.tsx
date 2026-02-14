@@ -5,11 +5,7 @@ import { ExpectedFinding } from "@/components/ContentBlocks";
 export default function M03P10() {
   const nav = getNavContext("m03-10-prakticka-uloha");
   return (
-    <PageShell title="🎓 Praktická úloha – Celý prompt v praxi" tldr={[
-      "Priprav prompt so všetkými 6 časťami",
-      "Otestuj ho v AI a sprav 1 iteráciu",
-      "Výsledok = šablóna, ktorú vieš opakovane použiť",
-    ]} {...nav}>
+    <PageShell title="🎓 Praktická úloha – Celý prompt v praxi" {...nav}>
 
       <p><strong>Zadanie:</strong> Priprav prompt pre AI, ktorý ti pomôže so stravou v bežnom živote. Tvoj prompt musí obsahovať všetkých 6 častí:</p>
 

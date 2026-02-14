@@ -5,11 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M04P08() {
   const nav = getNavContext("m04-08-mini-pamat");
   return (
-    <PageShell title="7️⃣ Mini-pamäť a priebežné zhrnutia" tldr={[
-      "AI nemá pamäť – pracuje len s tým, čo má v kontexte",
-      "Mini-pamäť = 3–5 bodov po každom väčšom kroku",
-      "Checkpoint a zámok rozhodnutí držia smer pri zmenách",
-    ]} {...nav}>
+    <PageShell title="7️⃣ Mini-pamäť a priebežné zhrnutia" {...nav}>
 
       <p>AI nemá pamäť ako človek. Neuchováva si "spomienky" – pracuje len s tým, čo má práve na stole v kontexte.</p>
       <p>Pri dlhšej konverzácii sa preto môže stať, že staršie dôležité veci postupne „vypadnú" a AI začne odpovedať inak, než si čakal.</p>

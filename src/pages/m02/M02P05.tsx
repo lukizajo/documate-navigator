@@ -5,11 +5,7 @@ import { MiniTask, ExpectedFinding } from "@/components/ContentBlocks";
 export default function M02P05() {
   const nav = getNavContext("m02-05-kriteria");
   return (
-    <PageShell title="4️⃣ Kritériá hodnotenia a scorecard" tldr={[
-      "Kvalita výsledku: splnenie, štruktúra, čitateľnosť, konkrétnosť",
-      "Správanie chatbota: proaktivita, priznanie limitov, vibe",
-      "Scorecard šablóna na rýchle porovnanie",
-    ]} {...nav}>
+    <PageShell title="4️⃣ Kritériá hodnotenia a scorecard" {...nav}>
 
       <h2>Kritériá hodnotenia</h2>
 

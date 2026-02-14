@@ -7,7 +7,6 @@ export default function Page04() {
   return (
     <PageShell
       title="4️⃣ Budúcnosť AI: čo môžeme realisticky čakať (2030 → 2050)"
-      tldr={[]}
       {...nav}
     >
       <p><em>Budúcnosť AI je často prezentovaná extrémne – buď príliš optimisticky, alebo strašidelne. Tu si ju nastavíme realisticky.</em></p>

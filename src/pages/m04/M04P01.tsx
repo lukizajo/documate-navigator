@@ -4,12 +4,7 @@ import { getNavContext } from "@/data/navigation";
 export default function M04P01() {
   const nav = getNavContext("m04-01-uvod");
   return (
-    <PageShell title="🅾️ Úvod do kontext inžinieringu" tldr={[
-      "Aj dobrý prompt môže dať slabý výstup, ak AI chýbajú súvislosti",
-      "Kontext inžiniering = riadenie kontextu pre zložitejšie úlohy",
-      "5 vrstiev: Rola, Pravidlá, Zdroje, Úloha, Formát",
-      "Stabilné vs Aktuálne = konzistentné odpovede",
-    ]} {...nav}>
+    <PageShell title="🅾️ Úvod do kontext inžinieringu" {...nav}>
 
       <p>V predchádzajúcom module (M02) sme sa naučili, <strong>ako AI jasne povedať, čo má robiť</strong>. Možno si si však všimol jednu vec: aj pri dobrom prompte vie byť výstup príliš všeobecný, mimo reality alebo jednoducho „nepoužiteľný".</p>
       <p>To neznamená, že prompt bol zlý. Znamená to, že <strong>AI chýbali súvislosti</strong>.</p>

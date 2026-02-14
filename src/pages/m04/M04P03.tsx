@@ -5,11 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M04P03() {
   const nav = getNavContext("m04-03-struktura");
   return (
-    <PageShell title="2️⃣ Štruktúra kontextu: menej šumu, viac signálu" tldr={[
-      "Rozdeľ kontext na Stabilné (platí stále) a Aktuálne (platí teraz)",
-      "5 ingrediencií: Priority, Deal-breaker, Zdroje, Kritériá, 1 otázka",
-      "Šum = info, ktorá nemení rozhodnutie, len zaberá miesto",
-    ]} {...nav}>
+    <PageShell title="2️⃣ Štruktúra kontextu: menej šumu, viac signálu" {...nav}>
 
       <p>V M2 si skladal prompt zo stavebných blokov (úloha, rola, formát…).</p>
       <p>V M3 riešime niečo iné: <strong>čo z kontextu je signál a čo je šum</strong> — a ako to poskladať tak, aby AI trafila tvoju realitu, nie priemer.</p>

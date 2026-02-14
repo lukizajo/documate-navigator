@@ -6,13 +6,12 @@ import { Button } from "@/components/ui/button";
 interface PageShellProps {
   children: ReactNode;
   title: string;
-  tldr: string[];
   tags?: { must?: boolean; should?: boolean; nice?: boolean };
   prev?: { path: string; label: string };
   next?: { path: string; label: string };
 }
 
-export function PageShell({ children, title, tldr, prev, next }: PageShellProps) {
+export function PageShell({ children, title, prev, next }: PageShellProps) {
   return (
     <article className="max-w-3xl px-6 py-5 md:py-8">
       <h1 className="text-xl font-bold mb-3 leading-tight" style={{ fontFamily: "'Merriweather', serif" }}>
