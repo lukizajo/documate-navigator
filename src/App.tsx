@@ -22,6 +22,7 @@ import M02P04 from "./pages/m02/M02P04";
 import M02P05 from "./pages/m02/M02P05";
 import M02P06 from "./pages/m02/M02P06";
 import M02P07 from "./pages/m02/M02P07";
+import M02P08 from "./pages/m02/M02P08";
 import M03P01 from "./pages/m03/M03P01";
 import M03P02 from "./pages/m03/M03P02";
 import M03P03 from "./pages/m03/M03P03";
@@ -67,7 +68,8 @@ const App = () => (
             <Route path="/m02-04-ferove-porovnanie" element={<M02P04 />} />
             <Route path="/m02-05-kriteria" element={<M02P05 />} />
             <Route path="/m02-06-toolbox" element={<M02P06 />} />
-            <Route path="/m02-07-prakticka-uloha" element={<M02P07 />} />
+            <Route path="/m02-07-etika" element={<M02P07 />} />
+            <Route path="/m02-08-prakticka-uloha" element={<M02P08 />} />
             <Route path="/m03-01-uvod" element={<M03P01 />} />
             <Route path="/m03-02-uloha" element={<M03P02 />} />
             <Route path="/m03-03-kontext" element={<M03P03 />} />
