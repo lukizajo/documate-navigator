@@ -5,9 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M05P03() {
   const nav = getNavContext("m05-03-ako-sa-pytat");
   return (
-    <PageShell title={"M05 \u2013 Vyh\u013Ead\u00E1vanie s AI \uD83D\uDD0D\uD83E\uDD14"} {...nav}>
-
-      <h2>2️⃣ Ako sa pýtať AI pri vyhľadávaní správne</h2>
+    <PageShell title="2️⃣ Ako sa pýtať AI pri vyhľadávaní správne" {...nav}>
       <p>Keď sa pýtaš AI „ako keby to bol Google", často dostaneš odpoveď, ktorá znie dobre, ale nie je úplne použiteľná. Nie preto, že by AI zámerne klamala, ale preto, že jej chýbajú dôležité informácie: časový rámec, zdroje alebo tvoja konkrétna situácia. A keď tieto veci nedostane, má tendenciu medzery doplniť.</p>
       <p>Rozdiel spraví jedna vec: pri vyhľadávaní sa nepýtaš len „čo", ale aj „kedy" a „z čoho to vychádza".</p>
       <p><strong>Príklad:</strong></p>

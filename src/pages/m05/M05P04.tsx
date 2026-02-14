@@ -5,9 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M05P04() {
   const nav = getNavContext("m05-04-limity");
   return (
-    <PageShell title={"M05 \u2013 Vyh\u013Ead\u00E1vanie s AI \uD83D\uDD0D\uD83E\uDD14"} {...nav}>
-
-      <h2>3️⃣ Limity aktuálnych informácií ⏱️</h2>
+    <PageShell title="3️⃣ Limity aktuálnych informácií ⏱️" {...nav}>
       <p>Keď sa pýtaš na „aktuálne info", AI môže byť tá najrýchlejšia cesta… alebo tá najrýchlejšia cesta k chybe. Problém nie je v tom, že by AI nechcela pomôcť. Problém je v tom, že AI <strong>nemusí mať vždy prístup k najnovším informáciám</strong>. Záleží na:</p>
       <ul>
         <li>tom, či má zapnuté online vyhľadávanie,</li>

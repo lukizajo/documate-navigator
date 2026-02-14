@@ -5,9 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M05P05() {
   const nav = getNavContext("m05-05-triangulacia");
   return (
-    <PageShell title={"M05 \u2013 Vyh\u013Ead\u00E1vanie s AI \uD83D\uDD0D\uD83E\uDD14"} {...nav}>
-
-      <h2>4️⃣ Triangulácia</h2>
+    <PageShell title="4️⃣ Triangulácia" {...nav}>
       <p>Triangulácia znamená jednoduché pravidlo:</p>
       <p>👉 <strong>Never prvej odpovedi</strong>, aj keď znie sebavedomo.</p>
       <p>AI vie znieť presne tak, ako keby „to mala overené". Lenže pri vyhľadávaní je rozdiel medzi tým, čo <strong>znie logicky</strong>, a tým, čo je <strong>naozaj pravda</strong>. A keď sa podľa nesprávnej informácie zariadiš, často to zistíš až neskoro: pri pokladni, na letisku, pri reklamácii alebo v momente, keď už nie je čas to riešiť.</p>

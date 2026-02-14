@@ -4,9 +4,7 @@ import { getNavContext } from "@/data/navigation";
 export default function M05P09() {
   const nav = getNavContext("m05-09-prakticka-uloha");
   return (
-    <PageShell title={"M05 \u2013 Vyh\u013Ead\u00E1vanie s AI \uD83D\uDD0D\uD83E\uDD14"} {...nav}>
-
-      <h2>🎓 Praktická úloha – Magnézium na spánok: mýtus vs fakt 💤</h2>
+    <PageShell title="🎓 Praktická úloha – Magnézium na spánok: mýtus vs fakt 💤" {...nav}>
 
       <h3>Zadanie</h3>
       <p>Na internete je plno tvrdení typu „magnézium zlepší spánok", „pomáha na zaspávanie", „stačí ho brať večer a budeš spať ako bábätko".</p>
