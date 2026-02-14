@@ -16,7 +16,7 @@ export default function Page08() {
       ]}
       {...nav}
     >
-      <p><em>Čo sa deje v pozadí, keď AI odpovedá? Táto sekcia ti priblíži cestu od surových dát k modelu, ktorý generuje odpovede – jednoducho a bez zbytočnej teórie.</em></p>
+      <p><em>Aby si vedel AI používať rozumne, je dobré aspoň rámcovo chápať, ako vzniká. Nie technicky, ale logicky.</em></p>
 
       <h2>🔍 Čo sa skrýva za chatbotom?</h2>
       <p>

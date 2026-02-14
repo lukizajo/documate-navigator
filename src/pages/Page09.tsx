@@ -16,7 +16,7 @@ export default function Page09() {
       ]}
       {...nav}
     >
-      <p><em>AI znie presvedčivo – ale to neznamená, že má pravdu. Táto sekcia ti ukáže, kde sú limity AI výkonu, čo sú halucinácie a ako ich znížiť.</em></p>
+      <p><em>V tejto časti sa pozrieme na to, prečo AI vie byť extrémne výkonná a zároveň nespoľahlivá. Pochopíme, v čom je jej sila, prečo občas „vymýšľa" a ako vieme jej správanie do istej miery ovplyvniť pomocou nastavenia teploty modelu.</em></p>
 
       <h2>💪 Výkon AI: kde je silná – a kde nie?</h2>
       <p>AI je veľmi dobrá v:</p>

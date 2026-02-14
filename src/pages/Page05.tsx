@@ -16,7 +16,7 @@ export default function Page05() {
       ]}
       {...nav}
     >
-      <p><em>AI nie je autopilot. Najlepšie výsledky vznikajú vtedy, keď človek vedie a AI asistuje. Táto sekcia ti ukáže, ako túto spoluprácu nastaviť.</em></p>
+      <p><em>Ak si z celého modulu máš odniesť jeden praktický princíp, je to práve tento. AI dáva zmysel len vtedy, keď je správne zapojená do práce človeka.</em></p>
 
       <h2>🤝 AI nie je autopilot, ale spoluhráč</h2>
       <p>

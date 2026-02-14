@@ -15,13 +15,13 @@ export default function Page07() {
       ]}
       {...nav}
     >
-      <p><em>Za každým chatbotom stojí konkrétna firma so svojou filozofiou, stratégiou a silnými stránkami. Ak vieš, kto stojí za nástrojom, lepšie pochopíš, čo od neho môžeš čakať.</em></p>
+      <p><em>Za každým chatbotom je firma, stratégia a obchodný model. Tento prehľad ti pomôže pochopiť rozdiely medzi hráčmi.</em></p>
 
       <h2>🏢 Prečo má zmysel poznať firmy za AI?</h2>
       <p>
-        Za každým veľkým modelom stojí konkrétna firma s vlastnou stratégiou a prioritami.
-        To, <strong>kto AI vyvíja</strong>, často napovie aj to, <strong>na čo je najlepšia</strong>.
+        AI nie je jeden nástroj ani jeden chatbot. Za každým veľkým modelom stojí konkrétna firma s vlastnou stratégiou, prioritami a obchodným cieľom. To, <strong>kto AI vyvíja</strong>, často napovie aj to, <strong>na čo je najlepšia</strong>.
       </p>
+      <p>👉 Cieľom tejto sekcie je dať ti orientačnú mapu hráčov, nie detailné porovnanie technických parametrov.</p>
 
       <h3>OpenAI – univerzálny líder</h3>
       <ul>
@@ -29,7 +29,7 @@ export default function Page07() {
         <li>silná v texte, analýze, kóde aj multimodalite</li>
         <li>vhodná pre široké spektrum úloh</li>
       </ul>
-      <p>👉 Častá voľba pre univerzálne riešenie.</p>
+      <p>👉 Častá voľba, keď hľadáš univerzálne riešenie.</p>
 
       <h3>Google DeepMind – multimodalita a ekosystém</h3>
       <ul>
@@ -37,6 +37,7 @@ export default function Page07() {
         <li>prepojenie so službami Google</li>
         <li>silná práca s obrazom, videom a aktuálnymi dátami</li>
       </ul>
+      <p>👉 Výhoda tam, kde sa kombinuje viac typov vstupov.</p>
 
       <h3>Microsoft Copilot – AI v kancelárii</h3>
       <ul>
@@ -50,12 +51,13 @@ export default function Page07() {
         <li>dôraz na etiku a bezpečné správanie</li>
         <li>veľmi dobrý pri práci s rozsiahlymi dokumentmi</li>
       </ul>
+      <p>👉 Silná voľba tam, kde je dôležitá kontrola výstupov.</p>
 
-      <h3>Meta (LLaMA) – open-source prístup</h3>
       <ul>
         <li>otvorené modely pre vývojárov</li>
         <li>možnosť lokálneho nasadenia</li>
       </ul>
+      <p>👉 Pre tých, ktorí chcú kontrolu a flexibilitu.</p>
 
       <h3>Mistral AI – európska alternatíva</h3>
       <ul>
@@ -77,6 +79,7 @@ export default function Page07() {
         <li>silný na aktuálne dianie, trendy a verejné diskusie</li>
         <li>menej formálny, viac „priamočiary" štýl odpovedí</li>
       </ul>
+      <p>👉 Vhodný, keď chceš rýchlu orientáciu v tom, čo sa práve deje a ako sa o tom hovorí.</p>
 
       <h2>🎯 Čo si z tejto mapy odniesť?</h2>
       <ul>

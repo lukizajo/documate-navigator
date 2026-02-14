@@ -17,7 +17,7 @@ export default function Page10() {
       ]}
       {...nav}
     >
-      <p><em>AI je mocný nástroj – ale s mocou prichádza aj zodpovednosť. Táto sekcia ti pomôže nastaviť hranice: čo do AI nepatrí, kde je potrebná kontrola a ako to vidí európska regulácia.</em></p>
+      <p><em>Toto je uzatváracia časť M1. Vracia nás späť na zem a nastavuje zdravé hranice používania AI.</em></p>
 
       <h2>⚠️ Prečo je táto sekcia dôležitá?</h2>
       <p>

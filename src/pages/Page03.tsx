@@ -15,13 +15,13 @@ export default function Page03() {
       ]}
       {...nav}
     >
-      <p><em>AI nevznikla zo dňa na deň. Jej vývoj je plný veľkých očakávaní, sklamaní aj prelomových momentov. Poznať ich znamená lepšie rozumieť tomu, kde sme dnes.</em></p>
+      <p><em>Táto časť dáva dnešnej AI kontext. Uvidíš, že súčasný boom nie je náhoda, ale výsledok dlhého vývoja, omylov a návratov.</em></p>
 
       <h2>📜 Prečo má zmysel poznať históriu AI?</h2>
       <p>
         História umelej inteligencie nie je len zoznam dátumov a mien. Je to príbeh veľkých
         očakávaní, sklamaní, omylov a prelomových momentov, ktoré vysvetľujú, prečo dnešná AI
-        vyzerá tak, ako vyzerá.
+        vyzerá tak, ako vyzerá – a prečo má stále svoje limity.
       </p>
       <p>👉 Poznať tieto míľniky znamená lepšie rozumieť realite, nie mýtom.</p>
 
@@ -45,8 +45,9 @@ export default function Page03() {
       <ul>
         <li>vzniká perceptrón – prvý učiaci sa model inšpirovaný mozgom</li>
         <li>AI rieši jednoduché úlohy, hry a logiku</li>
-        <li>modely majú zásadné matematické limity</li>
+        <li>médiá hovoria o blížiacej sa všeobecnej inteligencii</li>
       </ul>
+      <p>Realita: modely majú zásadné matematické limity, technológia ešte nedozrela.</p>
 
       <h3>70. roky – Prvá AI zima ❄️</h3>
       <ul>
@@ -67,10 +68,11 @@ export default function Page03() {
 
       <h3>1997 – Deep Blue poráža Kasparova ♟️</h3>
       <ul>
-        <li>počítač IBM Deep Blue porazil majstra sveta v šachu</li>
+        <li>počítač IBM Deep Blue porazil majstra sveta v šachu Garryho Kasparova</li>
         <li>išlo o historický moment, ale nie o „mysliacu AI"</li>
         <li>systém pracoval s obrovským výpočtom možností, nie porozumením</li>
       </ul>
+      <p>👉 Silný míľnik, ktorý však často vytváral falošné predstavy o AI.</p>
 
       <h3>2012 – AlexNet a návrat neurónových sietí 🚀</h3>
       <ul>
@@ -78,12 +80,14 @@ export default function Page03() {
         <li>AI výrazne zlepší rozpoznávanie obrazu</li>
         <li>rozhodujúca kombinácia: veľké dáta + GPU výkon + nové architektúry</li>
       </ul>
+      <p>👉 AI sa znovu dostáva do hry – tentokrát reálne.</p>
 
       <h3>2016 – AlphaGo poráža majstra sveta v Go 🎮</h3>
       <ul>
         <li>AI poráža človeka v mimoriadne komplexnej hre</li>
         <li>prvýkrát kombinuje učenie, simuláciu a stratégiu</li>
       </ul>
+      <p>👉 Ukážka, že AI dokáže riešiť aj problémy bez jasných pravidiel.</p>
 
       <h3>2017 – Transformer a revolúcia v jazyku 🧩</h3>
       <ul>
