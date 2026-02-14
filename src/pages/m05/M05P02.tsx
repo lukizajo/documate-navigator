@@ -5,9 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M05P02() {
   const nav = getNavContext("m05-02-ai-vs-google");
   return (
-    <PageShell title={"M05 \u2013 Vyh\u013Ead\u00E1vanie s AI \uD83D\uDD0D\uD83E\uDD14"} {...nav}>
-
-      <h2>1️⃣ AI vs. klasický vyhľadávač ⚖️</h2>
+    <PageShell title="1️⃣ AI vs. klasický vyhľadávač ⚖️" {...nav}>
       <p>Keď niečo hľadáš cez <strong>Google</strong>, zvyčajne dostaneš zoznam stránok a ty si z nich musíš odpoveď „vyskladať".</p>
       <p>Keď to riešiš cez <strong>AI s webovým vyhľadávaním</strong>, AI ti často dá rovno hotový výstup – zhrnutie, porovnanie, odporúčanie alebo plán.</p>
       <p>Predstav si rozdiel medzi knižnicou a rozprávačom príbehu.</p>

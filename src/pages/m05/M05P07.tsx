@@ -5,9 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M05P07() {
   const nav = getNavContext("m05-07-deep-research");
   return (
-    <PageShell title={"M05 \u2013 Vyh\u013Ead\u00E1vanie s AI \uD83D\uDD0D\uD83E\uDD14"} {...nav}>
-
-      <h2>6️⃣ Deep Research (Hĺbkový prieskum/Podrobné vyhľadávanie)</h2>
+    <PageShell title="6️⃣ Deep Research (Hĺbkový prieskum/Podrobné vyhľadávanie)" {...nav}>
       <p><strong>Deep Research</strong> je režim, kde AI nerobí len „jednu odpoveď", ale spustí <strong>viac krokov výskumu</strong>:</p>
       <ul>
         <li>vyhľadáva,</li>

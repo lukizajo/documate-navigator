@@ -5,9 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M05P08() {
   const nav = getNavContext("m05-08-web-vs-deep");
   return (
-    <PageShell title={"M05 \u2013 Vyh\u013Ead\u00E1vanie s AI \uD83D\uDD0D\uD83E\uDD14"} {...nav}>
-
-      <h2>7️⃣ Web Search vs Deep Research</h2>
+    <PageShell title="7️⃣ Web Search vs Deep Research" {...nav}>
       <p>Web Search a Deep Research znejú podobne, ale robia úplne inú prácu. <strong>Web Search</strong> je rýchla odpoveď „na počkanie". <strong>Deep Research</strong> je režim, kde AI spraví viac krokov, pozbiera viac zdrojov, porovná ich a poskladá z toho <strong>správu</strong>.</p>
       <p>👉 Pointa: <strong>Web Search = rýchlo</strong>, <strong>Deep Research = dôkladnejšie</strong>. Ani jeden režim nie je „magicky bezchybný".</p>
 
