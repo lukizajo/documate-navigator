@@ -71,14 +71,14 @@ interface PromptBlockProps {
 
 export function PromptBlock({ children }: PromptBlockProps) {
   return (
-    <div className="rounded-lg p-5 my-6 border" style={{
-      background: "hsl(var(--prompt-bg))",
-      borderColor: "hsl(var(--prompt-border))",
-    }}>
-      <p className="font-semibold text-sm uppercase tracking-wide mb-3" style={{ color: "hsl(var(--prompt-foreground))" }}>
-        👉 Prompt:
-      </p>
-      <div className="text-sm italic">{children}</div>
+    <div className="my-6">
+      <p className="font-semibold text-sm mb-2">👉 Prompt:</p>
+      <div className="rounded-lg p-4 border text-sm italic" style={{
+        background: "hsl(var(--muted))",
+        borderColor: "hsl(var(--border))",
+      }}>
+        {children}
+      </div>
     </div>
   );
 }
