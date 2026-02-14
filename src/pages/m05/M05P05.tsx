@@ -5,7 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M05P05() {
   const nav = getNavContext("m05-05-triangulacia");
   return (
-    <PageShell title="M05 \u2013 Vyh\u013Ead\u00E1vanie s AI \uD83D\uDD0D\uD83E\uDD14" {...nav}>
+    <PageShell title={"M05 \u2013 Vyh\u013Ead\u00E1vanie s AI \uD83D\uDD0D\uD83E\uDD14"} {...nav}>
 
       <h2>4️⃣ Triangulácia</h2>
       <p>Triangulácia znamená jednoduché pravidlo:</p>
