@@ -90,19 +90,27 @@ export default function Page06() {
         <li><strong>Inferencie</strong> – použitie už natrénovaného modelu</li>
         <li><strong>Fine-tuning</strong> – prispôsobenie modelu na konkrétnu oblasť</li>
         <li><strong>RAG</strong> – kombinácia AI s externými dátami</li>
+        <li><strong>GPT</strong> = <strong><u>G</u>enerative <u>P</u>re-trained <u>T</u>ransformer</strong></li>
       </ul>
 
       <h2>💡 GPT = Generative Pre-trained Transformer</h2>
-      <h3>G – Generative (generatívny)</h3>
-      <p>Vie vytvárať nový obsah – generuje texty, odpovede, nápady. Nekopíruje hotové vety, vždy vytvára novú kombináciu slov.</p>
-      <p>📌 Negeneruje pravdu, ale pravdepodobný text.</p>
 
-      <h3>P – Pre-trained (predtrénovaný)</h3>
-      <p>Už bol natrénovaný vopred na obrovskom množstve textov. Počas používania sa „neučí od nuly".</p>
+      <h3>🧩 G – Generative (generatívny)</h3>
+      <p><strong>👉 Vie vytvárať nový obsah</strong></p>
+      <ul>
+        <li>generuje texty, odpovede, nápady, súhrny</li>
+        <li>nekopíruje hotové vety</li>
+        <li>vždy vytvára novú kombináciu slov</li>
+      </ul>
+      <p>🚨 Dôležité:</p>
+      <p><strong>Negeneruje pravdu, ale pravdepodobný text.</strong></p>
+
+      <h3>🧩 P – Pre-trained (predtrénovaný)</h3>
+      <p><strong>👉 Už bol natrénovaný vopred</strong> na obrovskom množstve textov. Počas používania sa „neučí od nuly".</p>
       <p>📌 Má všeobecný prehľad, ale nevie overovať fakty v reálnom čase.</p>
 
-      <h3>T – Transformer</h3>
-      <p>Spôsob, akým rozumie kontextu – sleduje vzťahy medzi slovami, chápe význam viet v širšom kontexte.</p>
+      <h3>🧩 T – Transformer</h3>
+      <p><strong>👉 Spôsob, akým rozumie kontextu</strong> – sleduje vzťahy medzi slovami, chápe význam viet v širšom kontexte.</p>
       <p>📌 Transformer je dôvod, prečo odpovede pôsobia plynulo a model „drží tému".</p>
 
       <h2>🎯 Čo si z tejto sekcie odniesť?</h2>
