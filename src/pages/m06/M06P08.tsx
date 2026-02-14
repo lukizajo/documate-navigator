@@ -124,9 +124,9 @@ export default function M06P08() {
       <MiniTest
         question={`Ktor\u00E1 veta najviac zni\u017Euje riziko, \u017Ee si AI domysl\u00ED fakty?`}
         options={[
-          { label: "🌕", text: "„Napíš to profesionálne."" },
-          { label: "⭐", text: "„Použi odrážky."" },
-          { label: "☀️", text: "„Ak si nie si istý, označ to ako NEISTÉ a polož otázky."" },
+          { label: "🌕", text: "\u201ENapíš to profesionálne.\u201C" },
+          { label: "⭐", text: "\u201EPouži odrážky.\u201C" },
+          { label: "☀️", text: "\u201EAk si nie si istý, označ to ako NEISTÉ a polož otázky.\u201C" },
         ]}
         correct="☀️"
         explanation="AI dostane povolenie priznať neistotu a vrátiť otázky."

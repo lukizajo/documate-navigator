@@ -84,10 +84,10 @@ export default function M06P05() {
       </ExpectedFinding>
 
       <MiniTest
-        question="AI ti v emaili pridala sľub „určite vám odpovieme do zajtra", ale ty to nevieš garantovať. Čo spravíš v ďalšom prompte?"
+        question={"AI ti v emaili pridala sľub \u201Eurčite vám odpovieme do zajtra\u201C, ale ty to nevieš garantovať. Čo spravíš v ďalšom prompte?"}
         options={[
           { label: "🌕", text: "Požiadam AI, nech to napíše krajšie." },
-          { label: "⭐", text: "Pridám obmedzenie: „Nesľubuj termín, ak nie je potvrdený."" },
+          { label: "⭐", text: "Pridám obmedzenie: \u201ENesľubuj termín, ak nie je potvrdený.\u201C" },
           { label: "☀️", text: "Pridám viac detailov o firme." },
         ]}
         correct="⭐"
@@ -97,9 +97,9 @@ export default function M06P05() {
       <MiniTest
         question="AI ti zhrnula dokument, ale máš pocit, že vynechala niečo dôležité. Čo doplníš do promptu?"
         options={[
-          { label: "🌕", text: "„Na konci uveď 3 možné riziká a čo si si nebol istý."" },
-          { label: "⭐", text: "„Urob to kratšie."" },
-          { label: "☀️", text: "„Použi viac odrážok."" },
+          { label: "🌕", text: "\u201ENa konci uveď 3 možné riziká a čo si si nebol istý.\u201C" },
+          { label: "⭐", text: "\u201EUrob to kratšie.\u201C" },
+          { label: "☀️", text: "\u201EPouži viac odrážok.\u201C" },
         ]}
         correct="🌕"
         explanation="Pri zhrnutiach je najčastejšia chyba práve vynechaný kontext/riziko."
@@ -119,9 +119,9 @@ export default function M06P05() {
       <MiniTest
         question="Chceš zápis zo stretnutia, ale AI ti vracia dlhý text bez štruktúry. Čo je najlepší ďalší krok?"
         options={[
-          { label: "🌕", text: "Napísať „buď stručnejší"" },
+          { label: "🌕", text: "Napísať \u201Ebuď stručnejší\u201C" },
           { label: "⭐", text: "Nadiktovať formát: Decisions / Action items / Open questions" },
-          { label: "☀️", text: "Napísať „sprav to profesionálne"" },
+          { label: "☀️", text: "Napísať \u201Esprav to profesionálne\u201C" },
         ]}
         correct="⭐"
         explanation="Formát je v práci často dôležitejší než štýl."
