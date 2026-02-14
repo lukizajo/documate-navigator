@@ -16,10 +16,13 @@ export default function Page06() {
       ]}
       {...nav}
     >
+      <p><em>AI nie je jeden nástroj. Táto sekcia ti pomôže zorientovať sa v typoch modelov a pojmoch bez toho, aby si sa musel ponárať do technických detailov.</em></p>
+
       <h2>🗺️ Prečo sa v modeloch oplatí mať jasno?</h2>
       <p>
-        Existuje viac typov modelov, z ktorých každý je vhodný na iný druh úlohy. Ak vieš,
-        aký model použiť, dostaneš lepší výsledok rýchlejšie.
+        Svet AI nie je jeden nástroj ani jeden model. Existuje viac typov modelov, z ktorých každý
+        je vhodný na <strong>iný druh úlohy</strong>. Ak vieš, aký model použiť, dostaneš lepší výsledok
+        rýchlejšie a bez zbytočnej frustrácie.
       </p>
 
       <h2>📝 Textové modely – LLM</h2>
@@ -115,9 +118,9 @@ export default function Page06() {
         options={[
           { label: "🌕", text: '„LLM je ako encyklopédia: keď sa ho niečo opýtam, dá mi správnu odpoveď, lebo AI predsa vie."' },
           { label: "⭐", text: '„LLM si občas vymýšľa, takže sa naň nedá vôbec spoľahnúť a je lepšie ho nepoužívať."' },
-          { label: "🔵", text: '„LLM vie veľmi dobre pracovať s textom, ale nepracuje s pravdou – skladá najpravdepodobnejší text podľa dát. Preto môže urobiť chybu a dôležité veci je potrebné overovať."' },
+          { label: "☀️", text: '„LLM vie veľmi dobre pracovať s textom, ale nepracuje s pravdou – skladá najpravdepodobnejší text podľa dát. Preto môže urobiť chybu a dôležité veci je potrebné overovať."' },
         ]}
-        correct="🔵"
+        correct="☀️"
         explanation="LLM je silný pomocník na jazykové úlohy, ale nie je to autorita na fakty. Vie znieť presvedčivo aj vtedy, keď sa mýli."
       />
     </PageShell>
