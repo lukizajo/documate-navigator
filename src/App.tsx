@@ -31,6 +31,7 @@ import M03P06 from "./pages/m03/M03P06";
 import M03P07 from "./pages/m03/M03P07";
 import M03P08 from "./pages/m03/M03P08";
 import M03P09 from "./pages/m03/M03P09";
+import M03P10 from "./pages/m03/M03P10";
 import M04Page from "./pages/M04Page";
 import M05Page from "./pages/M05Page";
 import M06Page from "./pages/M06Page";
@@ -76,6 +77,7 @@ const App = () => (
             <Route path="/m03-07-ton" element={<M03P07 />} />
             <Route path="/m03-08-zlozeny-prompt" element={<M03P08 />} />
             <Route path="/m03-09-reverzne" element={<M03P09 />} />
+            <Route path="/m03-10-prakticka-uloha" element={<M03P10 />} />
             <Route path="/m02-chatboty" element={<Navigate to="/m02-01-uvod" replace />} />
             <Route path="/m03-promptovanie" element={<Navigate to="/m03-01-uvod" replace />} />
             <Route path="/m04-kontext" element={<M04Page />} />
