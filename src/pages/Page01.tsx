@@ -16,13 +16,11 @@ export default function Page01() {
       ]}
       {...nav}
     >
-      <p><em>Čo je AI? Nie je to ani vševediaca bytosť, ani zbytočná hračka. Je to nástroj – a v tejto sekcii si ukážeme, čo od neho reálne čakať.</em></p>
-
       <h2>🤖 Čo dnes myslíme pod pojmom umelá inteligencia?</h2>
       <p>
         Umelá inteligencia alebo AI je schopnosť strojov, najmä počítačových systémov, napodobňovať
         inteligentné správanie typické pre ľudí, ako je učenie sa, uvažovanie, rozhodovanie či
-        riešenie problémov.
+        riešenie problémov. Ide o interdisciplinárny odbor informatiky, ktorý sa zaoberá vývojom algoritmov umožňujúcich strojom spracovávať dáta, rozpoznať vzory a dosahovať ciele samostatne.
       </p>
       <p>Zjednodušene povedané:</p>
       <ul>
@@ -34,16 +32,17 @@ export default function Page01() {
       <p>👉 To, čo dnes spôsobilo najväčší rozruch, je generatívna AI. Tá už len nevyhodnocuje dáta, ale aktívne vytvára texty, obrázky, zvuk či video a komunikuje s nami prirodzeným jazykom.</p>
 
       <h2>🧠 Úzka vs. generatívna AI</h2>
+      <p>Aby sme si AI správne zaradili, je dôležité rozlišovať dva základné prístupy, ktoré sa často hádžu do jedného vreca.</p>
       <h3>Úzka AI (ANI – Artificial Narrow Intelligence)</h3>
       <ul>
         <li>rieši jednu konkrétnu úlohu</li>
         <li>funguje presne v daných hraniciach</li>
         <li>nič netvorí, len vyhodnocuje a rozhoduje</li>
         <li>nemá ambíciu chápať širší kontext</li>
-        <li>príklady: spam filter, rozpoznávanie tváre, odporúčania na Netflixe alebo Spotify</li>
+        <li>príklady: spam filter v e-maile, rozpoznávanie tváre v mobile, odporúčania na Netflixe alebo Spotify</li>
       </ul>
 
-      <h3>Generatívna AI (GenAI)</h3>
+      <h3>Generatívna AI (GenAI – Generative Artificial Intelligence)</h3>
       <ul>
         <li>pracuje s jazykom, obrazom a zvukom</li>
         <li>dokáže vytvárať nový obsah</li>
@@ -53,6 +52,7 @@ export default function Page01() {
       <p>👉 Práve generatívna AI je hlavnou témou tohto kurzu.</p>
 
       <h2>😕 Prečo AI veľa ľudí odradí?</h2>
+      <p>Mnoho ľudí má s AI krátku skúsenosť, ktorá skončila sklamaním. Nie preto, že by AI nefungovala, ale preto, že očakávania boli nastavené úplne inde.</p>
       <p>Najčastejšie dôvody, prečo ľudia AI prestanú používať:</p>
       <ul>
         <li>Prvý pokus nepriniesol očakávaný výsledok</li>
@@ -64,6 +64,7 @@ export default function Page01() {
       <p>👉 Vo väčšine prípadov nejde o zlú AI, ale o zlé očakávania, nejasné zadanie alebo nesprávne použitie.</p>
 
       <h2>🚧 Nastavme si hranice hneď na začiatku!</h2>
+      <p>Aby AI nebola zdrojom frustrácie, ale pomoci, je dôležité si hneď na začiatku ujasniť, čo od nej môžeme a nemôžeme očakávať.</p>
       <h3>AI je:</h3>
       <ul>
         <li>pomoc pri premýšľaní a hľadaní možností</li>
@@ -80,6 +81,7 @@ export default function Page01() {
       <p>👉 Základné pravidlo kurzu: AI asistuje, človek rozhoduje.</p>
 
       <h2>🚀 Ako s AI začať bez frustrácie?</h2>
+      <p>Jednou z najčastejších chýb je snaha používať AI hneď na veľké a komplexné úlohy. Oveľa lepšie funguje začať tam, kde je prínos okamžite viditeľný.</p>
       <p>Osvedčený prístup:</p>
       <ul>
         <li>nezačínaj veľkými úlohami</li>
