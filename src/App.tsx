@@ -64,7 +64,15 @@ import M06P08 from "./pages/m06/M06P08";
 import M06P09 from "./pages/m06/M06P09";
 import M06P10 from "./pages/m06/M06P10";
 import M06P11 from "./pages/m06/M06P11";
-import M07Page from "./pages/M07Page";
+import M07P01 from "./pages/m07/M07P01";
+import M07P02 from "./pages/m07/M07P02";
+import M07P03 from "./pages/m07/M07P03";
+import M07P04 from "./pages/m07/M07P04";
+import M07P05 from "./pages/m07/M07P05";
+import M07P06 from "./pages/m07/M07P06";
+import M07P07 from "./pages/m07/M07P07";
+import M07P08 from "./pages/m07/M07P08";
+import M07P09 from "./pages/m07/M07P09";
 import M08Page from "./pages/M08Page";
 import NotFound from "./pages/NotFound";
 
@@ -144,7 +152,16 @@ const App = () => (
             <Route path="/m06-10-zhrnutie" element={<M06P10 />} />
             <Route path="/m06-11-prakticka-uloha" element={<M06P11 />} />
             <Route path="/m06-ai-v-praci" element={<Navigate to="/m06-01-uvod" replace />} />
-            <Route path="/m07-osobny-zivot" element={<M07Page />} />
+            <Route path="/m07-01-uvod" element={<M07P01 />} />
+            <Route path="/m07-02-kazdodenne" element={<M07P02 />} />
+            <Route path="/m07-03-ucenie" element={<M07P03 />} />
+            <Route path="/m07-04-volny-cas" element={<M07P04 />} />
+            <Route path="/m07-05-deti" element={<M07P05 />} />
+            <Route path="/m07-06-sukromie" element={<M07P06 />} />
+            <Route path="/m07-07-rovnovaha" element={<M07P07 />} />
+            <Route path="/m07-08-chyby" element={<M07P08 />} />
+            <Route path="/m07-09-prakticka-uloha" element={<M07P09 />} />
+            <Route path="/m07-osobny-zivot" element={<Navigate to="/m07-01-uvod" replace />} />
             <Route path="/m08-automatizacia" element={<M08Page />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
