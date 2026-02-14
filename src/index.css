@@ -146,31 +146,31 @@
   }
 
   .prose-content h2 {
-    @apply text-2xl font-bold mt-10 mb-4 leading-snug;
+    @apply text-xl font-bold mt-7 mb-3 leading-snug;
   }
 
   .prose-content h3 {
-    @apply text-xl font-semibold mt-8 mb-3;
+    @apply text-lg font-semibold mt-5 mb-2;
   }
 
   .prose-content p {
-    @apply mb-4 leading-relaxed text-base;
+    @apply mb-3 leading-relaxed text-sm;
   }
 
   .prose-content ul {
-    @apply mb-4 pl-6 space-y-1.5;
+    @apply mb-3 pl-5 space-y-1;
   }
 
   .prose-content ul li {
-    @apply list-disc leading-relaxed;
+    @apply list-disc leading-relaxed text-sm;
   }
 
   .prose-content ol {
-    @apply mb-4 pl-6 space-y-1.5;
+    @apply mb-3 pl-5 space-y-1;
   }
 
   .prose-content ol li {
-    @apply list-decimal leading-relaxed;
+    @apply list-decimal leading-relaxed text-sm;
   }
 
   .prose-content blockquote {
