@@ -142,7 +142,7 @@
 
 @layer components {
   .prose-content h1 {
-    @apply text-2xl font-bold mb-4 leading-tight;
+    @apply text-xl font-bold mb-3 leading-tight;
   }
 
   .prose-content h2 {
