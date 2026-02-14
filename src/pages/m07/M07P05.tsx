@@ -1,6 +1,6 @@
 import { PageShell } from "@/components/PageShell";
 import { getNavContext } from "@/data/navigation";
-import { MiniTask, ExpectedFinding } from "@/components/ContentBlocks";
+import { MiniTask, ExpectedFinding, PromptBlock } from "@/components/ContentBlocks";
 
 export default function M07P05() {
   const nav = getNavContext("m07-05-deti");
@@ -17,32 +17,37 @@ export default function M07P05() {
       <p>📚 <strong>{"\u201EDieťaťu to neviem vysvetliť tak, aby to pochopilo.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI:</strong> preloží učivo do jednoduchého jazyka, dá metaforu a príklad zo života.</p>
       <p><strong>Výstup:</strong> vysvetlenie + 3 príklady + 3 otázky na pochopenie.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Vysvetli dieťaťu (vek ___) tému ___ jednoducho. Použi prirovnanie zo života, daj 3 príklady a na konci 3 otázky, či to pochopilo."</p>
+      <PromptBlock>
+        <p>„Vysvetli dieťaťu (vek ___) tému ___ jednoducho. Použi prirovnanie zo života, daj 3 príklady a na konci 3 otázky, či to pochopilo."</p>
+      </PromptBlock>
 
       <p>🧠 <strong>{"\u201EChcem pomôcť s učením, ale nechcem, aby si len kopírovalo odpovede.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI:</strong> dá postup, nápovedy a tréningové otázky namiesto hotovej odpovede.</p>
       <p><strong>Výstup:</strong> krokový postup + nápovedy + mini-test.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Pomôž dieťaťu (vek ___) s úlohou ___, ale nedávaj hotovú odpoveď. Daj postup v krokoch, 3 nápovedy a 5 otázok na precvičenie."</p>
+      <PromptBlock>
+        <p>„Pomôž dieťaťu (vek ___) s úlohou ___, ale nedávaj hotovú odpoveď. Daj postup v krokoch, 3 nápovedy a 5 otázok na precvičenie."</p>
+      </PromptBlock>
 
       <p>🎒 <strong>{"\u201ERáno chaos – pripraviť sa do školy, veci, režim.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI:</strong> vytvorí jednoduchý checklist a rutinu podľa toho, čo dieťa reálne zvládne.</p>
       <p><strong>Výstup:</strong> ranný checklist + večerná príprava + 1–2 motivátory.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Pomôž mi spraviť rannú rutinu pre dieťa (vek ___). Problém: ___ (napr. nestíha, zabúda veci, nechce sa obliekať). Daj krátky checklist na ráno + 5-min večernú prípravu. Nech je to realistické a jednoduché."</p>
+      <PromptBlock>
+        <p>„Pomôž mi spraviť rannú rutinu pre dieťa (vek ___). Problém: ___ (napr. nestíha, zabúda veci, nechce sa obliekať). Daj krátky checklist na ráno + 5-min večernú prípravu. Nech je to realistické a jednoduché."</p>
+      </PromptBlock>
 
       <p>🎨 <strong>{"\u201EChcem vymyslieť program s deťmi bez mobilu.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI:</strong> navrhne aktivity podľa veku, času a energie.</p>
       <p><strong>Výstup:</strong> 10 aktivít + čo treba pripraviť + trvanie.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Navrhni 10 aktivít bez mobilu pre dieťa/deti (vek ___). Čas: __ min. Energia: nízka/stredná/vysoká. Daj aj 'čo potrebujem' a vyber top 3, ktoré sú najjednoduchšie."</p>
+      <PromptBlock>
+        <p>„Navrhni 10 aktivít bez mobilu pre dieťa/deti (vek ___). Čas: __ min. Energia: nízka/stredná/vysoká. Daj aj 'čo potrebujem' a vyber top 3, ktoré sú najjednoduchšie."</p>
+      </PromptBlock>
 
       <p>💬 <strong>{"\u201ENeviem, ako sa s dieťaťom porozprávať o citlivej téme.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI:</strong> pripraví návrh rozhovoru primeraný veku, bez strašenia.</p>
       <p><strong>Výstup:</strong> 5 viet ako začať + 5 otázok + čo nerobiť.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Pomôž mi pripraviť rozhovor s dieťaťom (vek ___) na tému ___. Chcem to citlivo a veku primerane. Daj 5 viet ako začať, 5 otázok a 5 vecí, ktorým sa vyhnúť."</p>
+      <PromptBlock>
+        <p>„Pomôž mi pripraviť rozhovor s dieťaťom (vek ___) na tému ___. Chcem to citlivo a veku primerane. Daj 5 viet ako začať, 5 otázok a 5 vecí, ktorým sa vyhnúť."</p>
+      </PromptBlock>
 
       <h3>🔐 Pravidlá doma: bezpečné používanie AI s deťmi</h3>
       <p>✅ <strong>Používaj AI spolu s dieťaťom, nie namiesto dieťaťa</strong></p>
