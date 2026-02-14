@@ -29,6 +29,55 @@ export const modules: NavModule[] = [
       { slug: "10-etika-ai-act", path: "/10-etika-ai-act", label: "🔟 Etika, riziká a EÚ AI Act", shortLabel: "Etika" },
     ],
   },
+  {
+    id: "m02",
+    title: "M02 – Chatboty v praxi 🤖💬",
+    pages: [
+      { slug: "m02-chatboty", path: "/m02-chatboty", label: "🤖 Chatboty v praxi", shortLabel: "Chatboty" },
+    ],
+  },
+  {
+    id: "m03",
+    title: "M03 – Promptovanie bez mágie ✍️",
+    pages: [
+      { slug: "m03-promptovanie", path: "/m03-promptovanie", label: "✍️ Promptovanie bez mágie", shortLabel: "Promptovanie" },
+    ],
+  },
+  {
+    id: "m04",
+    title: "M04 – Kontext inžiniering 🧩",
+    pages: [
+      { slug: "m04-kontext", path: "/m04-kontext", label: "🧩 Kontext inžiniering", shortLabel: "Kontext" },
+    ],
+  },
+  {
+    id: "m05",
+    title: "M05 – Vyhľadávanie s AI 🔍🤔",
+    pages: [
+      { slug: "m05-vyhladavanie", path: "/m05-vyhladavanie", label: "🔍 Vyhľadávanie s AI", shortLabel: "Vyhľadávanie" },
+    ],
+  },
+  {
+    id: "m06",
+    title: "M06 – AI v práci 💼⚙️",
+    pages: [
+      { slug: "m06-ai-v-praci", path: "/m06-ai-v-praci", label: "💼 AI v práci", shortLabel: "AI v práci" },
+    ],
+  },
+  {
+    id: "m07",
+    title: "M07 – AI v osobnom živote 🏡📱",
+    pages: [
+      { slug: "m07-osobny-zivot", path: "/m07-osobny-zivot", label: "🏡 AI v osobnom živote", shortLabel: "Osobný život" },
+    ],
+  },
+  {
+    id: "m08",
+    title: "M08 – Procesy a automatizácia 🔄🤖",
+    pages: [
+      { slug: "m08-automatizacia", path: "/m08-automatizacia", label: "🔄 Procesy a automatizácia", shortLabel: "Automatizácia" },
+    ],
+  },
 ];
 
 // Flat list for backward compatibility
