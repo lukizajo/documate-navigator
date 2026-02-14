@@ -38,8 +38,9 @@ export const modules: NavModule[] = [
       { slug: "m02-03-hlavni-hraci", path: "/m02-03-hlavni-hraci", label: "2️⃣ Hlavní hráči na trhu", shortLabel: "Hráči" },
       { slug: "m02-04-ferove-porovnanie", path: "/m02-04-ferove-porovnanie", label: "3️⃣ Férové porovnanie", shortLabel: "Porovnanie" },
       { slug: "m02-05-kriteria", path: "/m02-05-kriteria", label: "4️⃣ Kritériá a scorecard", shortLabel: "Kritériá" },
-      { slug: "m02-06-toolbox", path: "/m02-06-toolbox", label: "5️⃣ Toolbox a etika", shortLabel: "Toolbox" },
-      { slug: "m02-07-prakticka-uloha", path: "/m02-07-prakticka-uloha", label: "🎓 Praktická úloha", shortLabel: "Úloha" },
+      { slug: "m02-06-toolbox", path: "/m02-06-toolbox", label: "5️⃣ Toolbox", shortLabel: "Toolbox" },
+      { slug: "m02-07-etika", path: "/m02-07-etika", label: "6️⃣ Etika a bezpečnosť", shortLabel: "Etika" },
+      { slug: "m02-08-prakticka-uloha", path: "/m02-08-prakticka-uloha", label: "🎓 Praktická úloha", shortLabel: "Úloha" },
     ],
   },
   {
