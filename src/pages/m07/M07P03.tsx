@@ -59,7 +59,7 @@ export default function M07P03() {
       <p>To je rozdiel medzi „čítam odpoveď" a „trénujem schopnosť".</p>
       <p><strong>💡 Tip do praxe:</strong> Požiadaj AI, aby ti novú tému vysvetlila „ako desaťročnému dieťaťu" – často práve vtedy veci naozaj zapadnú.</p>
 
-      <h3>⚠️ Upozornenie</h3>
+      <h3>❗ Na čo si dať pozor</h3>
       <ul>
         <li>AI môže pôsobiť presvedčivo aj keď sa mýli – pri faktoch si over zdroje</li>
         <li>Neber výstup ako „pravdu", ale ako návrh na pochopenie a tréning</li>
