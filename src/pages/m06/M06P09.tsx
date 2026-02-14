@@ -102,7 +102,7 @@ export default function M06P09() {
       </ExpectedFinding>
 
       <MiniTest
-        question="Použil si AI na prvýkrát, výsledok bol „len OK" a povieš si, že AI je zbytočná. Ktorá chyba to je?"
+        question={"Použil si AI na prvýkrát, výsledok bol \u201Elen OK\u201C a povieš si, že AI je zbytočná. Ktorá chyba to je?"}
         options={[
           { label: "🌕", text: "Chyba 1 – očakávať wow efekt" },
           { label: "⭐", text: "Chyba 2 – málo kontextu" },
@@ -113,7 +113,7 @@ export default function M06P09() {
       />
 
       <MiniTest
-        question={`Zad\u00E1\u0161 \u201ENap\u00ED\u0161 email\u201C a v\u00FDstup je generick\u00FD. \u010Co je najlep\u0161\u00ED \u010Fal\u0161\u00ED krok?`}
+        question={"Zadáš \u201ENapíš email\u201C a výstup je generický. Čo je najlepší ďalší krok?"}
         options={[
           { label: "🌕", text: "Skúsiť iný model" },
           { label: "⭐", text: "Doplniť: komu, cieľ, tón a formát" },

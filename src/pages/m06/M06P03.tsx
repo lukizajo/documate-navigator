@@ -95,22 +95,22 @@ export default function M06P03() {
       />
 
       <MiniTest
-        question={`\u00DAloha m\u00E1 AI fit sk\u00F3re 4/4, ale po dvoch pokusoch m\u00E1\u0161 pocit, \u017Ee AI ti \u0161etr\u00ED \u010Das, ale zni\u017Euje kvalitu. \u010Co je najlep\u0161\u00ED \u010Fal\u0161\u00ED krok?`}
+        question={"Úloha má AI fit skóre 4/4, ale po dvoch pokusoch máš pocit, že AI ti šetrí čas, ale znižuje kvalitu. Čo je najlepší ďalší krok?"}
         options={[
-          { label: "🌕", text: "Prestať AI používať – nie je vhodná." },
+          { label: "🌕", text: "Prestať AI používať \u2013 nie je vhodná." },
           { label: "⭐", text: "Spresniť výstup (formát, rozsah, kritériá kvality) a skúsiť ešte raz." },
           { label: "☀️", text: "Pridať AI viac slobody, nech je kreatívnejšia." },
         ]}
         correct="⭐"
-        explanation="Väčšina „zlých výsledkov" je problém zadania, nie AI."
+        explanation={"Väčšina \u201Ezlých výsledkov\u201C je problém zadania, nie AI."}
       />
 
       <MiniTest
-        question={`Ktor\u00E1 veta je najlep\u0161\u00ED sign\u00E1l, \u017Ee use-case e\u0161te NIE JE pripraven\u00FD na AI?`}
+        question={"Ktorá veta je najlepší signál, že use-case ešte NIE JE pripravený na AI?"}
         options={[
-          { label: "🌕", text: "„Je to citlivé, ale viem to anonymizovať."" },
-          { label: "⭐", text: "„Vždy to robím trochu inak, podľa situácie."" },
-          { label: "☀️", text: "„Je to textové a robím to často."" },
+          { label: "🌕", text: "\u201EJe to citlivé, ale viem to anonymizovať.\u201C" },
+          { label: "⭐", text: "\u201EVždy to robím trochu inak, podľa situácie.\u201C" },
+          { label: "☀️", text: "\u201EJe to textové a robím to často.\u201C" },
         ]}
         correct="⭐"
         explanation="Ak nevieš opísať stabilný postup, AI nemá čo kopírovať."

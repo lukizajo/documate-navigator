@@ -108,14 +108,14 @@ export default function M06P02() {
         options={[
           { label: "🌕", text: "Skontrolujem aspoň 3 veci: rozhodnutia, úlohy (owner), termíny." },
           { label: "⭐", text: "Pošlem to hneď, nech to nezdržujem." },
-          { label: "☀️", text: "Požiadam AI, nech ešte pridá viac detailov, aby to bolo „presnejšie"." },
+          { label: "☀️", text: "Požiadam AI, nech ešte pridá viac detailov, aby to bolo \u201Epresnejšie\u201C." },
         ]}
         correct="🌕"
-        explanation="Minimum kontroly, ktoré zachráni najčastejšie chyby. (AI môže doplniť „detaily", ktoré neboli povedané.)"
+        explanation={"Minimum kontroly, ktoré zachráni najčastejšie chyby. (AI môže doplniť \u201Edetaily\u201C, ktoré neboli povedané.)"}
       />
 
       <MiniTest
-        question={`Ktor\u00E1 z t\u00FDchto \u00FAloh je \u201EAI-friendly\u201C, ale z\u00E1rove\u0148 \u010Dasto vedie k probl\u00E9mom, ak ju \u010Dlovek rob\u00ED bez kontroly?`}
+        question={"Ktorá z týchto úloh je \u201EAI-friendly\u201C, ale zároveň často vedie k problémom, ak ju človek robí bez kontroly?"}
         options={[
           { label: "🌕", text: "Zhrnúť dlhý dokument do 5 bodov pre šéfa." },
           { label: "⭐", text: "Vymyslieť 10 názvov pre interný projekt." },
@@ -126,10 +126,10 @@ export default function M06P02() {
       />
 
       <MiniTest
-        question={`M\u00E1\u0161 \u00FAlohu, ktor\u00E1 sp\u013A\u0148a 3\u00D7 \u201EAI fit\u201C, ale je to prv\u00FDkr\u00E1t, \u010Do ju chce\u0161 robi\u0165 s AI. \u010Co je najlep\u0161\u00ED pr\u00EDstup?`}
+        question={"Máš úlohu, ktorá spĺňa 3\u00D7 \u201EAI fit\u201C, ale je to prvýkrát, čo ju chceš robiť s AI. Čo je najlepší prístup?"}
         options={[
           { label: "🌕", text: "Hneď to nasadím na celý týždeň, nech vidím prínos." },
-          { label: "⭐", text: "Spravím jeden test „pred/po" na malej vzorke a porovnám čas + počet opráv." },
+          { label: "⭐", text: "Spravím jeden test \u201Epred/po\u201C na malej vzorke a porovnám čas + počet opráv." },
           { label: "☀️", text: "Dám AI veľa slobody, nech ukáže kreativitu." },
         ]}
         correct="⭐"
@@ -137,7 +137,7 @@ export default function M06P02() {
       />
 
       <MiniTest
-        question={`AI odpovie na intern\u00FA ot\u00E1zku kolegu ve\u013Emi sebavedomo, ale ty si nie si ist\u00FD. \u010Co sprav\u00ED\u0161?`}
+        question={"AI odpovie na internú otázku kolegu veľmi sebavedomo, ale ty si nie si istý. Čo spravíš?"}
         options={[
           { label: "🌕", text: "Pošlem to, veď AI býva presná." },
           { label: "⭐", text: "Prepíšem to inými slovami a pošlem." },
