@@ -53,7 +53,17 @@ import M05P06 from "./pages/m05/M05P06";
 import M05P07 from "./pages/m05/M05P07";
 import M05P08 from "./pages/m05/M05P08";
 import M05P09 from "./pages/m05/M05P09";
-import M06Page from "./pages/M06Page";
+import M06P01 from "./pages/m06/M06P01";
+import M06P02 from "./pages/m06/M06P02";
+import M06P03 from "./pages/m06/M06P03";
+import M06P04 from "./pages/m06/M06P04";
+import M06P05 from "./pages/m06/M06P05";
+import M06P06 from "./pages/m06/M06P06";
+import M06P07 from "./pages/m06/M06P07";
+import M06P08 from "./pages/m06/M06P08";
+import M06P09 from "./pages/m06/M06P09";
+import M06P10 from "./pages/m06/M06P10";
+import M06P11 from "./pages/m06/M06P11";
 import M07Page from "./pages/M07Page";
 import M08Page from "./pages/M08Page";
 import NotFound from "./pages/NotFound";
@@ -122,7 +132,18 @@ const App = () => (
             <Route path="/m05-08-web-vs-deep" element={<M05P08 />} />
             <Route path="/m05-09-prakticka-uloha" element={<M05P09 />} />
             <Route path="/m05-vyhladavanie" element={<Navigate to="/m05-01-uvod" replace />} />
-            <Route path="/m06-ai-v-praci" element={<M06Page />} />
+            <Route path="/m06-01-uvod" element={<M06P01 />} />
+            <Route path="/m06-02-kedy-zmysel" element={<M06P02 />} />
+            <Route path="/m06-03-use-casy" element={<M06P03 />} />
+            <Route path="/m06-04-top-use-casy" element={<M06P04 />} />
+            <Route path="/m06-05-promptovanie" element={<M06P05 />} />
+            <Route path="/m06-06-experiment" element={<M06P06 />} />
+            <Route path="/m06-07-zavadzanie" element={<M06P07 />} />
+            <Route path="/m06-08-bezpecnost" element={<M06P08 />} />
+            <Route path="/m06-09-chyby" element={<M06P09 />} />
+            <Route path="/m06-10-zhrnutie" element={<M06P10 />} />
+            <Route path="/m06-11-prakticka-uloha" element={<M06P11 />} />
+            <Route path="/m06-ai-v-praci" element={<Navigate to="/m06-01-uvod" replace />} />
             <Route path="/m07-osobny-zivot" element={<M07Page />} />
             <Route path="/m08-automatizacia" element={<M08Page />} />
             <Route path="*" element={<NotFound />} />
