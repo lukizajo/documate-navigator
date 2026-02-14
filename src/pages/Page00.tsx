@@ -5,7 +5,7 @@ export default function Page00() {
   const nav = getNavContext("00-uvod");
   return (
     <PageShell
-      title={'M01 – Z čoho je AI „uvarená"? 🍲'}
+      title="🅾️ Úvod"
       tldr={[
         "Modul M01 je základom celého kurzu – buduje správny mentálny model o AI",
         "AI nie je bytosť, ale nástroj – pomáha robiť veci rýchlejšie a prehľadnejšie",

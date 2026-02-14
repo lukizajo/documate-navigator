@@ -14,8 +14,8 @@ interface PageShellProps {
 
 export function PageShell({ children, title, tldr, prev, next }: PageShellProps) {
   return (
-    <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
-      <h1 className="text-3xl md:text-4xl font-bold mb-6 leading-tight" style={{ fontFamily: "'Merriweather', serif" }}>
+    <article className="max-w-3xl mx-auto px-4 py-5 md:py-8">
+      <h1 className="text-2xl md:text-3xl font-bold mb-4 leading-tight" style={{ fontFamily: "'Merriweather', serif" }}>
         {title}
       </h1>
 
