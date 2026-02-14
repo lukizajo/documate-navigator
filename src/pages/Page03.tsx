@@ -15,6 +15,8 @@ export default function Page03() {
       ]}
       {...nav}
     >
+      <p><em>AI nevznikla zo dňa na deň. Jej vývoj je plný veľkých očakávaní, sklamaní aj prelomových momentov. Poznať ich znamená lepšie rozumieť tomu, kde sme dnes.</em></p>
+
       <h2>📜 Prečo má zmysel poznať históriu AI?</h2>
       <p>
         História umelej inteligencie nie je len zoznam dátumov a mien. Je to príbeh veľkých
@@ -112,7 +114,7 @@ export default function Page03() {
         options={[
           { label: "🌕", text: '„Deep Blue bol silný systém na šach, ktorý vyhral hlavne vďaka obrovskému výpočtu možností. Bol to veľký míľnik, ale neznamenalo to, že AI \'rozumela\' šachu."' },
           { label: "⭐", text: '„Deep Blue bol len obyčajný program. S AI to nemalo nič spoločné."' },
-          { label: "🔵", text: '„Deep Blue porazil Kasparova, takže už vtedy existovala AI, ktorá myslela ako človek."' },
+          { label: "☀️", text: '„Deep Blue porazil Kasparova, takže už vtedy existovala AI, ktorá myslela ako človek."' },
         ]}
         correct="🌕"
         explanation={'Tento moment ukázal silu výpočtu v úzkej úlohe (šach), nie všeobecnú inteligenciu ani „porozumenie svetu".'}

@@ -16,6 +16,8 @@ export default function Page08() {
       ]}
       {...nav}
     >
+      <p><em>Čo sa deje v pozadí, keď AI odpovedá? Táto sekcia ti priblíži cestu od surových dát k modelu, ktorý generuje odpovede – jednoducho a bez zbytočnej teórie.</em></p>
+
       <h2>🔍 Čo sa skrýva za chatbotom?</h2>
       <p>
         Keď používaš AI nástroj, vidíš len výsledok – odpoveď, text alebo obrázok. V pozadí
@@ -84,7 +86,7 @@ export default function Page08() {
         options={[
           { label: "🌕", text: '„AI sa učí zo vzorov v dátach a predpovedá, čo príde ďalej. Nepracuje s pravdou, ale s pravdepodobnosťou, preto môže aj presvedčivo \'vymyslieť\' nesprávnu odpoveď."' },
           { label: "⭐", text: '„AI sa učí z dát, takže keď má veľa dát, automaticky vždy dá správnu odpoveď."' },
-          { label: "🔵", text: '„AI rozumie svetu podobne ako človek, len je rýchlejšia."' },
+          { label: "☀️", text: '„AI rozumie svetu podobne ako človek, len je rýchlejšia."' },
         ]}
         correct="🌕"
         explanation="Model neoveruje fakty ako človek, len skladá najpravdepodobnejší text podľa toho, čo sa naučil z dát."

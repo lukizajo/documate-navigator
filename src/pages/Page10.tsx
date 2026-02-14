@@ -17,6 +17,8 @@ export default function Page10() {
       ]}
       {...nav}
     >
+      <p><em>AI je mocný nástroj – ale s mocou prichádza aj zodpovednosť. Táto sekcia ti pomôže nastaviť hranice: čo do AI nepatrí, kde je potrebná kontrola a ako to vidí európska regulácia.</em></p>
+
       <h2>⚠️ Prečo je táto sekcia dôležitá?</h2>
       <p>
         AI vie pôsobiť veľmi presvedčivo. Práve preto je dôležité rozumieť jej limitom, chybám a rizikám.

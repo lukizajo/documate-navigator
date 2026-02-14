@@ -16,6 +16,8 @@ export default function Page09() {
       ]}
       {...nav}
     >
+      <p><em>AI znie presvedčivo – ale to neznamená, že má pravdu. Táto sekcia ti ukáže, kde sú limity AI výkonu, čo sú halucinácie a ako ich znížiť.</em></p>
+
       <h2>💪 Výkon AI: kde je silná – a kde nie?</h2>
       <p>AI je veľmi dobrá v:</p>
       <ul>
@@ -95,9 +97,9 @@ export default function Page09() {
         options={[
           { label: "🌕", text: '„Stručne mi vysvetli, ako to funguje, v 5–7 vetách. Nech je to jednoduché a zrozumiteľné."' },
           { label: "⭐", text: '„Stručne mi vysvetli, v 5–7 vetách. Ak si nie si istá, radšej to odhadni tak, aby to znelo logicky."' },
-          { label: "🔵", text: '„Stručne mi vysvetli, v 5–7 vetách. Ak si nie si istá, napíš čo nevieš. Nevymýšľaj si chýbajúce fakty. Pri tvrdeniach pridaj dôvod alebo postup."' },
+          { label: "☀️", text: '„Stručne mi vysvetli, v 5–7 vetách. Ak si nie si istá, napíš čo nevieš. Nevymýšľaj si chýbajúce fakty. Pri tvrdeniach pridaj dôvod alebo postup."' },
         ]}
-        correct="🔵"
+        correct="☀️"
         explanation={'Pridáva pravidlá, ktoré znižujú halucinácie: radšej priznať neistotu, nevyplňovať diery „odhadom" a ukázať postup/dôvod.'}
       />
     </PageShell>

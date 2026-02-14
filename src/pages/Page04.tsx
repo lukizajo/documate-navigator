@@ -16,6 +16,8 @@ export default function Page04() {
       ]}
       {...nav}
     >
+      <p><em>Kam smeruje AI? Nie do sci-fi, ale do bežných nástrojov a pracovných postupov. Pozrime sa na to, čo môžeme realisticky očakávať – a čo je zatiaľ len špekulácia.</em></p>
+
       <h2>🔮 Prečo je dôležité hovoriť o budúcnosti AI?</h2>
       <p>
         Pri AI je veľmi ľahké skĺznuť do extrémov – buď do nekritického nadšenia, alebo do strachu.
@@ -96,9 +98,9 @@ export default function Page04() {
         options={[
           { label: "🌕", text: '„AGI už dnes existuje, len sa tomu tak nehovorí. ChatGPT je vlastne všeobecná inteligencia."' },
           { label: "⭐", text: '„AGI je to isté ako generatívna AI. Keď AI vie písať texty, automaticky je všeobecná."' },
-          { label: "🔵", text: '„AGI je hypotetická všeobecná umelá inteligencia, ktorá by sa vedela učiť naprieč rôznymi úlohami podobne ako človek. Dnes taká AI neexistuje."' },
+          { label: "☀️", text: '„AGI je hypotetická všeobecná umelá inteligencia, ktorá by sa vedela učiť naprieč rôznymi úlohami podobne ako človek. Dnes taká AI neexistuje."' },
         ]}
-        correct="🔵"
+        correct="☀️"
         explanation="Generatívna AI môže pôsobiť všeobecne, ale stále pracuje v rámci svojich hraníc a nie je to AGI."
       />
     </PageShell>
