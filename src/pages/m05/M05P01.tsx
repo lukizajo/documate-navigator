@@ -4,7 +4,7 @@ import { getNavContext } from "@/data/navigation";
 export default function M05P01() {
   const nav = getNavContext("m05-01-uvod");
   return (
-    <PageShell title="🅾️ Úvod do vyhľadávania s AI" {...nav}>
+    <PageShell title="🅾️ Úvod" {...nav}>
       <p>V predchádzajúcich moduloch sme si ukázali, ako s AI komunikovať, ako jej dávať kontext a ako z nej dostať kvalitné výstupy. Teraz prichádza veľmi praktická otázka:</p>
       <p>👉 <strong>Môžem AI používať ako Google?</strong></p>
       <p>Predstav si to jednoducho: <strong>Google je knižnica. AI je rozprávač, ktorý ti z tej knižnice poskladá príbeh.</strong></p>
