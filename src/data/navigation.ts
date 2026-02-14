@@ -95,7 +95,17 @@ export const modules: NavModule[] = [
     id: "m06",
     title: "M06 – AI v práci 💼⚙️",
     pages: [
-      { slug: "m06-ai-v-praci", path: "/m06-ai-v-praci", label: "💼 AI v práci", shortLabel: "AI v práci" },
+      { slug: "m06-01-uvod", path: "/m06-01-uvod", label: "🅾️ Úvod", shortLabel: "Úvod" },
+      { slug: "m06-02-kedy-zmysel", path: "/m06-02-kedy-zmysel", label: "1️⃣ Kedy má AI v práci zmysel", shortLabel: "Kedy zmysel" },
+      { slug: "m06-03-use-casy", path: "/m06-03-use-casy", label: "2️⃣ Ako nájsť svoje pracovné use-casy", shortLabel: "Use-casy" },
+      { slug: "m06-04-top-use-casy", path: "/m06-04-top-use-casy", label: "3️⃣ Najčastejšie AI use-casy v práci", shortLabel: "TOP use-casy" },
+      { slug: "m06-05-promptovanie", path: "/m06-05-promptovanie", label: "4️⃣ Promptovanie v práci", shortLabel: "Promptovanie" },
+      { slug: "m06-06-experiment", path: "/m06-06-experiment", label: "5️⃣ Rýchly experiment + prínos vs riziko", shortLabel: "Experiment" },
+      { slug: "m06-07-zavadzanie", path: "/m06-07-zavadzanie", label: "6️⃣ Postupné zavádzanie do praxe", shortLabel: "Zavádzanie" },
+      { slug: "m06-08-bezpecnost", path: "/m06-08-bezpecnost", label: "7️⃣ Bezpečnosť, etika a firemné pravidlá", shortLabel: "Bezpečnosť" },
+      { slug: "m06-09-chyby", path: "/m06-09-chyby", label: "8️⃣ Typické chyby pri používaní AI v práci", shortLabel: "Chyby" },
+      { slug: "m06-10-zhrnutie", path: "/m06-10-zhrnutie", label: "9️⃣ Záverečné zhrnutie", shortLabel: "Zhrnutie" },
+      { slug: "m06-11-prakticka-uloha", path: "/m06-11-prakticka-uloha", label: "🎓 Praktická úloha", shortLabel: "Úloha" },
     ],
   },
   {
