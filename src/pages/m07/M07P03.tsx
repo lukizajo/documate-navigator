@@ -1,6 +1,6 @@
 import { PageShell } from "@/components/PageShell";
 import { getNavContext } from "@/data/navigation";
-import { MiniTask, ExpectedFinding } from "@/components/ContentBlocks";
+import { MiniTask, ExpectedFinding, PromptBlock } from "@/components/ContentBlocks";
 
 export default function M07P03() {
   const nav = getNavContext("m07-03-ucenie");
@@ -15,32 +15,37 @@ export default function M07P03() {
       <p>📚 <strong>{"\u201EChcem sa naučiť niečo nové, ale neviem, kde začať.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI:</strong> spraví ti jednoduchý plán, rozdelí tému na malé kroky a dá ti poradie.</p>
       <p><strong>Výstup:</strong> 7–14 dňový mini plán + čo trénovať každý deň.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Chcem sa naučiť ___ (téma). Som začiatočník/mierne pokročilý. Mám denne ___ min. Sprav mi plán na 10 dní: čo robiť každý deň, 1 mikro úloha a ako zistím, že som sa zlepšil."</p>
+      <PromptBlock>
+        <p>„Chcem sa naučiť ___ (téma). Som začiatočník/mierne pokročilý. Mám denne ___ min. Sprav mi plán na 10 dní: čo robiť každý deň, 1 mikro úloha a ako zistím, že som sa zlepšil."</p>
+      </PromptBlock>
 
       <p>🧩 <strong>{"\u201EČítam niečo a nerozumiem tomu – je to príliš zložité.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI:</strong> vysvetlí to jednoduchšie, dá metaforu a príklad zo života.</p>
       <p><strong>Výstup:</strong> vysvetlenie „ako pre 12-ročného" + 3 príklady.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Vysvetli mi toto jednoduchšie: ___ (text). Použi prirovnanie zo života a daj 3 krátke príklady. Na konci mi daj 5 otázok, či som to pochopil."</p>
+      <PromptBlock>
+        <p>„Vysvetli mi toto jednoduchšie: ___ (text). Použi prirovnanie zo života a daj 3 krátke príklady. Na konci mi daj 5 otázok, či som to pochopil."</p>
+      </PromptBlock>
 
       <p>📝 <strong>{"\u201EMám veľa poznámok, chaos a neviem z toho spraviť systém.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI:</strong> z poznámok spraví prehľad, pojmy, kľúčové body a postup.</p>
       <p><strong>Výstup:</strong> štruktúrované poznámky + checklist + krátke zhrnutie.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Tu sú moje poznámky: ___. Urob z toho prehľad: 1) hlavné body 2) pojmy a definície 3) checklist krokov 4) 5-bodové zhrnutie."</p>
+      <PromptBlock>
+        <p>„Tu sú moje poznámky: ___. Urob z toho prehľad: 1) hlavné body 2) pojmy a definície 3) checklist krokov 4) 5-bodové zhrnutie."</p>
+      </PromptBlock>
 
       <p>🎯 <strong>{"\u201EUčím sa, ale neviem, či to viem – chýba mi spätná väzba.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI:</strong> dá ti mini-testy, otázky a simulované úlohy.</p>
       <p><strong>Výstup:</strong> 10 otázok + odpovede + vysvetlenie chýb.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Otestuj ma z témy ___ na úrovni začiatočníka. Daj 10 otázok (mix výber/krátka odpoveď). Po mojich odpovediach mi daj správne riešenie a vysvetlenie."</p>
+      <PromptBlock>
+        <p>„Otestuj ma z témy ___ na úrovni začiatočníka. Daj 10 otázok (mix výber/krátka odpoveď). Po mojich odpovediach mi daj správne riešenie a vysvetlenie."</p>
+      </PromptBlock>
 
       <p>🗣️ <strong>{"\u201EChcem trénovať jazyk/komunikáciu, ale nemám s kým.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI:</strong> spraví rolové hry (situácie), opraví chyby a navrhne lepšie formulácie.</p>
       <p><strong>Výstup:</strong> mini-konverzácia + opravy + slovíčka.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Hraj sa so mnou rolovku: ___ (napr. v reštaurácii, na letisku, pracovný call). Píš so mnou po ___ (jazyk). Oprav ma jemne a vždy navrhni lepšiu vetu. Na konci mi daj 10 slovíčok, ktoré sa mi hodia."</p>
+      <PromptBlock>
+        <p>„Hraj sa so mnou rolovku: ___ (napr. v reštaurácii, na letisku, pracovný call). Píš so mnou po ___ (jazyk). Oprav ma jemne a vždy navrhni lepšiu vetu. Na konci mi daj 10 slovíčok, ktoré sa mi hodia."</p>
+      </PromptBlock>
 
       <h3>🧠 Ako z AI spraviť dobrého tútora (a nie len „odpoveď")</h3>
       <p>Keď chceš učiť sa rýchlo, používaj tieto typy požiadaviek:</p>
@@ -54,7 +59,7 @@ export default function M07P03() {
       <p>To je rozdiel medzi „čítam odpoveď" a „trénujem schopnosť".</p>
       <p><strong>💡 Tip do praxe:</strong> Požiadaj AI, aby ti novú tému vysvetlila „ako desaťročnému dieťaťu" – často práve vtedy veci naozaj zapadnú.</p>
 
-      <h3>❗ Na čo si dať pozor</h3>
+      <h3>⚠️ Upozornenie</h3>
       <ul>
         <li>AI môže pôsobiť presvedčivo aj keď sa mýli – pri faktoch si over zdroje</li>
         <li>Neber výstup ako „pravdu", ale ako návrh na pochopenie a tréning</li>

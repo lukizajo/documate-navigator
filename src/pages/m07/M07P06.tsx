@@ -1,6 +1,6 @@
 import { PageShell } from "@/components/PageShell";
 import { getNavContext } from "@/data/navigation";
-import { MiniTask, ExpectedFinding } from "@/components/ContentBlocks";
+import { MiniTask, ExpectedFinding, PromptBlock } from "@/components/ContentBlocks";
 
 export default function M07P06() {
   const nav = getNavContext("m07-06-sukromie");
@@ -16,32 +16,37 @@ export default function M07P06() {
       <p>🧑‍⚕️ <strong>{"\u201EMám zdravotný problém a chcem, aby mi AI povedala diagnózu alebo liečbu.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI bezpečne:</strong> pomôže ti pripraviť otázky pre lekára alebo vysvetliť pojmy z výsledkov.</p>
       <p><strong>Výstup:</strong> zoznam otázok + vysvetlenie termínov do ľudskej reči.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Vysvetli mi tieto pojmy jednoduchšie: ___. Potom mi sprav zoznam 8 otázok, ktoré sa mám spýtať lekára. Neurčuj diagnózu ani liečbu."</p>
+      <PromptBlock>
+        <p>„Vysvetli mi tieto pojmy jednoduchšie: ___. Potom mi sprav zoznam 8 otázok, ktoré sa mám spýtať lekára. Neurčuj diagnózu ani liečbu."</p>
+      </PromptBlock>
 
       <p>💳 <strong>{"\u201EChcem, aby mi AI pomohla pochopiť výpis/zmluvu, ale nechcem zdieľať citlivé údaje.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI bezpečne:</strong> najprv ti dá checklist anonymizácie a šablónu, ako to vložiť bezpečne, až potom sa pýta na detaily.</p>
       <p><strong>Výstup:</strong> checklist anonymizácie + šablóna promptu + čo má AI z textu vyťažiť.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Chcem, aby si mi pomohol/a pochopiť text z výpisu/zmluvy, ale bez citlivých údajov. Najprv mi napíš checklist: ktoré typy údajov mám vždy anonymizovať (konkrétne príklady). Potom mi daj šablónu, ako ti to mám poslať bezpečne (placeholdery typu OSOBA_A, ÚČET_X) a aký výstup od teba chcem: zhrnutie, rizikové body, otázky. Až potom sa ma spýtaj, aký typ dokumentu mám (výpis/zmluva/faktúra) a čo presne chcem zistiť."</p>
+      <PromptBlock>
+        <p>„Chcem, aby si mi pomohol/a pochopiť text z výpisu/zmluvy, ale bez citlivých údajov. Najprv mi napíš checklist: ktoré typy údajov mám vždy anonymizovať (konkrétne príklady). Potom mi daj šablónu, ako ti to mám poslať bezpečne (placeholdery typu OSOBA_A, ÚČET_X) a aký výstup od teba chcem: zhrnutie, rizikové body, otázky. Až potom sa ma spýtaj, aký typ dokumentu mám (výpis/zmluva/faktúra) a čo presne chcem zistiť."</p>
+      </PromptBlock>
 
       <p>👨‍👩‍👧 <strong>{"\u201EChcem nahrať fotku dieťaťa a nech mi AI poradí…\u201C"}</strong></p>
       <p><strong>Ako pomôže AI bezpečne:</strong> často stačí popis situácie bez identifikovateľnej fotky.</p>
       <p><strong>Výstup:</strong> všeobecné odporúčania + hranice, kedy už riešiť odborníka.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Chcem riešiť situáciu s dieťaťom. Nepotrebujem diagnostiku. Popis: vek ___, situácia ___, cieľ ___. Daj mi 5 nápadov, ako to riešiť citlivo a prakticky. Pridaj, kedy mám radšej vyhľadať odborníka."</p>
+      <PromptBlock>
+        <p>„Chcem riešiť situáciu s dieťaťom. Nepotrebujem diagnostiku. Popis: vek ___, situácia ___, cieľ ___. Daj mi 5 nápadov, ako to riešiť citlivo a prakticky. Pridaj, kedy mám radšej vyhľadať odborníka."</p>
+      </PromptBlock>
 
       <p>💬 <strong>{"\u201ERiešim konflikt vo vzťahu a chcem AI poslať celé správy a mená.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI bezpečne:</strong> pomôže s formuláciou a tónom bez identifikátorov a bez preposielania celých chatov.</p>
       <p><strong>Výstup:</strong> 3 verzie správy + návrh hraníc v komunikácii.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Pomôž mi napísať správu do konfliktného rozhovoru. Použi anonymizované označenia (ja/partner). Popis situácie: ___. Čo chcem dosiahnuť: ___. Daj 3 verzie: jemná, neutrálna, priama. Pridaj 2 vety, ktoré nastavujú hranicu bez útoku."</p>
+      <PromptBlock>
+        <p>„Pomôž mi napísať správu do konfliktného rozhovoru. Použi anonymizované označenia (ja/partner). Popis situácie: ___. Čo chcem dosiahnuť: ___. Daj 3 verzie: jemná, neutrálna, priama. Pridaj 2 vety, ktoré nastavujú hranicu bez útoku."</p>
+      </PromptBlock>
 
       <p>📍 <strong>{"\u201EChcem dať AI adresu, čísla dokladov alebo iné presné identifikátory.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI bezpečne:</strong> vo väčšine prípadov ich nepotrebuje — stačia všeobecné údaje a cieľ.</p>
       <p><strong>Výstup:</strong> odporúčanie, čo nahradiť placeholdermi + bezpečnejšia verzia textu.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Skontroluj môj text a povedz mi, aké citlivé údaje v ňom mám nahradiť placeholdermi. Potom navrhni bezpečnejšiu verziu toho istého textu."</p>
+      <PromptBlock>
+        <p>„Skontroluj môj text a povedz mi, aké citlivé údaje v ňom mám nahradiť placeholdermi. Potom navrhni bezpečnejšiu verziu toho istého textu."</p>
+      </PromptBlock>
 
       <h3>🔐 Praktické pravidlá: čo nezadávať a ako anonymizovať</h3>
       <p>✅ <strong>Anonymizuj vždy</strong></p>

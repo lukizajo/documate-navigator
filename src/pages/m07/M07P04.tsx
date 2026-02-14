@@ -1,6 +1,6 @@
 import { PageShell } from "@/components/PageShell";
 import { getNavContext } from "@/data/navigation";
-import { MiniTask, ExpectedFinding } from "@/components/ContentBlocks";
+import { MiniTask, ExpectedFinding, PromptBlock } from "@/components/ContentBlocks";
 
 export default function M07P04() {
   const nav = getNavContext("m07-04-volny-cas");
@@ -14,32 +14,37 @@ export default function M07P04() {
       <p>💝 <strong>{"\u201EChcem vymyslieť prekvapenie pre partnera/ku, ale aby to sedelo na jeho/jej štýl.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI:</strong> navrhne prekvapenia podľa osobnosti, záľub a toho, čo ten človek reálne ocení.</p>
       <p><strong>Výstup:</strong> 10 nápadov + top 3 s dôvodom + „low budget" alternatíva.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Vymysli prekvapenie pre partnera/ku. Kontext: aké aktivity má rád/rada: ___; čo nemá rád/rada: ___; aký je typ: introvert/extrovert, skôr domáce/akčné, skôr romantické/vtipné: ___; čas: ___ (napr. 2 hodiny / celý deň); rozpočet: ___. Daj 10 nápadov. Vyber top 3 a ku každému napíš prečo to sedí na tento typ človeka. Pridaj aj 1 low-budget verziu."</p>
+      <PromptBlock>
+        <p>„Vymysli prekvapenie pre partnera/ku. Kontext: aké aktivity má rád/rada: ___; čo nemá rád/rada: ___; aký je typ: introvert/extrovert, skôr domáce/akčné, skôr romantické/vtipné: ___; čas: ___ (napr. 2 hodiny / celý deň); rozpočet: ___. Daj 10 nápadov. Vyber top 3 a ku každému napíš prečo to sedí na tento typ človeka. Pridaj aj 1 low-budget verziu."</p>
+      </PromptBlock>
 
       <p>🎲 <strong>{"\u201EChcem hry/aktivity pre skupinu podľa veku a nálady.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI:</strong> navrhne program podľa počtu ľudí, veku, energie a toho, či to má byť vnútri/vonku.</p>
       <p><strong>Výstup:</strong> 10 aktivít + čo treba pripraviť + odhad času.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Navrhni hry/aktivity pre skupinu. Počet ľudí: ___; vek: ___; miesto: doma/vonku; nálada/energia: nízka/stredná/vysoká; čo nechcem: ___ (napr. nič trápne, nič športové, nič hlučné). Daj 10 aktivít. Ku každej napíš trvanie, čo treba pripraviť a pre koho je najvhodnejšia."</p>
+      <PromptBlock>
+        <p>„Navrhni hry/aktivity pre skupinu. Počet ľudí: ___; vek: ___; miesto: doma/vonku; nálada/energia: nízka/stredná/vysoká; čo nechcem: ___ (napr. nič trápne, nič športové, nič hlučné). Daj 10 aktivít. Ku každej napíš trvanie, čo treba pripraviť a pre koho je najvhodnejšia."</p>
+      </PromptBlock>
 
       <p>📩 <strong>{"\u201EChcem napísať pozvánku na oslavu, ale chcem viac štýlov.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI:</strong> spraví 3 verzie toho istého textu v rôznych tóninách a doplní praktické info.</p>
       <p><strong>Výstup:</strong> vtipná / elegantná / jednoduchá verzia + krátka SMS verzia.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Napíš mi pozvánku na oslavu. Info: kto/čo oslavujeme: ___, kedy: ___, kde: ___, čas začiatku: ___, dress code: ___, čo priniesť: ___, RSVP do: ___. Sprav 3 verzie: vtipná, elegantná, jednoduchá. Na konci pridaj aj krátku SMS verziu do 200 znakov."</p>
+      <PromptBlock>
+        <p>„Napíš mi pozvánku na oslavu. Info: kto/čo oslavujeme: ___, kedy: ___, kde: ___, čas začiatku: ___, dress code: ___, čo priniesť: ___, RSVP do: ___. Sprav 3 verzie: vtipná, elegantná, jednoduchá. Na konci pridaj aj krátku SMS verziu do 200 znakov."</p>
+      </PromptBlock>
 
       <p>📸 <strong>{"\u201EChcem popis k fotke (IG/FB/LinkedIn), nech to nie je trápne.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI:</strong> navrhne texty podľa platformy a štýlu, aby si neznelo umelo ani „šablónovo".</p>
       <p><strong>Výstup:</strong> 5 návrhov + 3 rôzne tóny + hashtagy (ak chceš).</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Napíš popis k fotke na ___ (IG/FB/LinkedIn). Čo je na fotke: ___. Aký tón chcem: prirodzený/vtipný/inšpiratívny/profesionálny. Čo nechcem: motivačné klišé, prehnané emoji, cringe. Daj 5 návrhov. Sprav 3 tóny (jemný, neutrál, výraznejší). Ak je to IG, pridaj aj 8–12 hashtagov."</p>
+      <PromptBlock>
+        <p>„Napíš popis k fotke na ___ (IG/FB/LinkedIn). Čo je na fotke: ___. Aký tón chcem: prirodzený/vtipný/inšpiratívny/profesionálny. Čo nechcem: motivačné klišé, prehnané emoji, cringe. Daj 5 návrhov. Sprav 3 tóny (jemný, neutrál, výraznejší). Ak je to IG, pridaj aj 8–12 hashtagov."</p>
+      </PromptBlock>
 
       <p>🎬 <strong>{"\u201EChcem vybrať film/seriál podľa nálady, ale nech to nie je náhodné.\u201C"}</strong></p>
       <p><strong>Ako pomôže AI:</strong> spraví odporúčanie podľa nálady, času, žánru a toho, čo sa ti páčilo predtým.</p>
       <p><strong>Výstup:</strong> shortlist 6–10 tipov + top 3 s dôvodom + „ak chcem niečo ľahké" alternatíva.</p>
-      <p><strong>Mini-prompt:</strong></p>
-      <p>„Odporuč mi film/seriál podľa nálady. Nálada: ___ (napr. oddych, napätie, smiech, feel-good); čas: ___ (90 min / 2 hod / seriál na večer); čo sa mi páčilo: ___ (3 príklady); čo nechcem: ___ (napr. horory, príliš depresívne, reality show). Daj 8 tipov. Vyber top 3 a napíš prečo mi to bude sedieť. Pridaj aj 1 'ľahkú' alternatívu, keď som unavený."</p>
+      <PromptBlock>
+        <p>„Odporuč mi film/seriál podľa nálady. Nálada: ___ (napr. oddych, napätie, smiech, feel-good); čas: ___ (90 min / 2 hod / seriál na večer); čo sa mi páčilo: ___ (3 príklady); čo nechcem: ___ (napr. horory, príliš depresívne, reality show). Daj 8 tipov. Vyber top 3 a napíš prečo mi to bude sedieť. Pridaj aj 1 'ľahkú' alternatívu, keď som unavený."</p>
+      </PromptBlock>
 
       <h3>❗ Na čo si dať pozor</h3>
       <ul>
