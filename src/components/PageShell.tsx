@@ -19,29 +19,6 @@ export function PageShell({ children, title, tldr, prev, next }: PageShellProps)
         {title}
       </h1>
 
-      {/* TL;DR */}
-      <div className="rounded-lg p-4 mb-6 border" style={{
-        background: "hsl(var(--tldr-bg))",
-        borderColor: "hsl(var(--tldr-border))",
-        color: "hsl(var(--tldr-foreground))"
-      }}>
-        <p className="font-semibold mb-2 text-sm uppercase tracking-wide">TL;DR</p>
-        <ul className="space-y-1 text-sm">
-          {tldr.map((item, i) => (
-            <li key={i} className="flex gap-2">
-              <span>•</span>
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      {/* Tags */}
-      <div className="flex gap-4 mb-8 text-sm text-muted-foreground">
-        <span>☐ MUST</span>
-        <span>☐ SHOULD</span>
-        <span>☐ NICE</span>
-      </div>
 
       {/* Content */}
       <div className="prose-content">
