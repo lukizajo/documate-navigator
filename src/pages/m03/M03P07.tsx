@@ -11,7 +11,7 @@ export default function M03P07() {
       `Protichodné tóny = zmätená AI`,
     ]} {...nav}>
 
-      <h2>6️⃣ TÓN – keď text znie nesprávne</h2>
+
       <p>Niekedy AI povie správne veci, ale znie to úplne mimo. Buď príliš marketingovo, príliš múdro, alebo ako motivačný kouč z internetu 😄</p>
       <p><strong>Tón neurčuje fakty. Tón určuje, ako to pôsobí</strong> – či to znie dôveryhodne, vecne, ľudsky, alebo „ako reklama".</p>
 

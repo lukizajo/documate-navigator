@@ -11,7 +11,7 @@ export default function M02P02() {
       "Rovnaký prompt do 2 chatbotov = rýchly nadhľad",
     ]} {...nav}>
 
-      <h2>Prečo porovnávať chatboty ❓</h2>
+
       <p>Predstav si, že by si celý život používal len jedno jediné náradie. Skrutkovač na klince, kladivo na skrutky. Presne takto veľa ľudí používa chatboty: otvorí prvý, ktorý pozná — a hotovo. Lenže chatboty nie sú „to isté v inom obale". Každý má iný štýl, iné silné stránky a iné správanie.</p>
 
       <h3>Prečo vznikajú rozdiely medzi chatbotmi</h3>

@@ -11,7 +11,7 @@ export default function M03P05() {
       `„Si expert" bez publika = odpoveď pre expertov`,
     ]} {...nav}>
 
-      <h2>4️⃣ ROLA – z akej perspektívy AI odpovedá</h2>
+
       <p>Keď AI povieš len „vysvetli to", odpoveď bude často všeobecná. Rola je spôsob, ako jej povedať: z akých skúseností má vychádzať, čo má uprednostniť a akým jazykom má hovoriť.</p>
 
       <h3>Čo robí rola</h3>

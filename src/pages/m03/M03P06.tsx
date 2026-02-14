@@ -11,7 +11,7 @@ export default function M03P06() {
       "Povedz AI presne, ako má výstup vyzerať",
     ]} {...nav}>
 
-      <h2>5️⃣ FORMÁT – keď je výstup pekný, ale nepoužiteľný</h2>
+
       <p>Niekedy AI odpovie „múdro" a znie to pekne… ale ty z toho nevieš nič použiť. Nie preto, že by odpoveď bola zlá, ale preto, že má zlý tvar.</p>
 
       <h3>Čo robí formát</h3>

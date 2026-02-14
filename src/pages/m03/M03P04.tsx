@@ -11,7 +11,7 @@ export default function M03P04() {
       "Príliš veľa príkladov = AI kopíruje namiesto tvorby",
     ]} {...nav}>
 
-      <h2>3️⃣ PRÍKLADY – keď AI netuší, ako má výsledok vyzerať</h2>
+
       <p>Keď AI povieš „napíš úvodný odsek", ona úvod napíše… ale každý z nás si pod tým predstaví niečo iné. Príklady sú ako „referenčná fotka".</p>
 
       <h3>Čo robia príklady</h3>

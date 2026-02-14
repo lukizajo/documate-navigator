@@ -11,7 +11,7 @@ export default function M02P04() {
       "Hodnoť správanie, nie pocit",
     ]} {...nav}>
 
-      <h2>Ako porovnávať chatboty férovo ⚖</h2>
+
       <p>Najčastejšia chyba pri porovnávaní chatbotov je, že každému dáme inú otázku… alebo sa spoliehame na prvý dojem. A prvý dojem je zradný.</p>
 
       <h3>Čo znamená férové porovnanie</h3>

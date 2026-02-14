@@ -11,7 +11,7 @@ export default function M02P03() {
       "Vyberaj podľa úlohy, nie popularity",
     ]} {...nav}>
 
-      <h2>Hlavní hráči na trhu</h2>
+
       <p>Na trhu dnes existuje veľa chatbotov, ale pár z nich sa používa najčastejšie. Spravíme si prehľad — kto je kto, aký má vibe a na čo sa typicky hodí.</p>
 
       <h3>ChatGPT (OpenAI)</h3>
