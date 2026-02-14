@@ -14,7 +14,7 @@ export function Layout({ children }: { children: ReactNode }) {
               M01 – Z čoho je AI „uvarená"? 🍲
             </span>
           </header>
-          <main className="flex-1 overflow-y-auto">
+          <main className="flex-1 overflow-y-auto px-0">
             {children}
           </main>
         </div>
