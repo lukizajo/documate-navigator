@@ -14,6 +14,8 @@ export default function Page00() {
       ]}
       {...nav}
     >
+      <p><em>Tento modul je základom celého kurzu. Pomôže ti vybudovať správny mentálny model o tom, čo AI je, ako funguje a ako ju používať zmysluplne a bezpečne.</em></p>
+
       <h2>🧭 Prehľad modulu</h2>
       <p>
         Umelá inteligencia je dnes všade – v práci, v mobile, v médiách aj v debatách o budúcnosti.

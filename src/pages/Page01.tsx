@@ -16,6 +16,8 @@ export default function Page01() {
       ]}
       {...nav}
     >
+      <p><em>Čo je AI? Nie je to ani vševediaca bytosť, ani zbytočná hračka. Je to nástroj – a v tejto sekcii si ukážeme, čo od neho reálne čakať.</em></p>
+
       <h2>🤖 Čo dnes myslíme pod pojmom umelá inteligencia?</h2>
       <p>
         Umelá inteligencia alebo AI je schopnosť strojov, najmä počítačových systémov, napodobňovať
@@ -92,9 +94,9 @@ export default function Page01() {
         options={[
           { label: "🌕", text: '„Chcem kúpiť jazdený mobil. Povedz mi, či je táto ponuka dobrá a či si to mám kúpiť. Rozhodni za mňa."' },
           { label: "⭐", text: '„Vyber mi najlepší výlet v Prahe na víkend a povedz mi presne, kam mám ísť. Nech je to na 100 % najlepšia voľba."' },
-          { label: "🔵", text: '„Pomôž mi rozhodnúť sa, ale nerozhoduj za mňa. Daj mi 3 možnosti a pri každej napíš 1 výhodu a 1 riziko. Na konci mi daj checklist, čo si mám overiť."' },
+          { label: "☀️", text: '„Pomôž mi rozhodnúť sa, ale nerozhoduj za mňa. Daj mi 3 možnosti a pri každej napíš 1 výhodu a 1 riziko. Na konci mi daj checklist, čo si mám overiť."' },
         ]}
-        correct="🔵"
+        correct="☀️"
         explanation={'Je nastavené, že AI má pomôcť premýšľať (možnosti, plusy/mínusy, checklist), ale finálne rozhodnutie ostáva na človeku. To je bezpečnejšie než pýtať si verdikt alebo „100 % najlepšiu" odpoveď.'}
       />
     </PageShell>

@@ -16,6 +16,8 @@ export default function Page05() {
       ]}
       {...nav}
     >
+      <p><em>AI nie je autopilot. Najlepšie výsledky vznikajú vtedy, keď človek vedie a AI asistuje. Táto sekcia ti ukáže, ako túto spoluprácu nastaviť.</em></p>
+
       <h2>🤝 AI nie je autopilot, ale spoluhráč</h2>
       <p>
         Spolupráca človeka s AI nefunguje ako „zadám úlohu a hotovo". Najlepšie výsledky vznikajú
@@ -81,7 +83,7 @@ export default function Page05() {
         options={[
           { label: "🌕", text: '„Navrhni mi 3-dňový jedálniček. Kontext: pre 1 osobu, do 20 min na varenie, bez mäsa. Najprv mi daj 2–3 varianty prístupu. Ja si vyberiem jeden. Potom spracuj do finálnej verzie + nákupný zoznam. Na konci mi pripomeň, čo mám skontrolovať ja."' },
           { label: "⭐", text: '„Navrhni mi jedálniček na 3 dni. Keď sa mi to nebude páčiť, tak to prepíš, kým to nebude dobré."' },
-          { label: "🔵", text: '„Navrhni mi jedálniček na 3 dni. Urob to kompletne a ja to len skopírujem a budem sa tým riadiť."' },
+          { label: "☀️", text: '„Navrhni mi jedálniček na 3 dni. Urob to kompletne a ja to len skopírujem a budem sa tým riadiť."' },
         ]}
         correct="🌕"
         explanation="Človek nastaví smer a kritériá, AI navrhne varianty a zrýchli prácu, ale kontrola a rozhodnutie ostáva na človeku. AI nie je autopilot."
