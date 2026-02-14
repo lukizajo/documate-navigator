@@ -112,7 +112,15 @@ export const modules: NavModule[] = [
     id: "m07",
     title: "M07 – AI v osobnom živote 🏡📱",
     pages: [
-      { slug: "m07-osobny-zivot", path: "/m07-osobny-zivot", label: "🏡 AI v osobnom živote", shortLabel: "Osobný život" },
+      { slug: "m07-01-uvod", path: "/m07-01-uvod", label: "🅾️ Úvod", shortLabel: "Úvod" },
+      { slug: "m07-02-kazdodenne", path: "/m07-02-kazdodenne", label: "1️⃣ AI v každodenných úlohách", shortLabel: "Každodenné" },
+      { slug: "m07-03-ucenie", path: "/m07-03-ucenie", label: "2️⃣ AI na učenie a sebarozvoj", shortLabel: "Učenie" },
+      { slug: "m07-04-volny-cas", path: "/m07-04-volny-cas", label: "3️⃣ AI a voľný čas", shortLabel: "Voľný čas" },
+      { slug: "m07-05-deti", path: "/m07-05-deti", label: "4️⃣ AI a deti", shortLabel: "Deti" },
+      { slug: "m07-06-sukromie", path: "/m07-06-sukromie", label: "5️⃣ Súkromie a bezpečnosť", shortLabel: "Súkromie" },
+      { slug: "m07-07-rovnovaha", path: "/m07-07-rovnovaha", label: "6️⃣ Digitálna rovnováha", shortLabel: "Rovnováha" },
+      { slug: "m07-08-chyby", path: "/m07-08-chyby", label: "7️⃣ Na čo si dať pozor", shortLabel: "Pozor" },
+      { slug: "m07-09-prakticka-uloha", path: "/m07-09-prakticka-uloha", label: "🎓 Praktická úloha", shortLabel: "Úloha" },
     ],
   },
   {
