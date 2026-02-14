@@ -5,7 +5,7 @@ import { MiniTest } from "@/components/ContentBlocks";
 export default function M03P01() {
   const nav = getNavContext("m03-01-uvod");
   return (
-    <PageShell title="🅾️ Úvod do promptovania" {...nav}>
+    <PageShell title="🅾️ Úvod" {...nav}>
 
       <h2>Úvod</h2>
       <p>V prvom module sme si vysvetlili, čo umelá inteligencia je, ako funguje a kde má svoje hranice. Teraz urobíme ďalší krok – pozrieme sa na to, ako s AI hovoriť tak, aby sme z nej dostali použiteľné výsledky.</p>

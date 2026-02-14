@@ -4,7 +4,7 @@ import { getNavContext } from "@/data/navigation";
 export default function M02P01() {
   const nav = getNavContext("m02-01-uvod");
   return (
-    <PageShell title="🅾️ Úvod do chatbotov" {...nav}>
+    <PageShell title="🅾️ Úvod" {...nav}>
 
       <h2>Úvod</h2>
       <p>V predchádzajúcom module sme si vysvetlili, čo AI je, ako približne funguje a prečo vie byť raz geniálna a inokedy úplne mimo.</p>
