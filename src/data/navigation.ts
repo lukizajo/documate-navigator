@@ -55,6 +55,7 @@ export const modules: NavModule[] = [
       { slug: "m03-07-ton", path: "/m03-07-ton", label: "6️⃣ Tón – ako to znie", shortLabel: "Tón" },
       { slug: "m03-08-zlozeny-prompt", path: "/m03-08-zlozeny-prompt", label: "7️⃣ Zložený prompt a iterácia", shortLabel: "Zložený prompt" },
       { slug: "m03-09-reverzne", path: "/m03-09-reverzne", label: "8️⃣ Reverzné promptovanie", shortLabel: "Reverzné" },
+      { slug: "m03-10-prakticka-uloha", path: "/m03-10-prakticka-uloha", label: "🎓 Praktická úloha", shortLabel: "Úloha" },
     ],
   },
   {
