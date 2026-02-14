@@ -33,7 +33,7 @@ export const modules: NavModule[] = [
     id: "m02",
     title: "M02 – Chatboty v praxi 🤖💬",
     pages: [
-      { slug: "m02-01-uvod", path: "/m02-01-uvod", label: "🅾️ Úvod do chatbotov", shortLabel: "Úvod" },
+      { slug: "m02-01-uvod", path: "/m02-01-uvod", label: "🅾️ Úvod", shortLabel: "Úvod" },
       { slug: "m02-02-preco-porovnavat", path: "/m02-02-preco-porovnavat", label: "1️⃣ Prečo porovnávať chatboty", shortLabel: "Prečo porovnávať" },
       { slug: "m02-03-hlavni-hraci", path: "/m02-03-hlavni-hraci", label: "2️⃣ Hlavní hráči na trhu", shortLabel: "Hráči" },
       { slug: "m02-04-ferove-porovnanie", path: "/m02-04-ferove-porovnanie", label: "3️⃣ Férové porovnanie", shortLabel: "Porovnanie" },
@@ -47,7 +47,7 @@ export const modules: NavModule[] = [
     id: "m03",
     title: "M03 – Promptovanie bez mágie ✍️",
     pages: [
-      { slug: "m03-01-uvod", path: "/m03-01-uvod", label: "🅾️ Úvod do promptovania", shortLabel: "Úvod" },
+      { slug: "m03-01-uvod", path: "/m03-01-uvod", label: "🅾️ Úvod", shortLabel: "Úvod" },
       { slug: "m03-02-uloha", path: "/m03-02-uloha", label: "1️⃣ Úloha – čo má AI spraviť", shortLabel: "Úloha" },
       { slug: "m03-03-kontext", path: "/m03-03-kontext", label: "2️⃣ Kontext – prostredie odpovede", shortLabel: "Kontext" },
       { slug: "m03-04-priklady", path: "/m03-04-priklady", label: "3️⃣ Príklady – referenčná fotka", shortLabel: "Príklady" },
@@ -63,7 +63,7 @@ export const modules: NavModule[] = [
     id: "m04",
     title: "M04 – Kontext inžiniering 🧩",
     pages: [
-      { slug: "m04-01-uvod", path: "/m04-01-uvod", label: "🅾️ Úvod do kontext inžinieringu", shortLabel: "Úvod" },
+      { slug: "m04-01-uvod", path: "/m04-01-uvod", label: "🅾️ Úvod", shortLabel: "Úvod" },
       { slug: "m04-02-kedy-kontext", path: "/m04-02-kedy-kontext", label: "1️⃣ Kedy stačí prompt a kedy kontext", shortLabel: "Kedy kontext" },
       { slug: "m04-03-struktura", path: "/m04-03-struktura", label: "2️⃣ Štruktúra kontextu", shortLabel: "Štruktúra" },
       { slug: "m04-04-chunking", path: "/m04-04-chunking", label: "3️⃣ Kontextové okno a chunking", shortLabel: "Chunking" },
@@ -80,7 +80,7 @@ export const modules: NavModule[] = [
     id: "m05",
     title: "M05 – Vyhľadávanie s AI 🔍🤔",
     pages: [
-      { slug: "m05-01-uvod", path: "/m05-01-uvod", label: "🅾️ Úvod do vyhľadávania", shortLabel: "Úvod" },
+      { slug: "m05-01-uvod", path: "/m05-01-uvod", label: "🅾️ Úvod", shortLabel: "Úvod" },
       { slug: "m05-02-ai-vs-google", path: "/m05-02-ai-vs-google", label: "1️⃣ AI vs. klasický vyhľadávač", shortLabel: "AI vs Google" },
       { slug: "m05-03-ako-sa-pytat", path: "/m05-03-ako-sa-pytat", label: "2️⃣ Ako sa pýtať AI správne", shortLabel: "Ako sa pýtať" },
       { slug: "m05-04-limity", path: "/m05-04-limity", label: "3️⃣ Limity aktuálnych informácií", shortLabel: "Limity" },
