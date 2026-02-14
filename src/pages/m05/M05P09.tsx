@@ -4,7 +4,7 @@ import { getNavContext } from "@/data/navigation";
 export default function M05P09() {
   const nav = getNavContext("m05-09-prakticka-uloha");
   return (
-    <PageShell title="M05 \u2013 Vyh\u013Ead\u00E1vanie s AI \uD83D\uDD0D\uD83E\uDD14" {...nav}>
+    <PageShell title={"M05 \u2013 Vyh\u013Ead\u00E1vanie s AI \uD83D\uDD0D\uD83E\uDD14"} {...nav}>
 
       <h2>🎓 Praktická úloha – Magnézium na spánok: mýtus vs fakt 💤</h2>
 

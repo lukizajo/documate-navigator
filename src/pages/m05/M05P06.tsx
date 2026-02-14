@@ -5,7 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M05P06() {
   const nav = getNavContext("m05-06-halucinacie");
   return (
-    <PageShell title="M05 \u2013 Vyh\u013Ead\u00E1vanie s AI \uD83D\uDD0D\uD83E\uDD14" {...nav}>
+    <PageShell title={"M05 \u2013 Vyh\u013Ead\u00E1vanie s AI \uD83D\uDD0D\uD83E\uDD14"} {...nav}>
 
       <h2>5️⃣ Halucinácie a „sebaisté klamstvá"</h2>
       <p>AI vie odpovedať tak presvedčivo, že človek má pocit, že to musí byť pravda. Lenže AI nie je databáza. Je to systém, ktorý skladá odpovede tak, aby dávali zmysel. A keď nevie, občas si <strong>doplní detaily</strong>. Nie zo zlého úmyslu, ale preto, že jeho „práca" je odpovedať.</p>
