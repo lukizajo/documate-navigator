@@ -86,7 +86,7 @@ export default function M07P03() {
         </ul>
       </MiniTask>
 
-      <h3>❗ Na čo si dať pozor</h3>
+      <h3>⚠️ Upozornenie</h3>
       <ul>
         <li><strong>AI nie je lekár</strong> – pri zdravotných problémoch, liekoch alebo ochoreniach obličiek/srdca si odporúčania over u odborníka</li>
         <li>„Elektrolyty" nie sú magický nápoj – často stačí voda + jedlo + soľ podľa situácie</li>
