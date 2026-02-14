@@ -11,7 +11,7 @@ export default function M03P02() {
       `„Urob to dobre" bez kritérií = AI si vyberie vlastné „dobre"`,
     ]} {...nav}>
 
-      <h2>1️⃣ ÚLOHA – keď AI nevie, čo má vlastne robiť</h2>
+
       <p>Keď človek povie „AI mi dala zlú odpoveď", vo väčšine prípadov to neznamená, že by AI nefungovala. Znamená to, že nepochopila, čo má vlastne urobiť.</p>
 
       <h3>❌ Zlá verzia promptu</h3>

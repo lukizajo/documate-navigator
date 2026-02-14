@@ -11,7 +11,7 @@ export default function M03P03() {
       `Doplň: pre koho, účel, obmedzenia, situáciu`,
     ]} {...nav}>
 
-      <h2>2️⃣ KONTEXT – keď AI dopĺňa realitu za teba</h2>
+
       <p>Kontext je prostredie, v ktorom sa má odpoveď odohrávať. Bez kontextu AI pracuje s „ideálnym svetom", ktorý často nemá s realitou nič spoločné.</p>
 
       <h3>❌ Zlá verzia</h3>

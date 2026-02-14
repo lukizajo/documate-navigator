@@ -10,7 +10,7 @@ export default function M02P07() {
       "Vyplň scorecard a porovnaj výsledky",
     ]} {...nav}>
 
-      <h2>🎓 Praktická úloha – Porovnanie chatbotov v praxi</h2>
+
       <p><strong>Zadanie:</strong> Vyber si 3 use-casy a otestuj ich v 3 chatbotoch podľa vlastného výberu. Pri každom use-case použiješ rovnaký Prompt a potom rovnaký Follow-up vo všetkých 3 chatbotoch.</p>
 
       <h3>🅰 Vyber si 3 use-casy:</h3>
