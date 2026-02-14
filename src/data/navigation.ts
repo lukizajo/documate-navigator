@@ -63,7 +63,17 @@ export const modules: NavModule[] = [
     id: "m04",
     title: "M04 – Kontext inžiniering 🧩",
     pages: [
-      { slug: "m04-kontext", path: "/m04-kontext", label: "🧩 Kontext inžiniering", shortLabel: "Kontext" },
+      { slug: "m04-01-uvod", path: "/m04-01-uvod", label: "🅾️ Úvod do kontext inžinieringu", shortLabel: "Úvod" },
+      { slug: "m04-02-kedy-kontext", path: "/m04-02-kedy-kontext", label: "1️⃣ Kedy stačí prompt a kedy kontext", shortLabel: "Kedy kontext" },
+      { slug: "m04-03-struktura", path: "/m04-03-struktura", label: "2️⃣ Štruktúra kontextu", shortLabel: "Štruktúra" },
+      { slug: "m04-04-chunking", path: "/m04-04-chunking", label: "3️⃣ Kontextové okno a chunking", shortLabel: "Chunking" },
+      { slug: "m04-05-citacie", path: "/m04-05-citacie", label: "4️⃣ Citácie a odkazy", shortLabel: "Citácie" },
+      { slug: "m04-06-minimal-disclosure", path: "/m04-06-minimal-disclosure", label: "5️⃣ Minimal disclosure", shortLabel: "Minimal disclosure" },
+      { slug: "m04-07-systemove-pokyny", path: "/m04-07-systemove-pokyny", label: "6️⃣ Stabilné systémové pokyny", shortLabel: "Systémové pokyny" },
+      { slug: "m04-08-mini-pamat", path: "/m04-08-mini-pamat", label: "7️⃣ Mini-pamäť a zhrnutia", shortLabel: "Mini-pamäť" },
+      { slug: "m04-09-rag-light", path: "/m04-09-rag-light", label: "8️⃣ RAG-light bez infraštruktúry", shortLabel: "RAG-light" },
+      { slug: "m04-10-chyby", path: "/m04-10-chyby", label: "9️⃣ Najčastejšie chyby", shortLabel: "Chyby" },
+      { slug: "m04-11-prakticka-uloha", path: "/m04-11-prakticka-uloha", label: "🎓 Praktická úloha", shortLabel: "Úloha" },
     ],
   },
   {
