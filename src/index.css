@@ -142,35 +142,35 @@
 
 @layer components {
   .prose-content h1 {
-    @apply text-3xl font-bold mb-6 leading-tight;
+    @apply text-2xl font-bold mb-4 leading-tight;
   }
 
   .prose-content h2 {
-    @apply text-xl font-bold mt-7 mb-3 leading-snug;
+    @apply text-base font-bold mt-5 mb-2 leading-snug;
   }
 
   .prose-content h3 {
-    @apply text-lg font-semibold mt-5 mb-2;
+    @apply text-sm font-semibold mt-4 mb-1.5;
   }
 
   .prose-content p {
-    @apply mb-3 leading-relaxed text-sm;
+    @apply mb-2 leading-snug text-sm;
   }
 
   .prose-content ul {
-    @apply mb-3 pl-5 space-y-1;
+    @apply mb-2 pl-5 space-y-0.5;
   }
 
   .prose-content ul li {
-    @apply list-disc leading-relaxed text-sm;
+    @apply list-disc leading-snug text-sm;
   }
 
   .prose-content ol {
-    @apply mb-3 pl-5 space-y-1;
+    @apply mb-2 pl-5 space-y-0.5;
   }
 
   .prose-content ol li {
-    @apply list-decimal leading-relaxed text-sm;
+    @apply list-decimal leading-snug text-sm;
   }
 
   .prose-content blockquote {
