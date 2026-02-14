@@ -7,7 +7,6 @@ export default function Page02() {
   return (
     <PageShell
       title="2️⃣ Ako je na tom svet: prieskum využívania AI (do konca roka 2025)"
-      tldr={[]}
       {...nav}
     >
       <p><em>V tejto časti sa pozrieme na realitu používania AI bez dojmov a hype. Nie čo by AI „mohla", ale ako ju ľudia a firmy skutočne používajú dnes.</em></p>

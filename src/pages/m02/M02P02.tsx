@@ -5,11 +5,7 @@ import { MiniTask, ExpectedFinding } from "@/components/ContentBlocks";
 export default function M02P02() {
   const nav = getNavContext("m02-02-preco-porovnavat");
   return (
-    <PageShell title="1️⃣ Prečo porovnávať chatboty" tldr={[
-      "Každý chatbot má iný štýl, silné stránky a správanie",
-      "Bez porovnania si zvykneš na priemer",
-      "Rovnaký prompt do 2 chatbotov = rýchly nadhľad",
-    ]} {...nav}>
+    <PageShell title="1️⃣ Prečo porovnávať chatboty" {...nav}>
 
 
       <p>Predstav si, že by si celý život používal len jedno jediné náradie. Skrutkovač na klince, kladivo na skrutky. Presne takto veľa ľudí používa chatboty: otvorí prvý, ktorý pozná — a hotovo. Lenže chatboty nie sú „to isté v inom obale". Každý má iný štýl, iné silné stránky a iné správanie.</p>

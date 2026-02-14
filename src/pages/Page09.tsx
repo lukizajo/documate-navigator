@@ -7,7 +7,6 @@ export default function Page09() {
   return (
     <PageShell
       title="9️⃣ Výkon, halucinácie a teplota modelov"
-      tldr={[]}
       {...nav}
     >
       <p><em>V tejto časti sa pozrieme na to, prečo AI vie byť extrémne výkonná a zároveň nespoľahlivá. Pochopíme, v čom je jej sila, prečo občas „vymýšľa" a ako vieme jej správanie do istej miery ovplyvniť pomocou nastavenia teploty modelu.</em></p>

@@ -5,11 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M03P07() {
   const nav = getNavContext("m03-07-ton");
   return (
-    <PageShell title="6️⃣ TÓN – ako to znie" tldr={[
-      `Tón neurčuje fakty, určuje ako to pôsobí`,
-      `Konkrétne opíš tón namiesto „profesionálne"`,
-      `Protichodné tóny = zmätená AI`,
-    ]} {...nav}>
+    <PageShell title="6️⃣ TÓN – ako to znie" {...nav}>
 
 
       <p>Niekedy AI povie správne veci, ale znie to úplne mimo. Buď príliš marketingovo, príliš múdro, alebo ako motivačný kouč z internetu 😄</p>

@@ -5,11 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M04P04() {
   const nav = getNavContext("m04-04-chunking");
   return (
-    <PageShell title="3️⃣ Kontextové okno & chunking: keď je toho veľa naraz" tldr={[
-      "AI má obmedzenú kapacitu – príliš veľa textu = niečo prehliadne",
-      "Chunking = rozdeliť text na kúsky podľa tém, nie po 500 slovách",
-      "3 pravidlá: najprv cieľ, jeden chunk = jedna úloha, mini-zhrnutie",
-    ]} {...nav}>
+    <PageShell title="3️⃣ Kontextové okno & chunking: keď je toho veľa naraz" {...nav}>
 
       <p>Predstav si, že AI má pred sebou stôl. Na ten stôl sa zmestí len určitý počet papierov naraz.</p>
       <p>Keď jej dáš príliš veľa textu, stane sa jedna z týchto vecí: niečo prehliadne, pomieša, alebo si začne dopĺňať medzery.</p>

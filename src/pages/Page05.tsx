@@ -7,7 +7,6 @@ export default function Page05() {
   return (
     <PageShell
       title="5️⃣ Princíp spolupráce s AI: ako pracovať efektívne"
-      tldr={[]}
       {...nav}
     >
       <p><em>Ak si z celého modulu máš odniesť jeden praktický princíp, je to práve tento. AI dáva zmysel len vtedy, keď je správne zapojená do práce človeka.</em></p>

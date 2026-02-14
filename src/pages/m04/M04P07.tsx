@@ -5,11 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M04P07() {
   const nav = getNavContext("m04-07-systemove-pokyny");
   return (
-    <PageShell title="6️⃣ Stabilné systémové pokyny" tldr={[
-      "Systémové pokyny = dlhodobé nastavenia, nie jednorazová inštrukcia",
-      "Držia tón, štýl a pravidlá aj pri ďalších úlohách",
-      "Ideálne 6–10 riadkov, krátke pravidlá fungujú najlepšie",
-    ]} {...nav}>
+    <PageShell title="6️⃣ Stabilné systémové pokyny" {...nav}>
 
       <p>Jednorazový prompt je ako inštrukcia: „sprav mi toto teraz".</p>
       <p><strong>Systémové pokyny</strong> sú niečo iné – sú to dlhodobé nastavenia: <strong>kým má AI byť a ako má uvažovať</strong>, aby držala tón, štýl a pravidlá aj pri ďalších úlohách.</p>

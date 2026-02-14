@@ -4,11 +4,7 @@ import { getNavContext } from "@/data/navigation";
 export default function M04P10() {
   const nav = getNavContext("m04-10-chyby");
   return (
-    <PageShell title="9️⃣ Najčastejšie chyby pri práci s kontextom (a čo spraviť namiesto toho)" tldr={[
-      "Problém nie je v AI, ale v tom, že AI musí hádať, čo je podstatné",
-      "4 typické chyby: dump bez štruktúry, šum, chýbajúce zdroje, univerzálny prompt",
-      `Rýchla oprava: Priority + Deal-breaker + \u201eak nevieš, povedz neviem\u201c`,
-    ]} {...nav}>
+    <PageShell title="9️⃣ Najčastejšie chyby pri práci s kontextom (a čo spraviť namiesto toho)" {...nav}>
 
       <p>Pri práci s kontextom sa opakujú chyby, ktoré vedú k slabým alebo nepredvídateľným výsledkom. Väčšinou nie je problém „v AI", ale v tom, že AI musí <strong>hádať</strong>, čo je podstatné.</p>
 

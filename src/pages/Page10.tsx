@@ -8,7 +8,6 @@ export default function Page10() {
   return (
     <PageShell
       title="🔟 Etika, riziká a EÚ AI Act: ako používať AI zodpovedne"
-      tldr={[]}
       {...nav}
     >
       <p><em>Toto je uzatváracia časť M1. Vracia nás späť na zem a nastavuje zdravé hranice používania AI.</em></p>

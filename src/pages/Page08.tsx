@@ -7,7 +7,6 @@ export default function Page08() {
   return (
     <PageShell
       title="8️⃣ Ako vzniká AI model: dáta, tréning, parametre"
-      tldr={[]}
       {...nav}
     >
       <p><em>Aby si vedel AI používať rozumne, je dobré aspoň rámcovo chápať, ako vzniká. Nie technicky, ale logicky.</em></p>

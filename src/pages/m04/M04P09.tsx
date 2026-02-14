@@ -5,11 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M04P09() {
   const nav = getNavContext("m04-09-rag-light");
   return (
-    <PageShell title="8️⃣ RAG-light bez technickej infraštruktúry" tldr={[
-      "RAG = AI odpovedá na základe konkrétnych podkladov, nie z tréningu",
-      "RAG-light = ty prinesieš zdroje priamo do kontextu",
-      {`3 pravidl\u00e1: ozna\u010d zdroje, rozde\u013e na chunky, povedz \u201elen z nich\u201c`},
-    ]} {...nav}>
+    <PageShell title="8️⃣ RAG-light bez technickej infraštruktúry" {...nav}>
 
       <p>Keď sa povie „RAG", znie to ako niečo technické. Tak si to preložme do ľudskej reči:</p>
       <p><strong>RAG (Retrieval-Augmented Generation)</strong> je spôsob, ako prinútiť AI odpovedať <strong>na základe konkrétnych podkladov</strong>, nie len podľa toho, čo má "v hlave" z tréningu.</p>

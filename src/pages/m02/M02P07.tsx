@@ -5,11 +5,7 @@ import { MiniTask, ExpectedFinding } from "@/components/ContentBlocks";
 export default function M02P07() {
   const nav = getNavContext("m02-07-etika");
   return (
-    <PageShell title="6️⃣ Etika a bezpečnosť" tldr={[
-      "Výstup chatbota nie je pravda, je to návrh",
-      "Citlivé údaje do chatbotov nepatria",
-      "Zodpovednosť má vždy človek, nie nástroj",
-    ]} {...nav}>
+    <PageShell title="6️⃣ Etika a bezpečnosť" {...nav}>
 
       <h2>Etika a bezpečnosť 🎓</h2>
       <p>Chatbot vie pôsobiť sebavedomo. Niekedy až tak, že máš pocit: „OK, toto znie správne, idem to použiť."</p>

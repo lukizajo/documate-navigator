@@ -5,11 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M03P05() {
   const nav = getNavContext("m03-05-rola");
   return (
-    <PageShell title="4️⃣ ROLA – perspektíva AI" tldr={[
-      `Rola určuje, z akých skúseností AI vychádza`,
-      `Rola + publikum je silnejšie než samotná rola`,
-      `„Si expert" bez publika = odpoveď pre expertov`,
-    ]} {...nav}>
+    <PageShell title="4️⃣ ROLA – perspektíva AI" {...nav}>
 
 
       <p>Keď AI povieš len „vysvetli to", odpoveď bude často všeobecná. Rola je spôsob, ako jej povedať: z akých skúseností má vychádzať, čo má uprednostniť a akým jazykom má hovoriť.</p>

@@ -7,7 +7,6 @@ export default function Page01() {
   return (
     <PageShell
       title="1️⃣ Čo je AI a prečo ju (ne)využívame"
-      tldr={[]}
       {...nav}
     >
       <h2>🤖 Čo dnes myslíme pod pojmom umelá inteligencia?</h2>

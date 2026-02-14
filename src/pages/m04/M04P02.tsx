@@ -5,11 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M04P02() {
   const nav = getNavContext("m04-02-kedy-kontext");
   return (
-    <PageShell title="1️⃣ Kedy stačí prompt inžiniering a kedy už potrebuješ kontext inžiniering" tldr={[
-      "M2 = ako napísať zadanie, M3 = ako poskladať a udržať kontext",
-      "Pri viacerých podmienkach a zdrojoch treba kontext inžiniering",
-      "3 otázky rozhodnú: priority? zdroje? použiteľný hneď?",
-    ]} {...nav}>
+    <PageShell title="1️⃣ Kedy stačí prompt inžiniering a kedy už potrebuješ kontext inžiniering" {...nav}>
 
       <p>V M2 si sa učil skladať prompt ako stavebnicu: <strong>úloha, kontext, príklad, rola, formát, tón</strong>.</p>
       <p>To je základ, bez ktorého sa nikam nepohneš.</p>

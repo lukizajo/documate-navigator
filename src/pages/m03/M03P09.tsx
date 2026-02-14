@@ -5,11 +5,7 @@ import { MiniTask, ExpectedFinding } from "@/components/ContentBlocks";
 export default function M03P09() {
   const nav = getNavContext("m03-09-reverzne");
   return (
-    <PageShell title="8️⃣ Reverzné promptovanie" tldr={[
-      "AI ti vie pomôcť aj vytvoriť dobrý prompt",
-      "Reverzné promptovanie: od hotového výsledku späť k promptu",
-      "Keď nevieš, čo písať – nechaj AI sa ťa pýtať",
-    ]} {...nav}>
+    <PageShell title="8️⃣ Reverzné promptovanie" {...nav}>
 
       <p>Sú situácie, keď chceš kvalitný prompt, ale nevieš, čo všetko máš AI povedať. Tu je trik: <strong>AI ti nemusí pomáhať len s výsledkom – môže ti pomôcť aj s tým, ako sa správne pýtať.</strong></p>
 

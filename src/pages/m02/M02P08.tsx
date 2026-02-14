@@ -4,11 +4,7 @@ import { getNavContext } from "@/data/navigation";
 export default function M02P08() {
   const nav = getNavContext("m02-08-prakticka-uloha");
   return (
-    <PageShell title="🎓 Praktická úloha – Porovnanie chatbotov" tldr={[
-      "Vyber 3 use-casy a otestuj ich v 3 chatbotoch",
-      "Rovnaký prompt + follow-up pre všetkých",
-      "Vyplň scorecard a porovnaj výsledky",
-    ]} {...nav}>
+    <PageShell title="🎓 Praktická úloha – Porovnanie chatbotov" {...nav}>
 
       <p><strong>Zadanie:</strong> Vyber si 3 use-casy a otestuj ich v 3 chatbotoch podľa vlastného výberu. Pri každom use-case použiješ rovnaký Prompt a potom rovnaký Follow-up vo všetkých 3 chatbotoch.</p>
 

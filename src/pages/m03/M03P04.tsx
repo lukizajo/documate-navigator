@@ -5,11 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M03P04() {
   const nav = getNavContext("m03-04-priklady");
   return (
-    <PageShell title="3️⃣ PRÍKLADY – referenčná fotka pre AI" tldr={[
-      "Príklady ukazujú AI štýl, formát a úroveň detailu",
-      "1–2 príklady zvýšia kvalitu výstupu až o 45 %",
-      "Príliš veľa príkladov = AI kopíruje namiesto tvorby",
-    ]} {...nav}>
+    <PageShell title="3️⃣ PRÍKLADY – referenčná fotka pre AI" {...nav}>
 
 
       <p>Keď AI povieš „napíš úvodný odsek", ona úvod napíše… ale každý z nás si pod tým predstaví niečo iné. Príklady sú ako „referenčná fotka".</p>

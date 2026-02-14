@@ -5,11 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M03P02() {
   const nav = getNavContext("m03-02-uloha");
   return (
-    <PageShell title="1️⃣ ÚLOHA – keď AI nevie, čo má robiť" tldr={[
-      `Začni slovesom: navrhni, vysvetli, porovnaj, skontroluj`,
-      `Povedz, čo má byť výstup a aké sú kritériá`,
-      `„Urob to dobre" bez kritérií = AI si vyberie vlastné „dobre"`,
-    ]} {...nav}>
+    <PageShell title="1️⃣ ÚLOHA – keď AI nevie, čo má robiť" {...nav}>
 
 
       <p>Keď človek povie „AI mi dala zlú odpoveď", vo väčšine prípadov to neznamená, že by AI nefungovala. Znamená to, že nepochopila, čo má vlastne urobiť.</p>

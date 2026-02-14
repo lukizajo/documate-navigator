@@ -5,11 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M04P06() {
   const nav = getNavContext("m04-06-minimal-disclosure");
   return (
-    <PageShell title="5️⃣ Minimal disclosure: povedz AI len to, čo naozaj potrebuje" tldr={[
-      "Nedávaj AI viac osobných údajov, než je nutné",
-      "3 kroky: čo potrebuje? čo je zbytočné? čím to nahradiť?",
-      "Placeholdery, rozsahy a zovšeobecnenie = rovnaký výstup, bezpečnejšie",
-    ]} {...nav}>
+    <PageShell title="5️⃣ Minimal disclosure: povedz AI len to, čo naozaj potrebuje" {...nav}>
 
       <p>AI ti vie ušetriť čas, nervy aj energiu. Ale nie je dôvod jej dávať viac osobných informácií, než je nutné.</p>
       <p>M3 nie je o tom "vyrozprávať celý príbeh". Je o tom vybrať <strong>minimum, ktoré stačí</strong>, aby bol výstup kvalitný — a zároveň bezpečný.</p>

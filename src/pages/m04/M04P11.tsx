@@ -4,11 +4,7 @@ import { getNavContext } from "@/data/navigation";
 export default function M04P11() {
   const nav = getNavContext("m04-11-prakticka-uloha");
   return (
-    <PageShell title="🎓 Praktická úloha – Správny kontext (praktický scenár)" tldr={[
-      "Zhrň odborný článok o EU AI Act pre manažéra bez tech pozadia",
-      "Vyber signál, odfiltruj šum, ošetri citlivé údaje",
-      "Výstup: Mini-pamäť + finálny prompt + reflexia",
-    ]} {...nav}>
+    <PageShell title="🎓 Praktická úloha – Správny kontext (praktický scenár)" {...nav}>
 
       <h3>Zadanie – konkrétny príklad</h3>
       <p>Predstav si, že chceš použiť AI na túto úlohu:</p>

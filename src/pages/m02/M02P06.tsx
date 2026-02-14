@@ -5,11 +5,7 @@ import { MiniTask, ExpectedFinding } from "@/components/ContentBlocks";
 export default function M02P06() {
   const nav = getNavContext("m02-06-toolbox");
   return (
-    <PageShell title="5️⃣ Toolbox" tldr={[
-      "Rôzne úlohy = rôzne chatboty – vytvor si vlastný toolbox",
-      "Výstup chatbota nie je pravda, je to návrh",
-      "Citlivé údaje do chatbotov nepatria",
-    ]} {...nav}>
+    <PageShell title="5️⃣ Toolbox" {...nav}>
 
       <h2>Praktické využitie – Toolbox 🔨</h2>
       <p>Rôzne úlohy si žiadajú rôzne nástroje. Cieľom nie je mať jedného favorita, ale vlastný toolbox chatbotov.</p>

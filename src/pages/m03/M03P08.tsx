@@ -5,11 +5,7 @@ import { MiniTest, MiniTask, ExpectedFinding } from "@/components/ContentBlocks"
 export default function M03P08() {
   const nav = getNavContext("m03-08-zlozeny-prompt");
   return (
-    <PageShell title="7️⃣ Zložený prompt a iterácia" tldr={[
-      "Zložený prompt = všetkých 6 blokov v jednom",
-      "Iteruj, keď hľadáš smer; detailne, keď chceš istotu",
-      "Mini-cyklus iterácie: varianty → výber → doladenie",
-    ]} {...nav}>
+    <PageShell title="7️⃣ Zložený prompt a iterácia" {...nav}>
 
       <h2>Zložený prompt – keď všetko spojíš do jedného</h2>
       <p>Teraz spravíme posledný krok: poskladáme celý prompt tak, aby bol stabilný a použiteľný na prvýkrát.</p>
