@@ -80,7 +80,15 @@ export const modules: NavModule[] = [
     id: "m05",
     title: "M05 – Vyhľadávanie s AI 🔍🤔",
     pages: [
-      { slug: "m05-vyhladavanie", path: "/m05-vyhladavanie", label: "🔍 Vyhľadávanie s AI", shortLabel: "Vyhľadávanie" },
+      { slug: "m05-01-uvod", path: "/m05-01-uvod", label: "🅾️ Úvod do vyhľadávania", shortLabel: "Úvod" },
+      { slug: "m05-02-ai-vs-google", path: "/m05-02-ai-vs-google", label: "1️⃣ AI vs. klasický vyhľadávač", shortLabel: "AI vs Google" },
+      { slug: "m05-03-ako-sa-pytat", path: "/m05-03-ako-sa-pytat", label: "2️⃣ Ako sa pýtať AI správne", shortLabel: "Ako sa pýtať" },
+      { slug: "m05-04-limity", path: "/m05-04-limity", label: "3️⃣ Limity aktuálnych informácií", shortLabel: "Limity" },
+      { slug: "m05-05-triangulacia", path: "/m05-05-triangulacia", label: "4️⃣ Triangulácia", shortLabel: "Triangulácia" },
+      { slug: "m05-06-halucinacie", path: "/m05-06-halucinacie", label: "5️⃣ Halucinácie a sebaisté klamstvá", shortLabel: "Halucinácie" },
+      { slug: "m05-07-deep-research", path: "/m05-07-deep-research", label: "6️⃣ Deep Research", shortLabel: "Deep Research" },
+      { slug: "m05-08-web-vs-deep", path: "/m05-08-web-vs-deep", label: "7️⃣ Web Search vs Deep Research", shortLabel: "Web vs Deep" },
+      { slug: "m05-09-prakticka-uloha", path: "/m05-09-prakticka-uloha", label: "🎓 Praktická úloha", shortLabel: "Úloha" },
     ],
   },
   {

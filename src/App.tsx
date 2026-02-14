@@ -44,7 +44,15 @@ import M04P08 from "./pages/m04/M04P08";
 import M04P09 from "./pages/m04/M04P09";
 import M04P10 from "./pages/m04/M04P10";
 import M04P11 from "./pages/m04/M04P11";
-import M05Page from "./pages/M05Page";
+import M05P01 from "./pages/m05/M05P01";
+import M05P02 from "./pages/m05/M05P02";
+import M05P03 from "./pages/m05/M05P03";
+import M05P04 from "./pages/m05/M05P04";
+import M05P05 from "./pages/m05/M05P05";
+import M05P06 from "./pages/m05/M05P06";
+import M05P07 from "./pages/m05/M05P07";
+import M05P08 from "./pages/m05/M05P08";
+import M05P09 from "./pages/m05/M05P09";
 import M06Page from "./pages/M06Page";
 import M07Page from "./pages/M07Page";
 import M08Page from "./pages/M08Page";
@@ -104,7 +112,16 @@ const App = () => (
             <Route path="/m04-10-chyby" element={<M04P10 />} />
             <Route path="/m04-11-prakticka-uloha" element={<M04P11 />} />
             <Route path="/m04-kontext" element={<Navigate to="/m04-01-uvod" replace />} />
-            <Route path="/m05-vyhladavanie" element={<M05Page />} />
+            <Route path="/m05-01-uvod" element={<M05P01 />} />
+            <Route path="/m05-02-ai-vs-google" element={<M05P02 />} />
+            <Route path="/m05-03-ako-sa-pytat" element={<M05P03 />} />
+            <Route path="/m05-04-limity" element={<M05P04 />} />
+            <Route path="/m05-05-triangulacia" element={<M05P05 />} />
+            <Route path="/m05-06-halucinacie" element={<M05P06 />} />
+            <Route path="/m05-07-deep-research" element={<M05P07 />} />
+            <Route path="/m05-08-web-vs-deep" element={<M05P08 />} />
+            <Route path="/m05-09-prakticka-uloha" element={<M05P09 />} />
+            <Route path="/m05-vyhladavanie" element={<Navigate to="/m05-01-uvod" replace />} />
             <Route path="/m06-ai-v-praci" element={<M06Page />} />
             <Route path="/m07-osobny-zivot" element={<M07Page />} />
             <Route path="/m08-automatizacia" element={<M08Page />} />
