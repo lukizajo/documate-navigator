@@ -92,10 +92,10 @@ export default function M03P08() {
         question="Ktorý prompt je najlepší, keď ešte hľadáš smer?"
         options={[
           { label: "🌕", text: `„Napíš finálny text o promptovaní. Musí to mať presnú štruktúru, dĺžku, tón, príklady, mini-úlohu aj test. Hotové na prvýkrát."` },
-          { label: "⭐", text: `„Daj mi 3 rôzne varianty krátkeho úvodu k téme promptovania (každý v inom štýle). Potom počkaj, kým si vyberiem jeden."` },
-          { label: "☀", text: `„Napíš niečo o promptovaní. Keď to nebude dobré, skús to napísať ešte raz."` },
+          { label: "⭐", text: `„Napíš niečo o promptovaní. Keď to nebude dobré, skús to napísať ešte raz."` },
+          { label: "☀", text: `„Daj mi 3 rôzne varianty krátkeho úvodu k téme promptovania (každý v inom štýle). Potom počkaj, kým si vyberiem jeden."` },
         ]}
-        correct="⭐"
+        correct="☀"
         explanation="Je to riadená iterácia – najprv varianty, potom výber, potom doladenie."
       />
     </PageShell>
