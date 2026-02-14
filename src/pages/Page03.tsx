@@ -6,48 +6,45 @@ export default function Page03() {
   const nav = getNavContext("03-historia");
   return (
     <PageShell
-      title="3️⃣ História umelej inteligencie"
-      tldr={[
-        "AI sa vyvíja vo vlnách od roku 1950 – nie lineárne",
-        'Dva „AI zimy" ukázali, že prehnané sľuby vedú ku sklamaniu',
-        "Prelomové momenty: Turing, Deep Blue, AlphaGo, Transformer, ChatGPT",
-        "Dnešná AI je silná, ale stále úzka – nerozumie svetu, len pracuje so vzormi",
-      ]}
+      title="3️⃣ História umelej inteligencie: od pojmu po dnešok"
+      tldr={[]}
       {...nav}
     >
       <p><em>Táto časť dáva dnešnej AI kontext. Uvidíš, že súčasný boom nie je náhoda, ale výsledok dlhého vývoja, omylov a návratov.</em></p>
 
-      <h2>📜 Prečo má zmysel poznať históriu AI?</h2>
+      <h2>Prečo má zmysel poznať históriu AI?</h2>
       <p>
-        História umelej inteligencie nie je len zoznam dátumov a mien. Je to príbeh veľkých
-        očakávaní, sklamaní, omylov a prelomových momentov, ktoré vysvetľujú, prečo dnešná AI
-        vyzerá tak, ako vyzerá – a prečo má stále svoje limity.
+        História umelej inteligencie nie je len zoznam dátumov a mien. Je to príbeh <strong>veľkých očakávaní, sklamaní, omylov a prelomových momentov</strong>, ktoré vysvetľujú, prečo dnešná AI vyzerá tak, ako vyzerá – a prečo má stále svoje limity.
       </p>
       <p>👉 Poznať tieto míľniky znamená lepšie rozumieť realite, nie mýtom.</p>
 
       <h3>1950 – Alan Turing a základná otázka ❓</h3>
       <ul>
-        <li>britský matematik Alan Turing sa pýta: Môžu stroje myslieť?</li>
-        <li>navrhuje Turingov test ako praktický spôsob hodnotenia inteligencie</li>
+        <li>britský matematik <strong>Alan Turing</strong> sa pýta: <em>Môžu stroje myslieť?</em></li>
+        <li>navrhuje <strong>Turingov test</strong> ako praktický spôsob hodnotenia inteligencie</li>
         <li>nejde o vedomie, ale o správanie v rozhovore</li>
       </ul>
-      <p>👉 Prvý dôležitý moment: inteligencia sa začína posudzovať podľa správania, nie pocitov.</p>
+      <p>👉 Prvý dôležitý moment: inteligencia sa začína posudzovať <strong>podľa správania, nie pocitov</strong>.</p>
 
       <h3>1956 – Dartmouth Workshop: zrod pojmu AI 🎓</h3>
       <ul>
-        <li>vzniká termín Artificial Intelligence</li>
+        <li>vzniká termín <strong>Artificial Intelligence</strong></li>
         <li>vedci veria, že ľudskú inteligenciu sa podarí simulovať v krátkom čase</li>
         <li>optimizmus výrazne prevyšuje reálne možnosti techniky</li>
       </ul>
-      <p>👉 Lekcia: veľké očakávania bez dát a výkonu vedú k sklamaniu.</p>
+      <p>👉 Lekcia: <strong>veľké očakávania bez dát a výkonu vedú k sklamaniu</strong>.</p>
 
       <h3>50.–60. roky – Perceptrón a prvé neurónové siete 🧠</h3>
       <ul>
-        <li>vzniká perceptrón – prvý učiaci sa model inšpirovaný mozgom</li>
+        <li>vzniká <strong>perceptrón</strong> – prvý učiaci sa model inšpirovaný mozgom</li>
         <li>AI rieši jednoduché úlohy, hry a logiku</li>
         <li>médiá hovoria o blížiacej sa všeobecnej inteligencii</li>
       </ul>
-      <p>Realita: modely majú zásadné matematické limity, technológia ešte nedozrela.</p>
+      <p>Realita:</p>
+      <ul>
+        <li>modely majú zásadné matematické limity</li>
+        <li>technológia ešte nedozrela</li>
+      </ul>
 
       <h3>70. roky – Prvá AI zima ❄️</h3>
       <ul>
@@ -62,13 +59,16 @@ export default function Page03() {
         <li>AI sa presúva k pravidlám typu IF–THEN</li>
         <li>expert systémy fungujú len v úzkom prostredí</li>
         <li>sú drahé, krehké a ťažko udržiavateľné</li>
-        <li>nasledovala druhá AI zima</li>
       </ul>
-      <p>👉 Poučenie: bez učenia a adaptability to nefunguje.</p>
+      <p>Keď nenaplnili očakávania:</p>
+      <ul>
+        <li>nasledovala <strong>druhá AI zima</strong></li>
+      </ul>
+      <p>👉 Poučenie: <strong>bez učenia a adaptability to nefunguje</strong>.</p>
 
       <h3>1997 – Deep Blue poráža Kasparova ♟️</h3>
       <ul>
-        <li>počítač IBM Deep Blue porazil majstra sveta v šachu Garryho Kasparova</li>
+        <li>počítač <strong>IBM Deep Blue</strong> porazil majstra sveta v šachu Garryho Kasparova</li>
         <li>išlo o historický moment, ale nie o „mysliacu AI"</li>
         <li>systém pracoval s obrovským výpočtom možností, nie porozumením</li>
       </ul>
@@ -78,7 +78,13 @@ export default function Page03() {
       <ul>
         <li>hlboké učenie prelomí dlhoročné limity</li>
         <li>AI výrazne zlepší rozpoznávanie obrazu</li>
-        <li>rozhodujúca kombinácia: veľké dáta + GPU výkon + nové architektúry</li>
+        <li>rozhodujúca je kombinácia:
+          <ul>
+            <li>veľké dáta</li>
+            <li>GPU výkon</li>
+            <li>nové architektúry</li>
+          </ul>
+        </li>
       </ul>
       <p>👉 AI sa znovu dostáva do hry – tentokrát reálne.</p>
 
@@ -91,7 +97,7 @@ export default function Page03() {
 
       <h3>2017 – Transformer a revolúcia v jazyku 🧩</h3>
       <ul>
-        <li>vzniká architektúra Transformer</li>
+        <li>vzniká architektúra <strong>Transformer</strong></li>
         <li>AI začína chápať kontext v texte oveľa lepšie</li>
         <li>základ dnešných jazykových modelov</li>
       </ul>
@@ -102,21 +108,25 @@ export default function Page03() {
         <li>prvýkrát ju používajú milióny ľudí denne</li>
         <li>mení prácu, vzdelávanie aj tvorbu</li>
       </ul>
-      <p>Zároveň sa ukazuje: AI je presvedčivá, ale nie neomylná &ndash; nerozumie svetu, len pracuje so vzormi.</p>
-
-      <h2>🎯 Čo nás história AI učí?</h2>
+      <p>Zároveň sa ukazuje:</p>
       <ul>
-        <li>AI sa vyvíja vo vlnách, nie lineárne</li>
+        <li>AI je presvedčivá, ale nie neomylná</li>
+        <li>nerozumie svetu, len pracuje so vzormi</li>
+      </ul>
+
+      <h2>📚 Čo nás história AI učí?</h2>
+      <ul>
+        <li>AI sa vyvíja <strong>vo vlnách</strong>, nie lineárne</li>
         <li>prehnané sľuby vedú ku sklamaniu</li>
         <li>dáta a výkon sú rovnako dôležité ako algoritmy</li>
         <li>dnešná AI je silná, ale stále úzka</li>
       </ul>
-      <p>👉 Práve preto je dôležité používať AI rozumne, kriticky a s pochopením jej hraníc.</p>
+      <p>👉 Práve preto je dôležité používať AI <strong>rozumne, kriticky a s pochopením jej hraníc</strong>.</p>
 
       <MiniTest
-        question={'Ktoré tvrdenie o „Deep Blue vs. Kasparov" je najpresnejšie?'}
+        question={'Ktoré tvrdenie o „Deep Blue vs. Kasparov" je najpresnejšie? Vyber, ktorá možnosť (🌕 /⭐ /☀️) najlepšie vystihuje, čo tento míľnik naozaj znamenal.'}
         options={[
-          { label: "🌕", text: '„Deep Blue bol silný systém na šach, ktorý vyhral hlavne vďaka obrovskému výpočtu možností. Bol to veľký míľnik, ale neznamenalo to, že AI \'rozumela\' šachu."' },
+          { label: "🌕", text: '„Deep Blue bol silný systém na šach, ktorý vyhral hlavne vďaka obrovskému výpočtu možností. Bol to veľký míľnik, ale neznamenalo to, že AI \'rozumela\' šachu alebo myslela ako človek."' },
           { label: "⭐", text: '„Deep Blue bol len obyčajný program. S AI to nemalo nič spoločné."' },
           { label: "☀️", text: '„Deep Blue porazil Kasparova, takže už vtedy existovala AI, ktorá myslela ako človek."' },
         ]}

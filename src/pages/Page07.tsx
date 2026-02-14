@@ -6,22 +6,17 @@ export default function Page07() {
   const nav = getNavContext("07-mapa-hracov");
   return (
     <PageShell
-      title="7️⃣ Mapa hráčov: kto má veľkých chatbotov"
-      tldr={[
-        "Za každým chatbotom je firma so svojou stratégiou a silnými stránkami",
-        "OpenAI (ChatGPT) = univerzálny líder; Google (Gemini) = multimodalita",
-        "Microsoft Copilot = AI v kancelárii; Anthropic (Claude) = bezpečnosť",
-        'Neexistuje „najlepší" chatbot – správna otázka je „najlepší pre moju úlohu"',
-      ]}
+      title="7️⃣ Kto má veľkých chatbotov: mapa hráčov"
+      tldr={[]}
       {...nav}
     >
       <p><em>Za každým chatbotom je firma, stratégia a obchodný model. Tento prehľad ti pomôže pochopiť rozdiely medzi hráčmi.</em></p>
 
-      <h2>🏢 Prečo má zmysel poznať firmy za AI?</h2>
+      <h2>Prečo má zmysel poznať firmy za AI?</h2>
       <p>
-        AI nie je jeden nástroj ani jeden chatbot. Za každým veľkým modelom stojí konkrétna firma s vlastnou stratégiou, prioritami a obchodným cieľom. To, <strong>kto AI vyvíja</strong>, často napovie aj to, <strong>na čo je najlepšia</strong>.
+        AI nie je jeden nástroj ani jeden chatbot. Za každým veľkým modelom stojí <strong>konkrétna firma s vlastnou stratégiou</strong>, prioritami a obchodným cieľom. To, kto AI vyvíja, často napovie aj to, <strong>na čo je najlepšia</strong>.
       </p>
-      <p>👉 Cieľom tejto sekcie je dať ti orientačnú mapu hráčov, nie detailné porovnanie technických parametrov.</p>
+      <p>👉 Cieľom tejto sekcie je dať ti <strong>orientačnú mapu hráčov</strong>, nie detailné porovnanie technických parametrov.</p>
 
       <h3>OpenAI – univerzálny líder</h3>
       <ul>
@@ -53,6 +48,7 @@ export default function Page07() {
       </ul>
       <p>👉 Silná voľba tam, kde je dôležitá kontrola výstupov.</p>
 
+      <h3>Meta (LLaMA) – open-source prístup</h3>
       <ul>
         <li>otvorené modely pre vývojárov</li>
         <li>možnosť lokálneho nasadenia</li>
@@ -79,47 +75,68 @@ export default function Page07() {
         <li>silný na aktuálne dianie, trendy a verejné diskusie</li>
         <li>menej formálny, viac „priamočiary" štýl odpovedí</li>
       </ul>
-      <p>👉 Vhodný, keď chceš rýchlu orientáciu v tom, čo sa práve deje a ako sa o tom hovorí.</p>
+      <p>👉 Vhodný, keď chceš rýchlu orientáciu v tom, <em>čo sa práve deje</em> a ako sa o tom hovorí.</p>
 
       <h2>🎯 Čo si z tejto mapy odniesť?</h2>
       <ul>
         <li>neexistuje jeden „najlepší" chatbot</li>
         <li>každý nástroj je silný v niečom inom</li>
-        <li>dôležité je vedieť, na čo ho používaš</li>
+        <li>dôležité je vedieť, <strong>na čo ho používaš</strong></li>
+        <li>sme stále <strong>na začiatku vývoja</strong> chatbotov</li>
       </ul>
-      <p>{'👉 Správna otázka nie je „ktorý je najlepší", ale ktorý je najlepší pre moju úlohu.'}</p>
+      <p>👉 Správna otázka nie je „ktorý je najlepší", ale <strong>ktorý je najlepší pre moju úlohu</strong>.</p>
 
-      <MiniTask title="Otestuj chatboty a porovnaj výsledok">
-        <p><strong>Situácia:</strong> Máš krátky text v angličtine a chceš ho preložiť do slovenčiny tak, aby znel prirodzene. Zároveň chceš 2 verzie: formálnu a kamarátsku.</p>
-        <p><strong>Inštrukcia:</strong> Skopíruj rovnaký text najprv do ChatGPT a potom do Gemini. Výsledky si ulož vedľa seba a porovnaj.</p>
-        <p><strong>Text na preklad:</strong> {'"I\'ll be a bit late. Can we push our meeting to 3:30 PM? If that doesn\'t work, please suggest two other times."'}</p>
-        <p><strong>Porovnávacie otázky:</strong></p>
+      <MiniTask title="Otestuj 2 chatboty a porovnaj výsledok (ChatGPT vs. Gemini)">
+        <p><strong>Situácia</strong></p>
+        <p>Máš krátky text v angličtine a chceš ho preložiť do slovenčiny tak, aby znel prirodzene (nie ako z Google Translate). Zároveň chceš 2 verzie: formálnu a kamarátsku.</p>
+        <p><strong>Inštrukcia</strong></p>
+        <p>Skopíruj rovnaký text najprv do ChatGPT a potom do Gemini. Výsledky si ulož vedľa seba a porovnaj.</p>
+
+        <p><strong>❌ Prompt 1 (ChatGPT)</strong></p>
+        <p>„Prelož tento text do slovenčiny v 2 verziách:</p>
+        <ol>
+          <li>formálne (ako e-mail)</li>
+          <li>neformálne (ako správa kamarátovi)</li>
+        </ol>
+        <p>Zachovaj význam, ale prelož to prirodzene, nie doslovne.</p>
+        <p>Text:</p>
+        <p>'I'm running a bit late today. Can we move our meeting to 3:30 PM? If that doesn't work, suggest two other times.'"</p>
+
+        <p><strong>✔️ Prompt 2 (Gemini)</strong></p>
+        <p>„Prelož tento text do slovenčiny v 2 verziách:</p>
+        <ol>
+          <li>formálne (ako e-mail)</li>
+          <li>neformálne (ako správa kamarátovi)</li>
+        </ol>
+        <p>Zachovaj význam, ale prelož to prirodzene, nie doslovne.</p>
+        <p>Text:</p>
+        <p>'I'm running a bit late today. Can we move our meeting to 3:30 PM? If that doesn't work, suggest two other times.'"</p>
+
+        <p><strong>❓ Porovnávacie otázky (ÁNO/NIE)</strong></p>
         <ul>
           <li>Znie preklad prirodzene po slovensky, alebo je cítiť doslovnosť?</li>
           <li>Je jasný rozdiel medzi formálnou a neformálnou verziou?</li>
-          <li>Zostal zachovaný význam?</li>
+          <li>Zostal zachovaný význam (čas, prosba o posun, návrh alternatív)?</li>
           <li>Ktorý výstup by si vedel rovno poslať bez úprav?</li>
         </ul>
       </MiniTask>
 
       <ExpectedFinding>
         <p>
-          Aj keď oba nástroje preložia text správne, rozdiel často uvidíš v prirodzenosti a štýle:
-          jeden môže byť doslovnejší alebo „učebnicový", druhý znie viac ľudsky. Pri preklade
-          nie je cieľ len správny význam, ale aj správny tón.
+          Aj keď oba nástroje preložia text správne, rozdiel často uvidíš v prirodzenosti a štýle: jeden môže byť doslovnejší alebo „učebnicový", druhý znie viac ľudsky. Pri preklade nie je cieľ len správny význam, ale aj správny tón.
         </p>
       </ExpectedFinding>
 
       <MiniTest
-        question={'Ktoré „spárovanie" úlohy a chatbotu dáva najväčší NEzmysel?'}
+        question={'Ktoré „spárovanie" úlohy a chatbotu dáva najväčší NEzmysel? Vyber, ktorá možnosť (🌕 /⭐ /☀️) je najlepšia.'}
         options={[
-          { label: "🌕", text: "Rýchle trendy a diskusie → GROK" },
-          { label: "⭐", text: "Dlhý dokument, zhrnutie → ChatGPT" },
-          { label: "☀️", text: "Odpovede so zdrojmi → Perplexity" },
-          { label: "🌑", text: "Práca priamo vo Worde a Outlooku → Mistral" },
+          { label: "🌕", text: '„Chcem rýchlo pochopiť, čo sa práve rieši na internete (trendy, diskusie, aktuálne dianie)." → GROK' },
+          { label: "⭐", text: '„Mám dlhý dokument a chcem z neho rýchle zhrnutie a pripomienky." → ChatGPT' },
+          { label: "☀️", text: '„Chcem odpovede aj so zdrojmi, aby som si vedel overiť fakty." → Perplexity' },
+          { label: "🌑", text: '„Chcem, aby mi AI pomohla priamo vo Worde a Outlooku (maily, dokumenty, zhrnutia)." → Mistral' },
         ]}
         correct="🌑"
-        explanation="Mistral je skôr model/alternatíva, nie AI integrovaná priamo do Microsoft 365. Na prácu vo Worde/Outlooku je najlogickejší Microsoft Copilot."
+        explanation={'Mistral je skôr model/alternatíva (často „európska"), nie typicky AI integrovaná priamo do balíka Microsoft 365. Na prácu priamo vo Worde/Outlooku je najlogickejší Microsoft Copilot.'}
       />
     </PageShell>
   );

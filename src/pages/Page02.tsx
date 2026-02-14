@@ -22,9 +22,7 @@ export default function Page02() {
       </ul>
       <p>👉 AI sa tak zaradila medzi technológie, ktoré sa šíria najrýchlejšie v histórii.</p>
 
-      <hr />
-
-      <h2>🌐 Kde sa AI používa najviac?</h2>
+      <h2>🧩 Kde sa AI používa najviac?</h2>
       <p>Adopcia AI nie je rovnomerná. Niektoré profesie ju prijali veľmi rýchlo, iné opatrnejšie.</p>
       <p>Najaktívnejšie oblasti:</p>
       <ul>
@@ -32,13 +30,12 @@ export default function Page02() {
         <li><strong>finančné služby</strong> – automatizácia, analýzy, detekcia rizík</li>
         <li><strong>marketing a obsah</strong> – texty, nápady, koncepty</li>
         <li><strong>administratíva a kancelárska práca</strong> – e-maily, dokumenty, prehľady</li>
-        <li><strong>zdravotníctvo</strong> – podpora diagnostiky, spracovanie dokumentácie</li>
+        <li><strong>zdravotníctvo</strong> – podpora diagnostiky, spracovanie zdravotnej dokumentácie a administrácia</li>
       </ul>
       <p>👉 V týchto oblastiach AI neslúži ako náhrada človeka, ale ako <strong>zrýchlenie a podpora rozhodovania</strong>.</p>
 
-      <hr />
-
-      <h2>🔧 Najčastejšie použitia AI v praxi</h2>
+      <h2>🛠️ Najčastejšie použitia AI v praxi</h2>
+      <p>Bez ohľadu na profesiu sa opakujú veľmi podobné scenáre využitia:</p>
       <ul>
         <li>zhrnutie textov, dokumentov a informácií</li>
         <li>preklady a jazyková pomoc</li>
@@ -48,11 +45,10 @@ export default function Page02() {
         <li>generovanie obrázkov a videí</li>
         <li>tvorba hudby a hlasu</li>
       </ul>
-      <p>👉 Spoločný menovateľ? AI sa najviac osvedčuje tam, kde má človek <strong>zrýchliť začiatok práce</strong> alebo <strong>odstrániť rutinu</strong>.</p>
-
-      <hr />
+      <p>👉 Spoločný menovateľ? AI sa najviac osvedčuje tam, kde má človek <strong>zrýchliť začiatok práce alebo odstrániť rutinu</strong>.</p>
 
       <h2>📈 Čo prináša AI v číslach?</h2>
+      <p>Prieskumy opakovane ukazujú, že používanie AI má merateľný dopad:</p>
       <ul>
         <li>úspora <strong>1–4 hodiny týždenne</strong> u bežných používateľov</li>
         <li>rýchlejšie dokončovanie úloh</li>
@@ -61,13 +57,11 @@ export default function Page02() {
       </ul>
       <p>👉 Nejde o zázrak, ale o <strong>malé zlepšenia</strong>, ktoré sa pri pravidelnom používaní výrazne nasčítajú.</p>
 
-      <hr />
-
-      <h2>🇨🇿🇸🇰 Česko a Slovensko: realita u nás</h2>
+      <h2>Česko a Slovensko: realita u nás</h2>
       <h3>🇨🇿 Česká republika</h3>
       <ul>
         <li>patrí medzi lídrov adopcie AI v strednej Európe</li>
-        <li>generatívnu AI používa približne takmer polovica firiem</li>
+        <li>generatívnu AI používa približne <strong>takmer polovica firiem</strong></li>
         <li>najrýchlejšie ju prijímajú veľké a stredné podniky</li>
       </ul>
       <h3>🇸🇰 Slovensko</h3>
@@ -78,26 +72,24 @@ export default function Page02() {
       </ul>
       <p>👉 Spoločným problémom v oboch krajinách je <strong>nedostatok zručností a vzdelávania</strong>, nie samotná technológia.</p>
 
-      <hr />
-
       <h2>🎯 Čo si z toho odniesť do praxe?</h2>
       <ul>
-        <li>AI používa veľká časť sveta, ale väčšina ľudí ju nevyužíva naplno</li>
+        <li>AI používa veľká časť sveta, ale <strong>väčšina ľudí ju nevyužíva naplno</strong></li>
         <li>výhoda nie je v tom, že ju máš, ale <strong>ako s ňou pracuješ</strong></li>
-        <li>rozdiel nerobí nástroj, ale <strong>spôsob použitia</strong></li>
+        <li>rozdiel nerobí nástroj, ale spôsob použitia</li>
         <li>stále sme na začiatku vývoja AI nástrojov</li>
       </ul>
       <p>👉 Práve preto má zmysel pochopiť základy a naučiť sa AI používať vedome, nie náhodne.</p>
 
       <MiniTest
-        question="Ktoré tvrdenie je najbližšie realite používania AI dnes?"
+        question="Ktoré tvrdenie je najbližšie realite používania AI dnes? Vyber, ktorá možnosť (🌕 /⭐ /☀️) najlepšie vystihuje, ako ľudia a firmy AI reálne používajú."
         options={[
-          { label: "🌕", text: '„AI je hlavne trend a hračka. Väčšina ľudí ju reálne nepoužíva."' },
-          { label: "⭐", text: '„AI sa najčastejšie používa ako pomocník: na zhrnutia, preklady, nápady a prvé verzie textov. Nejde o náhradu človeka, skôr o zrýchlenie práce."' },
+          { label: "🌕", text: '„AI je hlavne trend a hračka. Väčšina ľudí ju reálne nepoužíva, takže sa to zatiaľ neráta."' },
+          { label: "⭐", text: '„AI sa najčastejšie používa ako pomocník: na zhrnutia, preklady, nápady a prvé verzie textov. Nejde o náhradu človeka, skôr o zrýchlenie práce a odstránenie rutiny. Výhoda nie je v tom, že AI máš, ale ako s ňou pracuješ."' },
           { label: "☀️", text: '„AI je všade a kto ju nepoužíva, za chvíľu nebude mať prácu. Čoskoro nahradí väčšinu profesií."' },
         ]}
         correct="⭐"
-        explanation="Je to najrealistickejší pohľad bez extrémov. V praxi AI najviac pomáha tam, kde šetrí čas a uľahčuje začiatok práce."
+        explanation={'Je to najrealistickejší pohľad bez extrémov. V praxi AI najviac pomáha tam, kde šetrí čas a uľahčuje začiatok práce, nie tam, kde má „všetko vyriešiť za človeka".'}
       />
     </PageShell>
   );
