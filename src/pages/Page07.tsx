@@ -15,10 +15,12 @@ export default function Page07() {
       ]}
       {...nav}
     >
+      <p><em>Za každým chatbotom stojí konkrétna firma so svojou filozofiou, stratégiou a silnými stránkami. Ak vieš, kto stojí za nástrojom, lepšie pochopíš, čo od neho môžeš čakať.</em></p>
+
       <h2>🏢 Prečo má zmysel poznať firmy za AI?</h2>
       <p>
         Za každým veľkým modelom stojí konkrétna firma s vlastnou stratégiou a prioritami.
-        To, kto AI vyvíja, často napovie aj to, na čo je najlepšia.
+        To, <strong>kto AI vyvíja</strong>, často napovie aj to, <strong>na čo je najlepšia</strong>.
       </p>
 
       <h3>OpenAI – univerzálny líder</h3>
@@ -110,7 +112,7 @@ export default function Page07() {
         options={[
           { label: "🌕", text: "Rýchle trendy a diskusie → GROK" },
           { label: "⭐", text: "Dlhý dokument, zhrnutie → ChatGPT" },
-          { label: "🔵", text: "Odpovede so zdrojmi → Perplexity" },
+          { label: "☀️", text: "Odpovede so zdrojmi → Perplexity" },
           { label: "🌑", text: "Práca priamo vo Worde a Outlooku → Mistral" },
         ]}
         correct="🌑"
