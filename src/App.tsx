@@ -73,7 +73,20 @@ import M07P06 from "./pages/m07/M07P06";
 import M07P07 from "./pages/m07/M07P07";
 import M07P08 from "./pages/m07/M07P08";
 import M07P09 from "./pages/m07/M07P09";
-import M08Page from "./pages/M08Page";
+import M08P01 from "./pages/m08/M08P01";
+import M08P02 from "./pages/m08/M08P02";
+import M08P03 from "./pages/m08/M08P03";
+import M08P04 from "./pages/m08/M08P04";
+import M08P05 from "./pages/m08/M08P05";
+import M08P06 from "./pages/m08/M08P06";
+import M08P07 from "./pages/m08/M08P07";
+import M08P08 from "./pages/m08/M08P08";
+import M08P09 from "./pages/m08/M08P09";
+import M08P10 from "./pages/m08/M08P10";
+import M08P11 from "./pages/m08/M08P11";
+import M08P12 from "./pages/m08/M08P12";
+import M08P13 from "./pages/m08/M08P13";
+import M08P14 from "./pages/m08/M08P14";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -162,7 +175,21 @@ const App = () => (
             <Route path="/m07-08-chyby" element={<M07P08 />} />
             <Route path="/m07-09-prakticka-uloha" element={<M07P09 />} />
             <Route path="/m07-osobny-zivot" element={<Navigate to="/m07-01-uvod" replace />} />
-            <Route path="/m08-automatizacia" element={<M08Page />} />
+            <Route path="/m08-01-uvod" element={<M08P01 />} />
+            <Route path="/m08-02-co-je-automatizacia" element={<M08P02 />} />
+            <Route path="/m08-03-procesny-mindset" element={<M08P03 />} />
+            <Route path="/m08-04-drob-4e" element={<M08P04 />} />
+            <Route path="/m08-05-typy-automatizacii" element={<M08P05 />} />
+            <Route path="/m08-06-rozhodovaci-diamant" element={<M08P06 />} />
+            <Route path="/m08-07-zivotny-cyklus" element={<M08P07 />} />
+            <Route path="/m08-08-granularita" element={<M08P08 />} />
+            <Route path="/m08-09-mikrosablony" element={<M08P09 />} />
+            <Route path="/m08-10-prilezitosti" element={<M08P10 />} />
+            <Route path="/m08-11-chyby-bezpecnost" element={<M08P11 />} />
+            <Route path="/m08-12-nastroje" element={<M08P12 />} />
+            <Route path="/m08-13-zhrnutie" element={<M08P13 />} />
+            <Route path="/m08-14-prakticka-uloha" element={<M08P14 />} />
+            <Route path="/m08-automatizacia" element={<Navigate to="/m08-01-uvod" replace />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
