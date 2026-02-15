@@ -177,6 +177,17 @@ import LIP09 from "./pages/lab-i/LIP09";
 import LIP10 from "./pages/lab-i/LIP10";
 import LIP11 from "./pages/lab-i/LIP11";
 import LIP12 from "./pages/lab-i/LIP12";
+import LJP01 from "./pages/lab-j/LJP01";
+import LJP02 from "./pages/lab-j/LJP02";
+import LJP03 from "./pages/lab-j/LJP03";
+import LJP04 from "./pages/lab-j/LJP04";
+import LJP05 from "./pages/lab-j/LJP05";
+import LJP06 from "./pages/lab-j/LJP06";
+import LJP07 from "./pages/lab-j/LJP07";
+import LJP08 from "./pages/lab-j/LJP08";
+import LJP09 from "./pages/lab-j/LJP09";
+import LJP10 from "./pages/lab-j/LJP10";
+import LJP11 from "./pages/lab-j/LJP11";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -379,6 +390,18 @@ const App = () => (
             <Route path="/li-11-zhrnutie" element={<LIP11 />} />
             <Route path="/li-12-prakticka-uloha" element={<LIP12 />} />
             <Route path="/lab-i" element={<Navigate to="/li-01-uvod" replace />} />
+            <Route path="/lj-01-uvod" element={<LJP01 />} />
+            <Route path="/lj-02-human-loop" element={<LJP02 />} />
+            <Route path="/lj-03-framing" element={<LJP03 />} />
+            <Route path="/lj-04-varianty" element={<LJP04 />} />
+            <Route path="/lj-05-rizika" element={<LJP05 />} />
+            <Route path="/lj-06-kontrola" element={<LJP06 />} />
+            <Route path="/lj-07-etika" element={<LJP07 />} />
+            <Route path="/lj-08-hard-stop" element={<LJP08 />} />
+            <Route path="/lj-09-checklist" element={<LJP09 />} />
+            <Route path="/lj-10-zhrnutie" element={<LJP10 />} />
+            <Route path="/lj-11-prakticka-uloha" element={<LJP11 />} />
+            <Route path="/lab-j" element={<Navigate to="/lj-01-uvod" replace />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
