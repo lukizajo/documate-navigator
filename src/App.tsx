@@ -97,6 +97,18 @@ import LAP07 from "./pages/lab-a/LAP07";
 import LAP08 from "./pages/lab-a/LAP08";
 import LAP09 from "./pages/lab-a/LAP09";
 import LAP10 from "./pages/lab-a/LAP10";
+import LBP01 from "./pages/lab-b/LBP01";
+import LBP02 from "./pages/lab-b/LBP02";
+import LBP03 from "./pages/lab-b/LBP03";
+import LBP04 from "./pages/lab-b/LBP04";
+import LBP05 from "./pages/lab-b/LBP05";
+import LBP06 from "./pages/lab-b/LBP06";
+import LBP07 from "./pages/lab-b/LBP07";
+import LBP08 from "./pages/lab-b/LBP08";
+import LBP09 from "./pages/lab-b/LBP09";
+import LBP10 from "./pages/lab-b/LBP10";
+import LBP11 from "./pages/lab-b/LBP11";
+import LBP12 from "./pages/lab-b/LBP12";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -211,6 +223,19 @@ const App = () => (
             <Route path="/la-09-checklist" element={<LAP09 />} />
             <Route path="/la-10-prakticka-uloha" element={<LAP10 />} />
             <Route path="/lab-a" element={<Navigate to="/la-01-uvod" replace />} />
+            <Route path="/lb-01-uvod" element={<LBP01 />} />
+            <Route path="/lb-02-text-nastroj" element={<LBP02 />} />
+            <Route path="/lb-03-struktura" element={<LBP03 />} />
+            <Route path="/lb-04-jazyk" element={<LBP04 />} />
+            <Route path="/lb-05-skracovanie" element={<LBP05 />} />
+            <Route path="/lb-06-ton" element={<LBP06 />} />
+            <Route path="/lb-07-format" element={<LBP07 />} />
+            <Route path="/lb-08-halucinacie" element={<LBP08 />} />
+            <Route path="/lb-09-bezpecnost" element={<LBP09 />} />
+            <Route path="/lb-10-kritik" element={<LBP10 />} />
+            <Route path="/lb-11-zhrnutie" element={<LBP11 />} />
+            <Route path="/lb-12-prakticka-uloha" element={<LBP12 />} />
+            <Route path="/lab-b" element={<Navigate to="/lb-01-uvod" replace />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
