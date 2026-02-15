@@ -190,6 +190,23 @@ export const modules: NavModule[] = [
       { slug: "lc-07-prakticka-uloha", path: "/lc-07-prakticka-uloha", label: "\uD83C\uDF93 Praktick\u00E1 \u00FAloha", shortLabel: "\u00DAloha" },
     ],
   },
+  {
+    id: "lab-d",
+    title: "LAB D \u2013 Obr\u00E1zky s AI \uD83C\uDFA8",
+    pages: [
+      { slug: "ld-01-uvod", path: "/ld-01-uvod", label: "\uD83C\uDD7E\uFE0F \u00DAvod", shortLabel: "\u00DAvod" },
+      { slug: "ld-02-rychly-start", path: "/ld-02-rychly-start", label: "1\uFE0F\u20E3 R\u00FDchly \u0161tart", shortLabel: "R\u00FDchly \u0161tart" },
+      { slug: "ld-03-typy-obrazkov", path: "/ld-03-typy-obrazkov", label: "2\uFE0F\u20E3 Typy obr\u00E1zkov pod\u013Ea pou\u017Eitia", shortLabel: "Typy" },
+      { slug: "ld-04-styl", path: "/ld-04-styl", label: "3\uFE0F\u20E3 \u0160t\u00FDl a vizu\u00E1lna konzistencia", shortLabel: "\u0160t\u00FDl" },
+      { slug: "ld-05-promptovanie", path: "/ld-05-promptovanie", label: "4\uFE0F\u20E3 Promptovanie pre obr\u00E1zky", shortLabel: "Promptovanie" },
+      { slug: "ld-06-iteracie", path: "/ld-06-iteracie", label: "5\uFE0F\u20E3 Iter\u00E1cie a vylep\u0161ovanie", shortLabel: "Iter\u00E1cie" },
+      { slug: "ld-07-infografika", path: "/ld-07-infografika", label: "6\uFE0F\u20E3 Infografika a text v obr\u00E1zkoch", shortLabel: "Infografika" },
+      { slug: "ld-08-referencie", path: "/ld-08-referencie", label: "7\uFE0F\u20E3 Referencie a reverse prompting", shortLabel: "Referencie" },
+      { slug: "ld-09-pouzitie", path: "/ld-09-pouzitie", label: "8\uFE0F\u20E3 Pou\u017Eitie obr\u00E1zkov v praxi", shortLabel: "Pou\u017Eitie" },
+      { slug: "ld-10-prava-etika", path: "/ld-10-prava-etika", label: "9\uFE0F\u20E3 Pr\u00E1va a etika", shortLabel: "Pr\u00E1va" },
+      { slug: "ld-11-prakticka-uloha", path: "/ld-11-prakticka-uloha", label: "\uD83C\uDF93 Praktick\u00E1 \u00FAloha", shortLabel: "\u00DAloha" },
+    ],
+  },
 ];
 
 // Flat list for backward compatibility
