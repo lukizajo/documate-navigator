@@ -207,6 +207,23 @@ export const modules: NavModule[] = [
       { slug: "ld-11-prakticka-uloha", path: "/ld-11-prakticka-uloha", label: "\uD83C\uDF93 Praktick\u00E1 \u00FAloha", shortLabel: "\u00DAloha" },
     ],
   },
+  {
+    id: "lab-e",
+    title: "LAB E \u2013 Prezent\u00E1cie s AI \uD83D\uDCCA",
+    pages: [
+      { slug: "le-01-uvod", path: "/le-01-uvod", label: "\uD83C\uDD7E\uFE0F \u00DAvod", shortLabel: "\u00DAvod" },
+      { slug: "le-02-brief", path: "/le-02-brief", label: "1\uFE0F\u20E3 Brief & Input pack", shortLabel: "Brief" },
+      { slug: "le-03-typy", path: "/le-03-typy", label: "2\uFE0F\u20E3 Typy prezent\u00E1ci\u00ED a ciele", shortLabel: "Typy" },
+      { slug: "le-04-dokument", path: "/le-04-dokument", label: "3\uFE0F\u20E3 Prezent\u00E1cia \u2260 dokument", shortLabel: "Slide vs doc" },
+      { slug: "le-05-storyline", path: "/le-05-storyline", label: "4\uFE0F\u20E3 Storyline a one message", shortLabel: "Storyline" },
+      { slug: "le-06-mapa", path: "/le-06-mapa", label: "5\uFE0F\u20E3 Mapa slidov", shortLabel: "Mapa" },
+      { slug: "le-07-vizual", path: "/le-07-vizual", label: "6\uFE0F\u20E3 Vizu\u00E1lna strat\u00E9gia a Style DNA", shortLabel: "Vizu\u00E1l" },
+      { slug: "le-08-sablona", path: "/le-08-sablona", label: "7\uFE0F\u20E3 \u0160abl\u00F3na a konektory", shortLabel: "\u0160abl\u00F3na" },
+      { slug: "le-09-qa", path: "/le-09-qa", label: "8\uFE0F\u20E3 AI kritik + QA + etika", shortLabel: "QA" },
+      { slug: "le-10-zhrnutie", path: "/le-10-zhrnutie", label: "\uD83E\uDDFE Zhrnutie LABu", shortLabel: "Zhrnutie" },
+      { slug: "le-11-prakticka-uloha", path: "/le-11-prakticka-uloha", label: "\uD83C\uDF93 Praktick\u00E1 \u00FAloha", shortLabel: "\u00DAloha" },
+    ],
+  },
 ];
 
 // Flat list for backward compatibility
