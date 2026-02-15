@@ -6,8 +6,7 @@ const nav = getNavContext("la-03-otazky");
 
 export default function LAP03() {
   return (
-    <PageShell title="LAB A – AI & Myslenie 🧠" prev={nav.prev} next={nav.next}>
-      <h2>2️⃣ Otázky sú dôležitejšie než odpovede</h2>
+    <PageShell title="2️⃣ Otázky sú dôležitejšie než odpovede" prev={nav.prev} next={nav.next}>
       <p>Keď sa ľudia pýtajú AI, často to vyzerá takto: „Napíš mi…", „Poradíš mi…", „Daj mi riešenie…".</p>
       <p>AI potom spraví to, čo vie najlepšie – vyrobí odpoveď. Lenže ak je otázka nejasná, odpoveď bude síce pekná, ale často nepoužiteľná.</p>
       <p>❓ V praxi je dôležitejšie naučiť sa jednu vec: <strong>pýtať sa tak, aby si najprv získal jasno</strong>.</p>

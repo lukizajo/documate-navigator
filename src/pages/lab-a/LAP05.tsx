@@ -6,8 +6,7 @@ const nav = getNavContext("la-05-varianty");
 
 export default function LAP05() {
   return (
-    <PageShell title="LAB A – AI & Myslenie 🧠" prev={nav.prev} next={nav.next}>
-      <h2>4️⃣ Práca s neistotou a variantmi</h2>
+    <PageShell title="4️⃣ Práca s neistotou a variantmi" prev={nav.prev} next={nav.next}>
       <p>Veľa ľudí používa AI tak, akoby existovala jedna správna odpoveď. Lenže v reálnom živote to tak často nie je. Máš neúplné informácie, časový tlak, rôzne priority… a preto existuje viac možností, ako to spraviť.</p>
       <p>🔄 Najväčší upgrade v práci s AI je toto: <strong>nepýtaj si jednu odpoveď – pýtaj si varianty.</strong></p>
       <p>Varianty ti pomôžu zistiť, čo je vôbec na výber, čo sú kompromisy a kde sú slepé miesta.</p>

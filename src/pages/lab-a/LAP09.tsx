@@ -6,8 +6,7 @@ const nav = getNavContext("la-09-checklist");
 
 export default function LAP09() {
   return (
-    <PageShell title="LAB A – AI & Myslenie 🧠" prev={nav.prev} next={nav.next}>
-      <h2>8️⃣ Mysliaci checklist</h2>
+    <PageShell title="8️⃣ Mysliaci checklist" prev={nav.prev} next={nav.next}>
       <p>Toto je jednoduchý návyk, ktorý ti ušetrí veľa času a omylov: skôr než požiadaš AI o výstup, prebehni si krátky checklist.</p>
       <p>🧩 Nie preto, aby si bol „perfektný". Ale aby si vedel, či AI ide len generovať text, alebo ti reálne pomáha riešiť problém.</p>
 

@@ -6,8 +6,7 @@ const nav = getNavContext("la-08-low-high");
 
 export default function LAP08() {
   return (
-    <PageShell title="LAB A – AI & Myslenie 🧠" prev={nav.prev} next={nav.next}>
-      <h2>7️⃣ Kedy AI pomáha a kedy škodí</h2>
+    <PageShell title="7️⃣ Kedy AI pomáha a kedy škodí" prev={nav.prev} next={nav.next}>
       <p>AI je skvelá na veľa vecí, ale nie na všetko. Problém nie je v tom, že by bola „zlá". Problém je, že vie znieť presvedčivo aj tam, kde by mala radšej povedať „neviem".</p>
       <p>⚠️ Preto si potrebuješ vedieť rýchlo odpovedať na jednu otázku: <strong>Je to low-stakes alebo high-stakes?</strong></p>
       <p>Teda: čo sa stane, ak bude odpoveď čiastočne mimo?</p>

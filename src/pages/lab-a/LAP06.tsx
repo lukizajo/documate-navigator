@@ -6,8 +6,7 @@ const nav = getNavContext("la-06-perspektivy");
 
 export default function LAP06() {
   return (
-    <PageShell title="LAB A – AI & Myslenie 🧠" prev={nav.prev} next={nav.next}>
-      <h2>5️⃣ Perspektívy a roly</h2>
+    <PageShell title="5️⃣ Perspektívy a roly" prev={nav.prev} next={nav.next}>
       <p>AI ti často odpovie v jednom „štýle" – akoby existoval jeden správny pohľad. Lenže v praxi sa kvalita rozhodnutia zlepší vtedy, keď sa na problém pozrieš z viacerých strán.</p>
       <p>Preto je užitočné pracovať s <strong>perspektívami a rolami</strong>. Nie preto, že AI má „osobnosť", ale preto, že ty ju týmto donútiš prepnúť spôsob uvažovania: raz bude praktická, raz skeptická, raz zjednodušujúca.</p>
 

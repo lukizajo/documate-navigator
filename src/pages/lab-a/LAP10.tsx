@@ -5,8 +5,7 @@ const nav = getNavContext("la-10-prakticka-uloha");
 
 export default function LAP10() {
   return (
-    <PageShell title="LAB A – AI & Myslenie 🧠" prev={nav.prev} next={nav.next}>
-      <h2>🧾 Zhrnutie LABu</h2>
+    <PageShell title="🧾 Zhrnutie LABu" prev={nav.prev} next={nav.next}>
       <p>🧠 V tomto LABe si si nastavil jednoduchú, ale silnú zručnosť: používať AI ako partnera v myslení, nie ako autopilota na odpovede.</p>
       <p>🪞 Vidíš, že AI často funguje ako zrkadlo – kvalita výstupu závisí od toho, ako jasne vieš pomenovať cieľ, kontext a obmedzenia.</p>
       <p>🧩 Keď najprv rozložíš problém, pýtaš si varianty a prepínaš perspektívy, znižuješ riziko „prvej peknej odpovede".</p>

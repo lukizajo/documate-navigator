@@ -6,8 +6,7 @@ const nav = getNavContext("la-04-rozklad");
 
 export default function LAP04() {
   return (
-    <PageShell title="LAB A – AI & Myslenie 🧠" prev={nav.prev} next={nav.next}>
-      <h2>3️⃣ Rozklad problému pred promptom</h2>
+    <PageShell title="3️⃣ Rozklad problému pred promptom" prev={nav.prev} next={nav.next}>
       <p>Najčastejší dôvod, prečo AI „netrafí" odpoveď, nie je zlý model. Je to zlý štart. Ľudia preskočia rozmýšľanie a hneď chcú výstup.</p>
       <p>🧩 Lenže keď nevieš presne, čo chceš, AI ti to nevie uhádnuť. A ak to aj uhádne, bude to skôr náhoda než systém.</p>
       <p>🎯 Preto je rozklad problému jedna z najpraktickejších zručností v celom kurze. Skôr než požiadaš o riešenie, potrebuješ si upratať tri veci: <strong>cieľ, vstupy a hranice</strong>.</p>
