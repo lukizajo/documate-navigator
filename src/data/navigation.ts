@@ -159,6 +159,24 @@ export const modules: NavModule[] = [
       { slug: "la-10-prakticka-uloha", path: "/la-10-prakticka-uloha", label: "🧾 Zhrnutie LABu", shortLabel: "Zhrnutie" },
     ],
   },
+  {
+    id: "lab-b",
+    title: "LAB B \u2013 AI & Text \u270D\uFE0F",
+    pages: [
+      { slug: "lb-01-uvod", path: "/lb-01-uvod", label: "\uD83C\uDD7E\uFE0F \u00DAvod", shortLabel: "\u00DAvod" },
+      { slug: "lb-02-text-nastroj", path: "/lb-02-text-nastroj", label: "1\uFE0F\u20E3 Text ako n\u00E1stroj", shortLabel: "Text" },
+      { slug: "lb-03-struktura", path: "/lb-03-struktura", label: "2\uFE0F\u20E3 \u0160trukt\u00FAra pred \u0161t\u00FDlom", shortLabel: "\u0160trukt\u00FAra" },
+      { slug: "lb-04-jazyk", path: "/lb-04-jazyk", label: "3\uFE0F\u20E3 Jednoduch\u00FD jazyk a zrozumite\u013Enos\u0165", shortLabel: "Jazyk" },
+      { slug: "lb-05-skracovanie", path: "/lb-05-skracovanie", label: "4\uFE0F\u20E3 Skracovanie a editovanie", shortLabel: "Skracovanie" },
+      { slug: "lb-06-ton", path: "/lb-06-ton", label: "5\uFE0F\u20E3 Zmena t\u00F3nu textu", shortLabel: "T\u00F3n" },
+      { slug: "lb-07-format", path: "/lb-07-format", label: "6\uFE0F\u20E3 Zmena form\u00E1tu", shortLabel: "Form\u00E1t" },
+      { slug: "lb-08-halucinacie", path: "/lb-08-halucinacie", label: "7\uFE0F\u20E3 Halucin\u00E1cie a faktick\u00E1 kontrola", shortLabel: "Haluci\u00E1cie" },
+      { slug: "lb-09-bezpecnost", path: "/lb-09-bezpecnost", label: "8\uFE0F\u20E3 Bezpe\u010Dnos\u0165 pri pr\u00E1ci s textom", shortLabel: "Bezpe\u010Dnos\u0165" },
+      { slug: "lb-10-kritik", path: "/lb-10-kritik", label: "9\uFE0F\u20E3 AI ako textov\u00FD kritik", shortLabel: "Kritik" },
+      { slug: "lb-11-zhrnutie", path: "/lb-11-zhrnutie", label: "\uD83E\uDDFE Zhrnutie LABu", shortLabel: "Zhrnutie" },
+      { slug: "lb-12-prakticka-uloha", path: "/lb-12-prakticka-uloha", label: "\uD83C\uDF93 Praktick\u00E1 \u00FAloha", shortLabel: "\u00DAloha" },
+    ],
+  },
 ];
 
 // Flat list for backward compatibility
