@@ -144,6 +144,17 @@ import LFP03 from "./pages/lab-f/LFP03";
 import LFP04 from "./pages/lab-f/LFP04";
 import LFP05 from "./pages/lab-f/LFP05";
 import LFP06 from "./pages/lab-f/LFP06";
+import LGP01 from "./pages/lab-g/LGP01";
+import LGP02 from "./pages/lab-g/LGP02";
+import LGP03 from "./pages/lab-g/LGP03";
+import LGP04 from "./pages/lab-g/LGP04";
+import LGP05 from "./pages/lab-g/LGP05";
+import LGP06 from "./pages/lab-g/LGP06";
+import LGP07 from "./pages/lab-g/LGP07";
+import LGP08 from "./pages/lab-g/LGP08";
+import LGP09 from "./pages/lab-g/LGP09";
+import LGP10 from "./pages/lab-g/LGP10";
+import LGP11 from "./pages/lab-g/LGP11";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -310,6 +321,18 @@ const App = () => (
             <Route path="/lf-05-etika" element={<LFP05 />} />
             <Route path="/lf-06-prakticka-uloha" element={<LFP06 />} />
             <Route path="/lab-f" element={<Navigate to="/lf-01-uvod" replace />} />
+            <Route path="/lg-01-uvod" element={<LGP01 />} />
+            <Route path="/lg-02-video-nastroj" element={<LGP02 />} />
+            <Route path="/lg-03-scenar" element={<LGP03 />} />
+            <Route path="/lg-04-storyboard" element={<LGP04 />} />
+            <Route path="/lg-05-obraz" element={<LGP05 />} />
+            <Route path="/lg-06-hlas-titulky" element={<LGP06 />} />
+            <Route path="/lg-07-konzistencia" element={<LGP07 />} />
+            <Route path="/lg-08-export" element={<LGP08 />} />
+            <Route path="/lg-09-etika" element={<LGP09 />} />
+            <Route path="/lg-10-zhrnutie" element={<LGP10 />} />
+            <Route path="/lg-11-prakticka-uloha" element={<LGP11 />} />
+            <Route path="/lab-g" element={<Navigate to="/lg-01-uvod" replace />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>

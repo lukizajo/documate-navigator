@@ -236,6 +236,23 @@ export const modules: NavModule[] = [
       { slug: "lf-06-prakticka-uloha", path: "/lf-06-prakticka-uloha", label: "\uD83C\uDF93 Praktick\u00E1 \u00FAloha", shortLabel: "\u00DAloha" },
     ],
   },
+  {
+    id: "lab-g",
+    title: "LAB G \u2013 Video s AI \uD83C\uDFAC",
+    pages: [
+      { slug: "lg-01-uvod", path: "/lg-01-uvod", label: "\uD83C\uDD7E\uFE0F \u00DAvod", shortLabel: "\u00DAvod" },
+      { slug: "lg-02-video-nastroj", path: "/lg-02-video-nastroj", label: "1\uFE0F\u20E3 Video ako komunika\u010Dn\u00FD n\u00E1stroj", shortLabel: "Video" },
+      { slug: "lg-03-scenar", path: "/lg-03-scenar", label: "2\uFE0F\u20E3 N\u00E1pad + scen\u00E1r cez AI", shortLabel: "Scen\u00E1r" },
+      { slug: "lg-04-storyboard", path: "/lg-04-storyboard", label: "3\uFE0F\u20E3 Storyboard a shot list", shortLabel: "Storyboard" },
+      { slug: "lg-05-obraz", path: "/lg-05-obraz", label: "4\uFE0F\u20E3 Obraz: AI vs stock vs to\u010Denie", shortLabel: "Obraz" },
+      { slug: "lg-06-hlas-titulky", path: "/lg-06-hlas-titulky", label: "5\uFE0F\u20E3 Hlas, hudba a titulky", shortLabel: "Hlas" },
+      { slug: "lg-07-konzistencia", path: "/lg-07-konzistencia", label: "6\uFE0F\u20E3 \u0160t\u00FDl a konzistencia", shortLabel: "Konzistencia" },
+      { slug: "lg-08-export", path: "/lg-08-export", label: "7\uFE0F\u20E3 Export a prisp\u00F4sobenie m\u00E9diu", shortLabel: "Export" },
+      { slug: "lg-09-etika", path: "/lg-09-etika", label: "8\uFE0F\u20E3 Etika a pr\u00E1va", shortLabel: "Etika" },
+      { slug: "lg-10-zhrnutie", path: "/lg-10-zhrnutie", label: "\uD83E\uDDFE Zhrnutie LABu", shortLabel: "Zhrnutie" },
+      { slug: "lg-11-prakticka-uloha", path: "/lg-11-prakticka-uloha", label: "\uD83C\uDF93 Praktick\u00E1 \u00FAloha", shortLabel: "\u00DAloha" },
+    ],
+  },
 ];
 
 // Flat list for backward compatibility
