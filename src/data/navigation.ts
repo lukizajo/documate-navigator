@@ -287,6 +287,23 @@ export const modules: NavModule[] = [
       { slug: "li-12-prakticka-uloha", path: "/li-12-prakticka-uloha", label: "\uD83C\uDF93 Praktick\u00E1 \u00FAloha", shortLabel: "\u00DAloha" },
     ],
   },
+  {
+    id: "lab-j",
+    title: "LAB J \u2013 Rozhodovanie s AI \uD83E\uDDE0",
+    pages: [
+      { slug: "lj-01-uvod", path: "/lj-01-uvod", label: "\uD83C\uDD7E\uFE0F \u00DAvod", shortLabel: "\u00DAvod" },
+      { slug: "lj-02-human-loop", path: "/lj-02-human-loop", label: "1\uFE0F\u20E3 AI rad\u00ED, \u010Dlovek rozhoduje", shortLabel: "Human-in-the-loop" },
+      { slug: "lj-03-framing", path: "/lj-03-framing", label: "2\uFE0F\u20E3 Framing: zl\u00E1 ot\u00E1zka \u2192 zl\u00E1 odpove\u010F", shortLabel: "Framing" },
+      { slug: "lj-04-varianty", path: "/lj-04-varianty", label: "3\uFE0F\u20E3 Varianty namiesto verdiktu", shortLabel: "Varianty" },
+      { slug: "lj-05-rizika", path: "/lj-05-rizika", label: "4\uFE0F\u20E3 Rizik\u00E1, biasy a \u201Econfidently wrong\u201C", shortLabel: "Rizik\u00E1" },
+      { slug: "lj-06-kontrola", path: "/lj-06-kontrola", label: "5\uFE0F\u20E3 Mini-kontrola reality", shortLabel: "Kontrola" },
+      { slug: "lj-07-etika", path: "/lj-07-etika", label: "6\uFE0F\u20E3 Etick\u00FD radar v praxi", shortLabel: "Etika" },
+      { slug: "lj-08-hard-stop", path: "/lj-08-hard-stop", label: "7\uFE0F\u20E3 Hard-stop pravidl\u00E1", shortLabel: "Hard-stop" },
+      { slug: "lj-09-checklist", path: "/lj-09-checklist", label: "8\uFE0F\u20E3 Checklist pred rozhodnut\u00EDm", shortLabel: "Checklist" },
+      { slug: "lj-10-zhrnutie", path: "/lj-10-zhrnutie", label: "\uD83E\uDDFE Zhrnutie LABu", shortLabel: "Zhrnutie" },
+      { slug: "lj-11-prakticka-uloha", path: "/lj-11-prakticka-uloha", label: "\uD83C\uDF93 Praktick\u00E1 \u00FAloha", shortLabel: "\u00DAloha" },
+    ],
+  },
 ];
 
 // Flat list for backward compatibility
