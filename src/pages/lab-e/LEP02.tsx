@@ -59,7 +59,7 @@ export default function LEP02() {
       </ul>
 
       <h3>Prompt A – keď už máš spracovanú tému</h3>
-      <PromptBlock>
+      <PromptBlock hideLabel>
         „Správaj sa ako skúsený lektor prezentácií.<br />
         Tu je môj BRIEF (10 bodov) a INPUT PACK.<br /><br />
         1. Najprv potvrď, že si brief pochopil: zhrň cieľ + one message jednou vetou.<br />
@@ -85,7 +85,7 @@ export default function LEP02() {
       </PromptBlock>
 
       <h3>Prompt B – keď tému ešte len tvoríš</h3>
-      <PromptBlock>
+      <PromptBlock hideLabel>
         „Pomôž mi pripraviť podklady k prezentácii. Tu je môj BRIEF (10 bodov).<br /><br />
         1. Najprv mi polož 5 doplňujúcich otázok, aby si pochopil kontext.<br />
         2. Potom navrhni INPUT PACK: 10–15 kľúčových bodov + 3 fakty, ktoré treba overiť (napíš, aký zdroj hľadať).<br />

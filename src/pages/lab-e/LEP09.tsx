@@ -72,7 +72,7 @@ export default function LEP09() {
 
       <h2>🧩 Prompt na AI kritika</h2>
       <p>Toto je prompt, ktorý použiješ, keď už máš deck alebo aspoň texty k slidom.</p>
-      <PromptBlock>
+      <PromptBlock hideLabel>
         „Správaj sa ako prísny AI kritik prezentácií.<br />
         Cieľ prezentácie: …<br />
         Publikum: …<br />
