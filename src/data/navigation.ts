@@ -304,6 +304,23 @@ export const modules: NavModule[] = [
       { slug: "lj-11-prakticka-uloha", path: "/lj-11-prakticka-uloha", label: "\uD83C\uDF93 Praktick\u00E1 \u00FAloha", shortLabel: "\u00DAloha" },
     ],
   },
+  {
+    id: "lab-k",
+    title: "LAB K \u2013 AI ako syst\u00E9m \uD83E\uDDE9",
+    pages: [
+      { slug: "lk-01-uvod", path: "/lk-01-uvod", label: "\uD83C\uDD7E\uFE0F \u00DAvod", shortLabel: "\u00DAvod" },
+      { slug: "lk-02-inventura", path: "/lk-02-inventura", label: "1\uFE0F\u20E3 Invent\u00FAra", shortLabel: "Invent\u00FAra" },
+      { slug: "lk-03-rezimy", path: "/lk-03-rezimy", label: "2\uFE0F\u20E3 Tri re\u017Eimy pr\u00E1ce s AI", shortLabel: "Re\u017Eimy" },
+      { slug: "lk-04-roly", path: "/lk-04-roly", label: "3\uFE0F\u20E3 Roly AI v syst\u00E9me", shortLabel: "Roly" },
+      { slug: "lk-05-hranice", path: "/lk-05-hranice", label: "4\uFE0F\u20E3 Hranice a zodpovednos\u0165", shortLabel: "Hranice" },
+      { slug: "lk-06-workflow", path: "/lk-06-workflow", label: "5\uFE0F\u20E3 Workflow", shortLabel: "Workflow" },
+      { slug: "lk-07-automatizacia", path: "/lk-07-automatizacia", label: "6\uFE0F\u20E3 Syst\u00E9m vs. automatiz\u00E1cia", shortLabel: "Automatiz\u00E1cia" },
+      { slug: "lk-08-unava", path: "/lk-08-unava", label: "7\uFE0F\u20E3 AI \u00FAnava a slep\u00E1 d\u00F4vera", shortLabel: "\u00DAnava" },
+      { slug: "lk-09-operating-model", path: "/lk-09-operating-model", label: "8\uFE0F\u20E3 Fin\u00E1lny v\u00FDstup", shortLabel: "Operating model" },
+      { slug: "lk-10-zhrnutie", path: "/lk-10-zhrnutie", label: "\uD83E\uDDFE Zhrnutie LABu", shortLabel: "Zhrnutie" },
+      { slug: "lk-11-prakticka-uloha", path: "/lk-11-prakticka-uloha", label: "\uD83C\uDF93 Praktick\u00E1 \u00FAloha", shortLabel: "\u00DAloha" },
+    ],
+  },
 ];
 
 // Flat list for backward compatibility

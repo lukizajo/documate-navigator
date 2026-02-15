@@ -188,6 +188,17 @@ import LJP08 from "./pages/lab-j/LJP08";
 import LJP09 from "./pages/lab-j/LJP09";
 import LJP10 from "./pages/lab-j/LJP10";
 import LJP11 from "./pages/lab-j/LJP11";
+import LKP01 from "./pages/lab-k/LKP01";
+import LKP02 from "./pages/lab-k/LKP02";
+import LKP03 from "./pages/lab-k/LKP03";
+import LKP04 from "./pages/lab-k/LKP04";
+import LKP05 from "./pages/lab-k/LKP05";
+import LKP06 from "./pages/lab-k/LKP06";
+import LKP07 from "./pages/lab-k/LKP07";
+import LKP08 from "./pages/lab-k/LKP08";
+import LKP09 from "./pages/lab-k/LKP09";
+import LKP10 from "./pages/lab-k/LKP10";
+import LKP11 from "./pages/lab-k/LKP11";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -402,6 +413,18 @@ const App = () => (
             <Route path="/lj-10-zhrnutie" element={<LJP10 />} />
             <Route path="/lj-11-prakticka-uloha" element={<LJP11 />} />
             <Route path="/lab-j" element={<Navigate to="/lj-01-uvod" replace />} />
+            <Route path="/lk-01-uvod" element={<LKP01 />} />
+            <Route path="/lk-02-inventura" element={<LKP02 />} />
+            <Route path="/lk-03-rezimy" element={<LKP03 />} />
+            <Route path="/lk-04-roly" element={<LKP04 />} />
+            <Route path="/lk-05-hranice" element={<LKP05 />} />
+            <Route path="/lk-06-workflow" element={<LKP06 />} />
+            <Route path="/lk-07-automatizacia" element={<LKP07 />} />
+            <Route path="/lk-08-unava" element={<LKP08 />} />
+            <Route path="/lk-09-operating-model" element={<LKP09 />} />
+            <Route path="/lk-10-zhrnutie" element={<LKP10 />} />
+            <Route path="/lk-11-prakticka-uloha" element={<LKP11 />} />
+            <Route path="/lab-k" element={<Navigate to="/lk-01-uvod" replace />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
