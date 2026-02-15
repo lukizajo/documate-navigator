@@ -143,6 +143,22 @@ export const modules: NavModule[] = [
       { slug: "m08-14-prakticka-uloha", path: "/m08-14-prakticka-uloha", label: "🎓 Praktická úloha", shortLabel: "Úloha" },
     ],
   },
+  {
+    id: "lab-a",
+    title: "LAB A – AI & Myslenie 🧠",
+    pages: [
+      { slug: "la-01-uvod", path: "/la-01-uvod", label: "🅾️ Úvod", shortLabel: "Úvod" },
+      { slug: "la-02-zrkadlo", path: "/la-02-zrkadlo", label: "1️⃣ AI nie je mozog, je to zrkadlo", shortLabel: "Zrkadlo" },
+      { slug: "la-03-otazky", path: "/la-03-otazky", label: "2️⃣ Otázky sú dôležitejšie než odpovede", shortLabel: "Otázky" },
+      { slug: "la-04-rozklad", path: "/la-04-rozklad", label: "3️⃣ Rozklad problému pred promptom", shortLabel: "Rozklad" },
+      { slug: "la-05-varianty", path: "/la-05-varianty", label: "4️⃣ Práca s neistotou a variantmi", shortLabel: "Varianty" },
+      { slug: "la-06-perspektivy", path: "/la-06-perspektivy", label: "5️⃣ Perspektívy a roly", shortLabel: "Perspektívy" },
+      { slug: "la-07-sparring", path: "/la-07-sparring", label: "6️⃣ AI ako sparring partner", shortLabel: "Sparring" },
+      { slug: "la-08-low-high", path: "/la-08-low-high", label: "7️⃣ Kedy AI pomáha a kedy škodí", shortLabel: "Low/High" },
+      { slug: "la-09-checklist", path: "/la-09-checklist", label: "8️⃣ Mysliaci checklist", shortLabel: "Checklist" },
+      { slug: "la-10-prakticka-uloha", path: "/la-10-prakticka-uloha", label: "🎓 Praktická úloha", shortLabel: "Úloha" },
+    ],
+  },
 ];
 
 // Flat list for backward compatibility

@@ -87,6 +87,16 @@ import M08P11 from "./pages/m08/M08P11";
 import M08P12 from "./pages/m08/M08P12";
 import M08P13 from "./pages/m08/M08P13";
 import M08P14 from "./pages/m08/M08P14";
+import LAP01 from "./pages/lab-a/LAP01";
+import LAP02 from "./pages/lab-a/LAP02";
+import LAP03 from "./pages/lab-a/LAP03";
+import LAP04 from "./pages/lab-a/LAP04";
+import LAP05 from "./pages/lab-a/LAP05";
+import LAP06 from "./pages/lab-a/LAP06";
+import LAP07 from "./pages/lab-a/LAP07";
+import LAP08 from "./pages/lab-a/LAP08";
+import LAP09 from "./pages/lab-a/LAP09";
+import LAP10 from "./pages/lab-a/LAP10";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -190,6 +200,17 @@ const App = () => (
             <Route path="/m08-13-zhrnutie" element={<M08P13 />} />
             <Route path="/m08-14-prakticka-uloha" element={<M08P14 />} />
             <Route path="/m08-automatizacia" element={<Navigate to="/m08-01-uvod" replace />} />
+            <Route path="/la-01-uvod" element={<LAP01 />} />
+            <Route path="/la-02-zrkadlo" element={<LAP02 />} />
+            <Route path="/la-03-otazky" element={<LAP03 />} />
+            <Route path="/la-04-rozklad" element={<LAP04 />} />
+            <Route path="/la-05-varianty" element={<LAP05 />} />
+            <Route path="/la-06-perspektivy" element={<LAP06 />} />
+            <Route path="/la-07-sparring" element={<LAP07 />} />
+            <Route path="/la-08-low-high" element={<LAP08 />} />
+            <Route path="/la-09-checklist" element={<LAP09 />} />
+            <Route path="/la-10-prakticka-uloha" element={<LAP10 />} />
+            <Route path="/lab-a" element={<Navigate to="/la-01-uvod" replace />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
