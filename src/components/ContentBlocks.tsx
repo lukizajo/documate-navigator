@@ -67,12 +67,13 @@ export function MiniTask({ title, children }: MiniTaskProps) {
 
 interface PromptBlockProps {
   children: ReactNode;
+  hideLabel?: boolean;
 }
 
-export function PromptBlock({ children }: PromptBlockProps) {
+export function PromptBlock({ children, hideLabel }: PromptBlockProps) {
   return (
     <div className="my-6">
-      <p className="font-semibold text-sm mb-2">👉 Rýchly prompt:</p>
+      {!hideLabel && <p className="font-semibold text-sm mb-2">👉 Rýchly prompt:</p>}
       <div className="rounded-lg p-4 border text-sm italic" style={{
         background: "hsl(var(--muted))",
         borderColor: "hsl(var(--border))",
