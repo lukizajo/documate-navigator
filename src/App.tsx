@@ -138,6 +138,12 @@ import LEP08 from "./pages/lab-e/LEP08";
 import LEP09 from "./pages/lab-e/LEP09";
 import LEP10 from "./pages/lab-e/LEP10";
 import LEP11 from "./pages/lab-e/LEP11";
+import LFP01 from "./pages/lab-f/LFP01";
+import LFP02 from "./pages/lab-f/LFP02";
+import LFP03 from "./pages/lab-f/LFP03";
+import LFP04 from "./pages/lab-f/LFP04";
+import LFP05 from "./pages/lab-f/LFP05";
+import LFP06 from "./pages/lab-f/LFP06";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -297,6 +303,13 @@ const App = () => (
             <Route path="/le-10-zhrnutie" element={<LEP10 />} />
             <Route path="/le-11-prakticka-uloha" element={<LEP11 />} />
             <Route path="/lab-e" element={<Navigate to="/le-01-uvod" replace />} />
+            <Route path="/lf-01-uvod" element={<LFP01 />} />
+            <Route path="/lf-02-scenar" element={<LFP02 />} />
+            <Route path="/lf-03-generovanie" element={<LFP03 />} />
+            <Route path="/lf-04-cistenie" element={<LFP04 />} />
+            <Route path="/lf-05-etika" element={<LFP05 />} />
+            <Route path="/lf-06-prakticka-uloha" element={<LFP06 />} />
+            <Route path="/lab-f" element={<Navigate to="/lf-01-uvod" replace />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>

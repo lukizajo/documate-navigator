@@ -224,6 +224,18 @@ export const modules: NavModule[] = [
       { slug: "le-11-prakticka-uloha", path: "/le-11-prakticka-uloha", label: "\uD83C\uDF93 Praktick\u00E1 \u00FAloha", shortLabel: "\u00DAloha" },
     ],
   },
+  {
+    id: "lab-f",
+    title: "LAB F \u2013 Hlas & audio s AI \uD83C\uDF99\uFE0F",
+    pages: [
+      { slug: "lf-01-uvod", path: "/lf-01-uvod", label: "\uD83C\uDD7E\uFE0F \u00DAvod", shortLabel: "\u00DAvod" },
+      { slug: "lf-02-scenar", path: "/lf-02-scenar", label: "1\uFE0F\u20E3 Ako p\u00EDsa\u0165 scen\u00E1r pre hlas", shortLabel: "Scen\u00E1r" },
+      { slug: "lf-03-generovanie", path: "/lf-03-generovanie", label: "2\uFE0F\u20E3 Generovanie hlasu a debugging", shortLabel: "Generovanie" },
+      { slug: "lf-04-cistenie", path: "/lf-04-cistenie", label: "3\uFE0F\u20E3 \u00DAprava a \u010Distenie audia", shortLabel: "\u010Cistenie" },
+      { slug: "lf-05-etika", path: "/lf-05-etika", label: "4\uFE0F\u20E3 Etika a d\u00F4vera", shortLabel: "Etika" },
+      { slug: "lf-06-prakticka-uloha", path: "/lf-06-prakticka-uloha", label: "\uD83C\uDF93 Praktick\u00E1 \u00FAloha", shortLabel: "\u00DAloha" },
+    ],
+  },
 ];
 
 // Flat list for backward compatibility
