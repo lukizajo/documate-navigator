@@ -6,8 +6,7 @@ const nav = getNavContext("la-02-zrkadlo");
 
 export default function LAP02() {
   return (
-    <PageShell title="LAB A – AI & Myslenie 🧠" prev={nav.prev} next={nav.next}>
-      <h2>1️⃣ AI nie je mozog, je to zrkadlo</h2>
+    <PageShell title="1️⃣ AI nie je mozog, je to zrkadlo" prev={nav.prev} next={nav.next}>
       <p>Keď sa s AI rozprávaš, môže to pôsobiť, akoby „rozumela". Vie pekne skladať vety, vie byť sebavedomá, vie znieť múdro. Lenže toto je dôležité: <strong>AI nemyslí ako človek.</strong> Neplánuje si „čo je správne", ale skladá najpravdepodobnejšiu odpoveď podľa toho, čo si vypýtaš.</p>
       <p>🪞 Preto hovorím, že AI je skôr <strong>zrkadlo</strong> než mozog:</p>
       <ul>

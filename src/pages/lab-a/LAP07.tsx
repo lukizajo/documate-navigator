@@ -6,8 +6,7 @@ const nav = getNavContext("la-07-sparring");
 
 export default function LAP07() {
   return (
-    <PageShell title="LAB A – AI & Myslenie 🧠" prev={nav.prev} next={nav.next}>
-      <h2>6️⃣ AI ako sparring partner</h2>
+    <PageShell title="6️⃣ AI ako sparring partner" prev={nav.prev} next={nav.next}>
       <p>Najlepšie využitie AI často nie je „daj mi odpoveď", ale „pomôž mi odhaliť slabé miesta".</p>
       <p>🥊 Sparring partner je niekto, kto s tebou trénuje – nie preto, aby ťa pochválil, ale aby ti ukázal, kde máš dieru v obrane.</p>
       <p>🕵️ Keď použiješ AI ako sparring partnera, vypýtaš si:</p>

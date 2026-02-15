@@ -5,8 +5,7 @@ const nav = getNavContext("la-01-uvod");
 
 export default function LAP01() {
   return (
-    <PageShell title="LAB A – AI & Myslenie 🧠" prev={nav.prev} next={nav.next}>
-      <h2>🅾️ Úvod</h2>
+    <PageShell title="🅾️ Úvod" prev={nav.prev} next={nav.next}>
       <p>V moduloch sme si postavili pevný základ: čo AI je, kde sú jej limity a prečo vie pôsobiť presvedčivo aj vtedy, keď nemá pravdu.</p>
       <p>Tento LAB je prechod do praktickej dráhy – tu už nejde len o to, čo AI „dokáže", ale hlavne <strong>ako s ňou rozmýšľaš</strong>.</p>
       <p>Najväčší rozdiel medzi priemerným a výborným výsledkom nebýva v tom, aký nástroj používaš. Býva v tom, <strong>aké otázky kladieš</strong>, či vieš problém rozložiť a či si vypýtaš varianty, riziká a slabé miesta – nie len jednu peknú odpoveď.</p>
