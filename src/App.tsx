@@ -116,6 +116,17 @@ import LCP04 from "./pages/lab-c/LCP04";
 import LCP05 from "./pages/lab-c/LCP05";
 import LCP06 from "./pages/lab-c/LCP06";
 import LCP07 from "./pages/lab-c/LCP07";
+import LDP01 from "./pages/lab-d/LDP01";
+import LDP02 from "./pages/lab-d/LDP02";
+import LDP03 from "./pages/lab-d/LDP03";
+import LDP04 from "./pages/lab-d/LDP04";
+import LDP05 from "./pages/lab-d/LDP05";
+import LDP06 from "./pages/lab-d/LDP06";
+import LDP07 from "./pages/lab-d/LDP07";
+import LDP08 from "./pages/lab-d/LDP08";
+import LDP09 from "./pages/lab-d/LDP09";
+import LDP10 from "./pages/lab-d/LDP10";
+import LDP11 from "./pages/lab-d/LDP11";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -251,6 +262,18 @@ const App = () => (
             <Route path="/lc-06-hranice" element={<LCP06 />} />
             <Route path="/lc-07-prakticka-uloha" element={<LCP07 />} />
             <Route path="/lab-c" element={<Navigate to="/lc-01-uvod" replace />} />
+            <Route path="/ld-01-uvod" element={<LDP01 />} />
+            <Route path="/ld-02-rychly-start" element={<LDP02 />} />
+            <Route path="/ld-03-typy-obrazkov" element={<LDP03 />} />
+            <Route path="/ld-04-styl" element={<LDP04 />} />
+            <Route path="/ld-05-promptovanie" element={<LDP05 />} />
+            <Route path="/ld-06-iteracie" element={<LDP06 />} />
+            <Route path="/ld-07-infografika" element={<LDP07 />} />
+            <Route path="/ld-08-referencie" element={<LDP08 />} />
+            <Route path="/ld-09-pouzitie" element={<LDP09 />} />
+            <Route path="/ld-10-prava-etika" element={<LDP10 />} />
+            <Route path="/ld-11-prakticka-uloha" element={<LDP11 />} />
+            <Route path="/lab-d" element={<Navigate to="/ld-01-uvod" replace />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
