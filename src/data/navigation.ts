@@ -177,6 +177,19 @@ export const modules: NavModule[] = [
       { slug: "lb-12-prakticka-uloha", path: "/lb-12-prakticka-uloha", label: "\uD83C\uDF93 Praktick\u00E1 \u00FAloha", shortLabel: "\u00DAloha" },
     ],
   },
+  {
+    id: "lab-c",
+    title: "LAB C \u2013 AI asistent \uD83E\uDD16",
+    pages: [
+      { slug: "lc-01-uvod", path: "/lc-01-uvod", label: "\uD83C\uDD7E\uFE0F \u00DAvod", shortLabel: "\u00DAvod" },
+      { slug: "lc-02-kedy-asistent", path: "/lc-02-kedy-asistent", label: "1\uFE0F\u20E3 Kedy pou\u017Ei\u0165 asistenta a kedy nie", shortLabel: "Kedy asistent" },
+      { slug: "lc-03-specifikacia", path: "/lc-03-specifikacia", label: "2\uFE0F\u20E3 \u0160pecifik\u00E1cia asistenta", shortLabel: "\u0160pecifik\u00E1cia" },
+      { slug: "lc-04-iteracia", path: "/lc-04-iteracia", label: "3\uFE0F\u20E3 Iter\u00E1cia z praxe", shortLabel: "Iter\u00E1cia" },
+      { slug: "lc-05-testovanie", path: "/lc-05-testovanie", label: "4\uFE0F\u20E3 Testovanie a debugging", shortLabel: "Testovanie" },
+      { slug: "lc-06-hranice", path: "/lc-06-hranice", label: "5\uFE0F\u20E3 Hranice, bezpe\u010Dnos\u0165, neistota", shortLabel: "Hranice" },
+      { slug: "lc-07-prakticka-uloha", path: "/lc-07-prakticka-uloha", label: "\uD83C\uDF93 Praktick\u00E1 \u00FAloha", shortLabel: "\u00DAloha" },
+    ],
+  },
 ];
 
 // Flat list for backward compatibility
