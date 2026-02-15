@@ -156,7 +156,7 @@ export const modules: NavModule[] = [
       { slug: "la-07-sparring", path: "/la-07-sparring", label: "6️⃣ AI ako sparring partner", shortLabel: "Sparring" },
       { slug: "la-08-low-high", path: "/la-08-low-high", label: "7️⃣ Kedy AI pomáha a kedy škodí", shortLabel: "Low/High" },
       { slug: "la-09-checklist", path: "/la-09-checklist", label: "8️⃣ Mysliaci checklist", shortLabel: "Checklist" },
-      { slug: "la-10-prakticka-uloha", path: "/la-10-prakticka-uloha", label: "🎓 Praktická úloha", shortLabel: "Úloha" },
+      { slug: "la-10-prakticka-uloha", path: "/la-10-prakticka-uloha", label: "🧾 Zhrnutie LABu", shortLabel: "Zhrnutie" },
     ],
   },
 ];
