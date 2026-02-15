@@ -155,6 +155,16 @@ import LGP08 from "./pages/lab-g/LGP08";
 import LGP09 from "./pages/lab-g/LGP09";
 import LGP10 from "./pages/lab-g/LGP10";
 import LGP11 from "./pages/lab-g/LGP11";
+import LHP01 from "./pages/lab-h/LHP01";
+import LHP02 from "./pages/lab-h/LHP02";
+import LHP03 from "./pages/lab-h/LHP03";
+import LHP04 from "./pages/lab-h/LHP04";
+import LHP05 from "./pages/lab-h/LHP05";
+import LHP06 from "./pages/lab-h/LHP06";
+import LHP07 from "./pages/lab-h/LHP07";
+import LHP08 from "./pages/lab-h/LHP08";
+import LHP09 from "./pages/lab-h/LHP09";
+import LHP10 from "./pages/lab-h/LHP10";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -333,6 +343,17 @@ const App = () => (
             <Route path="/lg-10-zhrnutie" element={<LGP10 />} />
             <Route path="/lg-11-prakticka-uloha" element={<LGP11 />} />
             <Route path="/lab-g" element={<Navigate to="/lg-01-uvod" replace />} />
+            <Route path="/lh-01-uvod" element={<LHP01 />} />
+            <Route path="/lh-02-uloha-hudby" element={<LHP02 />} />
+            <Route path="/lh-03-parametre" element={<LHP03 />} />
+            <Route path="/lh-04-generovanie" element={<LHP04 />} />
+            <Route path="/lh-05-dlzka-loop" element={<LHP05 />} />
+            <Route path="/lh-06-sfx" element={<LHP06 />} />
+            <Route path="/lh-07-balik" element={<LHP07 />} />
+            <Route path="/lh-08-licencie" element={<LHP08 />} />
+            <Route path="/lh-09-zhrnutie" element={<LHP09 />} />
+            <Route path="/lh-10-prakticka-uloha" element={<LHP10 />} />
+            <Route path="/lab-h" element={<Navigate to="/lh-01-uvod" replace />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>

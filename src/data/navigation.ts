@@ -253,6 +253,22 @@ export const modules: NavModule[] = [
       { slug: "lg-11-prakticka-uloha", path: "/lg-11-prakticka-uloha", label: "\uD83C\uDF93 Praktick\u00E1 \u00FAloha", shortLabel: "\u00DAloha" },
     ],
   },
+  {
+    id: "lab-h",
+    title: "LAB H \u2013 Hudba & sound design s AI \uD83C\uDFB5",
+    pages: [
+      { slug: "lh-01-uvod", path: "/lh-01-uvod", label: "\uD83C\uDD7E\uFE0F \u00DAvod", shortLabel: "\u00DAvod" },
+      { slug: "lh-02-uloha-hudby", path: "/lh-02-uloha-hudby", label: "1\uFE0F\u20E3 \u00DAloha hudby v obsahu", shortLabel: "\u00DAloha hudby" },
+      { slug: "lh-03-parametre", path: "/lh-03-parametre", label: "2\uFE0F\u20E3 Z\u00E1kladn\u00E9 parametre hudby", shortLabel: "Parametre" },
+      { slug: "lh-04-generovanie", path: "/lh-04-generovanie", label: "3\uFE0F\u20E3 Generovanie hudby", shortLabel: "Generovanie" },
+      { slug: "lh-05-dlzka-loop", path: "/lh-05-dlzka-loop", label: "4\uFE0F\u20E3 D\u013A\u017Eka a loop", shortLabel: "Loop" },
+      { slug: "lh-06-sfx", path: "/lh-06-sfx", label: "5\uFE0F\u20E3 Sound design a efekty", shortLabel: "SFX" },
+      { slug: "lh-07-balik", path: "/lh-07-balik", label: "6\uFE0F\u20E3 Zvukov\u00FD bal\u00EDk", shortLabel: "Bal\u00EDk" },
+      { slug: "lh-08-licencie", path: "/lh-08-licencie", label: "7\uFE0F\u20E3 Licencie a etika", shortLabel: "Licencie" },
+      { slug: "lh-09-zhrnutie", path: "/lh-09-zhrnutie", label: "\uD83E\uDDFE Zhrnutie LABu", shortLabel: "Zhrnutie" },
+      { slug: "lh-10-prakticka-uloha", path: "/lh-10-prakticka-uloha", label: "\uD83C\uDF93 Praktick\u00E1 \u00FAloha", shortLabel: "\u00DAloha" },
+    ],
+  },
 ];
 
 // Flat list for backward compatibility
