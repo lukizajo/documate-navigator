@@ -269,6 +269,24 @@ export const modules: NavModule[] = [
       { slug: "lh-10-prakticka-uloha", path: "/lh-10-prakticka-uloha", label: "\uD83C\uDF93 Praktick\u00E1 \u00FAloha", shortLabel: "\u00DAloha" },
     ],
   },
+  {
+    id: "lab-i",
+    title: "LAB I \u2013 Automatiz\u00E1cia s AI \uD83D\uDD01",
+    pages: [
+      { slug: "li-01-uvod", path: "/li-01-uvod", label: "\uD83C\uDD7E\uFE0F \u00DAvod", shortLabel: "\u00DAvod" },
+      { slug: "li-02-vyber-procesu", path: "/li-02-vyber-procesu", label: "1\uFE0F\u20E3 V\u00FDber procesu", shortLabel: "V\u00FDber" },
+      { slug: "li-03-procesna-mapa", path: "/li-03-procesna-mapa", label: "2\uFE0F\u20E3 Procesn\u00E1 mapa", shortLabel: "Mapa" },
+      { slug: "li-04-rozdelenie-krokov", path: "/li-04-rozdelenie-krokov", label: "3\uFE0F\u20E3 Rozdelenie krokov", shortLabel: "Kroky" },
+      { slug: "li-05-vstupy-pravidla", path: "/li-05-vstupy-pravidla", label: "4\uFE0F\u20E3 Vstupy a pravidl\u00E1", shortLabel: "Vstupy" },
+      { slug: "li-06-ai-krok", path: "/li-06-ai-krok", label: "5\uFE0F\u20E3 AI krok", shortLabel: "AI krok" },
+      { slug: "li-07-blueprint", path: "/li-07-blueprint", label: "6\uFE0F\u20E3 Blueprint", shortLabel: "Blueprint" },
+      { slug: "li-08-testovanie", path: "/li-08-testovanie", label: "7\uFE0F\u20E3 Testovanie", shortLabel: "Testovanie" },
+      { slug: "li-09-brzdy-stop-go", path: "/li-09-brzdy-stop-go", label: "8\uFE0F\u20E3 Brzdy a STOP/GO", shortLabel: "Brzdy" },
+      { slug: "li-10-pilot", path: "/li-10-pilot", label: "9\uFE0F\u20E3 Pilot a vyhodnotenie", shortLabel: "Pilot" },
+      { slug: "li-11-zhrnutie", path: "/li-11-zhrnutie", label: "\uD83E\uDDFE Zhrnutie LABu", shortLabel: "Zhrnutie" },
+      { slug: "li-12-prakticka-uloha", path: "/li-12-prakticka-uloha", label: "\uD83C\uDF93 Praktick\u00E1 \u00FAloha", shortLabel: "\u00DAloha" },
+    ],
+  },
 ];
 
 // Flat list for backward compatibility

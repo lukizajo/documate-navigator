@@ -165,6 +165,18 @@ import LHP07 from "./pages/lab-h/LHP07";
 import LHP08 from "./pages/lab-h/LHP08";
 import LHP09 from "./pages/lab-h/LHP09";
 import LHP10 from "./pages/lab-h/LHP10";
+import LIP01 from "./pages/lab-i/LIP01";
+import LIP02 from "./pages/lab-i/LIP02";
+import LIP03 from "./pages/lab-i/LIP03";
+import LIP04 from "./pages/lab-i/LIP04";
+import LIP05 from "./pages/lab-i/LIP05";
+import LIP06 from "./pages/lab-i/LIP06";
+import LIP07 from "./pages/lab-i/LIP07";
+import LIP08 from "./pages/lab-i/LIP08";
+import LIP09 from "./pages/lab-i/LIP09";
+import LIP10 from "./pages/lab-i/LIP10";
+import LIP11 from "./pages/lab-i/LIP11";
+import LIP12 from "./pages/lab-i/LIP12";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -354,6 +366,19 @@ const App = () => (
             <Route path="/lh-09-zhrnutie" element={<LHP09 />} />
             <Route path="/lh-10-prakticka-uloha" element={<LHP10 />} />
             <Route path="/lab-h" element={<Navigate to="/lh-01-uvod" replace />} />
+            <Route path="/li-01-uvod" element={<LIP01 />} />
+            <Route path="/li-02-vyber-procesu" element={<LIP02 />} />
+            <Route path="/li-03-procesna-mapa" element={<LIP03 />} />
+            <Route path="/li-04-rozdelenie-krokov" element={<LIP04 />} />
+            <Route path="/li-05-vstupy-pravidla" element={<LIP05 />} />
+            <Route path="/li-06-ai-krok" element={<LIP06 />} />
+            <Route path="/li-07-blueprint" element={<LIP07 />} />
+            <Route path="/li-08-testovanie" element={<LIP08 />} />
+            <Route path="/li-09-brzdy-stop-go" element={<LIP09 />} />
+            <Route path="/li-10-pilot" element={<LIP10 />} />
+            <Route path="/li-11-zhrnutie" element={<LIP11 />} />
+            <Route path="/li-12-prakticka-uloha" element={<LIP12 />} />
+            <Route path="/lab-i" element={<Navigate to="/li-01-uvod" replace />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
