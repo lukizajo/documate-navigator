@@ -1,7 +1,8 @@
 import { ReactNode } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { PageComments } from "@/components/PageComments";
 
 interface PageShellProps {
   children: ReactNode;
@@ -12,6 +13,10 @@ interface PageShellProps {
 }
 
 export function PageShell({ children, title, prev, next }: PageShellProps) {
+  const location = useLocation();
+  // Create a unique pageId from the current path
+  const pageId = location.pathname.replace(/\//g, "-").replace(/^-/, "") || "home";
+
   return (
     <article className="max-w-3xl px-6 py-5 md:py-8">
       <h1 className="text-xl font-bold mb-3 leading-tight" style={{ fontFamily: "'Merriweather', serif" }}>
@@ -23,6 +28,9 @@ export function PageShell({ children, title, prev, next }: PageShellProps) {
       <div className="prose-content">
         {children}
       </div>
+
+      {/* Page Comments */}
+      <PageComments pageId={pageId} />
 
       {/* Navigation */}
       <div className="flex justify-between items-center mt-12 pt-6 border-t">

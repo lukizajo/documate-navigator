@@ -10,12 +10,14 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
+  SidebarFooter,
 } from "@/components/ui/sidebar";
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
+import { ExportComments } from "@/components/ExportComments";
 
 export function AppSidebar() {
   const location = useLocation();
@@ -60,6 +62,9 @@ export function AppSidebar() {
           );
         })}
       </SidebarContent>
+      <SidebarFooter className="p-3 border-t">
+        <ExportComments />
+      </SidebarFooter>
     </Sidebar>
   );
 }
